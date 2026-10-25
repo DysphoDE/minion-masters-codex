@@ -1,0 +1,3904 @@
+{
+ "sources": [
+  {
+   "url": "https://minionmasters.fandom.com/wiki/Category:Cards",
+   "date": "abgerufen 2026-10-24 (Seiten zuletzt bearbeitet bis 2026-10-19)",
+   "note": "Kartendaten (Infobox: Mana, Seltenheit, Fraktion, HP/Schaden, Effekt) + Bild-URLs via MediaWiki-API (prop=revisions/pageimages/imageinfo)"
+  },
+  {
+   "url": "https://blog.betadwarf.com/2026/10/234-karma.html",
+   "date": "2026-10-19",
+   "note": "Patch 2.34 – aktuelle Balance + 1-Kopie-Limits (Ghast, Rendrath, Spiderlings, Undying Skeleton)"
+  },
+  {
+   "url": "https://blog.betadwarf.com/2026/09/233-size-matters.html",
+   "date": "2026-09-21",
+   "note": "Patch 2.33 (Limits: Spelldancer, Wardancers)"
+  },
+  {
+   "url": "https://blog.betadwarf.com/2026/08/232-no-small-target.html",
+   "date": "2026-08-24",
+   "note": "Patch 2.32 (Limits: Bahra, Bounty Sniper, Harbinger, Magma Storm, Magnetic Bombs, Sniper Scrat)"
+  },
+  {
+   "url": "https://blog.betadwarf.com/2026/07/231-radar-ready.html",
+   "date": "2026-07-27",
+   "note": "Patch 2.31 (Limits: Raddick, Vuk, Caged Prowler, A'Zog, Karmic, Shen Stormstrike)"
+  },
+  {
+   "url": "https://blog.betadwarf.com/2026/06/balance-changes-azog-voidfiend-of.html",
+   "date": "2026-06-29",
+   "note": "Patch 2.30"
+  },
+  {
+   "url": "https://blog.betadwarf.com/2026/06/229-guard-and-glory.html",
+   "date": "2026-06-01",
+   "note": "Patch 2.29"
+  },
+  {
+   "url": "https://blog.betadwarf.com/2026/04/228-frostbite-feast.html",
+   "date": "2026-04-30",
+   "note": "Patch 2.28 (Limits: Sniper Squad, Frostfang Familiar, Sewer Scrat, Crakgul, Resonating Blast Crystal, Slitherbound)"
+  },
+  {
+   "url": "https://blog.betadwarf.com/feeds/posts/default",
+   "date": "2024-10-29 bis 2026-10-19",
+   "note": "Alle Patchnotes 2.9–2.34 ausgewertet (Nerfs/Buffs/Wildcard-Limits als Stärke-Signal). Patch 2.9 (Okt 2024) brachte mit The Revenant die letzte neue Karte; seither nur monatliche Balance-Patches."
+  },
+  {
+   "url": "https://steamcommunity.com/app/489520/discussions/0/3834297567122086311",
+   "date": "2023-05-23",
+   "note": "Community: Unholy Ground 'one of the best cards', Harmful Souls, Nyrvir's Breath; Accursed stark in 2v2"
+  },
+  {
+   "url": "https://steamcommunity.com/app/489520/discussions/0/5595187488990101854",
+   "date": "2022-11-13",
+   "note": "Community: Harmful Souls effizientestes Removal, Coax stark"
+  },
+  {
+   "url": "https://steamcommunity.com/app/489520/discussions/0/3592213151643298965/",
+   "date": "2022-11-28",
+   "note": "Community: Zipp's Zappinator, Coax, Sanctum, Vulture Prime, Mountain Gale stark + Konter"
+  },
+  {
+   "url": "https://gamerdiscovery.com/best-minion-masters-decks/",
+   "date": "2024-09-03",
+   "note": "Deck-Guide: Crossbow Guild + Living Statue, Daggerfall in den meisten Decks, Shieldguard, Bearvalanche, Spiritmancer + Mana Puffs, Azali-Schilde"
+  },
+  {
+   "url": "https://steamcommunity.com/app/489520/discussions/0/4351114723595504697",
+   "date": "2024-04-08",
+   "note": "Community: Dormant Defenders (umstritten), Schutz gegen Stealth"
+  },
+  {
+   "url": "https://tiermaker.com/categories/video-games/minion-masters-legendary-cards-1235830",
+   "date": "2021-11-10",
+   "note": "Einzige gefundene Community-Tierliste – veraltet, nicht verwendet"
+  }
+ ],
+ "meta": {
+  "stand": "2026-10-24 (Patch 2.34)",
+  "tier_methode": "Keine aktuelle (2025/2026) Community-Tierliste oder Winrate-Seite gefunden (Reddit war vom Recherche-Tool aus nicht erreichbar; TierMaker-Liste von 2021). Tiers wurden daher ABGELEITET: S = mehrfach generft und/oder auf 1 Kopie limitiert in 2025/26 UND von der Community als top bewertet; A = 2025/26 auf 1 Kopie limitiert bzw. nach Buff sofort limitiert/generft (= viel gespielt/stark); C = wiederholt gebufft ohne spätere Nerfs oder von der Community als schwach beschrieben (= unterdurchschnittlich); B = Standard/keine klaren Signale. Die 1-Kopie-Limits gelten für Team-Battles (2v2) – Tiers spiegeln daher v.a. 2v2/Ranked wider. Alle Tiers = (unsicher), Master- und Deck-abhängig.",
+  "seltenheiten": "Das Spiel nutzt Common, Rare, Supreme (statt 'Epic') und Legendary.",
+  "ausgeschlossen": "Master-Perks/Abilities (z.B. Shadow Dash, Frost Nova, Void Tear, Book of the Dead), Token-Karten (Nyrvir Slumbers, Seal of Korrrgoth, Sunder) sowie entfernte Karten (Cursed Fireball, Drone Force One, Scrat Turret).",
+  "bilder": "Alle image-URLs stammen aus der Wiki-API (imageinfo: existiert, mime image/*, meist 836x992). Direkter curl-Test auf static.wikia.nocookie.net war aus der Recherche-Umgebung nicht möglich (Cloudflare-Challenge, HTTP 403) – im normalen Browser laden die Bilder üblicherweise; ggf. mit referrerpolicy='no-referrer' einbinden.",
+  "werte": "HP/Schaden laut Wiki-Infobox; das Wiki wurde bis 19.10.2026 mit Patch 2.34 aktualisiert, einzelne Werte können trotzdem abweichen. 'count' = Anzahl beschworener Einheiten (leer bei Zaubern/Mehrfach-Summons ohne feste Angabe)."
+ },
+ "cards": [
+  {
+   "name": "A'Zog, Voidfiend of Shars'Rakk",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "legendary",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 300 · Schaden 50 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — This shadowy beast steps through the nether to catch enemies off-guard. Ability: Shadow Dash",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/07/Azog.jpg/revision/latest?cb=20220203224714",
+   "tier": "S"
+  },
+  {
+   "name": "A.I.M. Bot",
+   "type": "minion",
+   "mana": 6,
+   "rarity": "supreme",
+   "faction": "Outlander",
+   "count": "x1",
+   "text": "HP 150 · Schaden 40 · Ziele: Boden & Luft — Shield. Inflicts Marked Escorted by two Gn4ts with Shield and Marksmanship. Outlander Tech: Spend 35 Tech to gain Marksmanship.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/1/13/AIMBot.jpg/revision/latest?cb=20190221175915",
+   "tier": "B"
+  },
+  {
+   "name": "Adventuring Party",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "supreme",
+   "faction": "Stoutheart",
+   "count": "x1",
+   "text": "HP 600 · Schaden 75 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — When drawn, shuffle a single-use Crystal Arcanist and Priestess into your deck if they aren't already in your deck. When played, summons a Groggy Woodsman as well as all other members of the party from your hand. Pay 2 less mana for each other card played.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/d5/AdventuringParty.png/revision/latest?cb=20220407144703",
+   "tier": "B"
+  },
+  {
+   "name": "Akinlep's Gong of Pestilence",
+   "type": "minion",
+   "mana": 7,
+   "rarity": "legendary",
+   "faction": "Slither",
+   "count": "x1",
+   "text": "HP 800 · Schaden 10 · Ziele: Boden & Luft — Akinlep's Gong of Pestilence uses Poison Spit against Minions and Slam Attack against buildings. Ability: Ring The Gong",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/f5/Akinlep%27s-Gong-of-Pestilence.jpg/revision/latest?cb=20210328180801",
+   "tier": "B"
+  },
+  {
+   "name": "An'Kahesh, Desert's Doom",
+   "type": "minion",
+   "mana": 7,
+   "rarity": "legendary",
+   "faction": "Slither",
+   "count": "x1",
+   "text": "HP 550 · Schaden 60 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Thick Hide. Inflicts 3.5 seconds of Poison and Mother's Gift on each attack. Attacks deal bonus damage equal to the amount of Poison on the target.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/39/Ankahesh.png/revision/latest?cb=20240828133226",
+   "tier": "A"
+  },
+  {
+   "name": "Annihilator",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "common",
+   "faction": "Outlander",
+   "count": "x1",
+   "text": "HP 170 · Schaden 80 · Ziele: Boden & Luft — Deals damage in a large area.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/07/DroneContenderHeavy.jpg/revision/latest?cb=20190221175204",
+   "tier": "C"
+  },
+  {
+   "name": "Arcane Barrage",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Crystal Elves",
+   "count": "",
+   "text": "Schaden 50 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Mana Freeze(1) On each draw: add a Barrage Stack (max. 10, starts at 3) Fires an Arcane Spark at a random enemy unit in the area for each Barrage Stack.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/9e/ArcaneBarrage.jpg/revision/latest?cb=20220303123732",
+   "tier": "S"
+  },
+  {
+   "name": "Arcane Bolt",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "supreme",
+   "faction": "Crystal Elves",
+   "count": "",
+   "text": "Ziele: Boden — Stuns the highest health ground Minion in the area. If it has 450 or less Health while stunned, Destroy it and gain Mana Freeze (2).",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/5/5e/ArcaneBoltNew.png/revision/latest?cb=20211031184634",
+   "tier": "B"
+  },
+  {
+   "name": "Arcane Ring",
+   "type": "spell",
+   "mana": 1,
+   "rarity": "rare",
+   "faction": "Crystal Elves",
+   "count": "",
+   "text": "Schaden 280 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Mana Freeze(1) Summon 8 Arcane Spheres around a friendly minion. Can only be cast in your own arena.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/d4/ArcaneRing.jpg/revision/latest?cb=20200105141503",
+   "tier": "B"
+  },
+  {
+   "name": "Ardent Aegis",
+   "type": "spell",
+   "mana": 4,
+   "rarity": "supreme",
+   "faction": "Empyrean",
+   "count": "",
+   "text": "Ziele: Boden — Summon 2 Legionnaires and 2 Crossbow Dudes by a friendly ground Minion after a delay. Can only be cast in your own arena. If the target is Empyrean Heal it for 275 health.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/c/c2/ArdentAegis.jpg/revision/latest?cb=20200329192757",
+   "tier": "B"
+  },
+  {
+   "name": "Armored Escort",
+   "type": "spell",
+   "mana": 2,
+   "rarity": "supreme",
+   "faction": "Crystal Elves",
+   "count": "",
+   "text": "Ziele: Boden — Give 4 friendly ground minions in an area Shield. When played, if you have 6+ mana, gain Mana Freeze (3), and the next ranged ground minion you play is escorted by a Crystal Sentry and gains Shield.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/e/ed/ArmoredEscort.jpg/revision/latest?cb=20181021134655",
+   "tier": "C"
+  },
+  {
+   "name": "\"Armored\" Scrats",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Scrat",
+   "count": "x3",
+   "text": "HP 15 · Schaden 10 · Ziele: Boden — Barrel Shield",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/9e/Armored-Scrats.jpg/revision/latest?cb=20170807040645",
+   "tier": "B"
+  },
+  {
+   "name": "Assassin",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "common",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 150 · Schaden 70 · Ziele: Boden — Stealth. Deals triple damage when attacking while Stealthed.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/69/Assassin.png/revision/latest?cb=20260830202310",
+   "tier": "B"
+  },
+  {
+   "name": "AtG Drone x8",
+   "type": "minion",
+   "mana": 6,
+   "rarity": "common",
+   "faction": "Outlander",
+   "count": "x1",
+   "text": "Fliegend · HP 222 · Schaden 88 · Ziele: Boden — Marksmanship. A tough but slow flier with only Air-to-Ground weaponry. Shoots 8 projectiles at random nearby targets.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/35/Atg.jpg/revision/latest?cb=20190221174607",
+   "tier": "B"
+  },
+  {
+   "name": "Bahra the Witchwolf",
+   "type": "minion",
+   "mana": 7,
+   "rarity": "legendary",
+   "faction": "Accursed",
+   "count": "x1",
+   "text": "HP 350 · Schaden 200 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — When summoned, Bahra immobilizes all enemy ground Minions for 6 seconds. He uses his powerful moonbeam DOT to damage groups of enemies. (im Wiki nicht in Category:Cards gelistet, aber 2025/2026 noch gepatcht)",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/0b/WitchWolf.jpg/revision/latest?cb=20181228143045",
+   "tier": "A"
+  },
+  {
+   "name": "Banner Man",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "common",
+   "faction": "Empyrean",
+   "count": "x1",
+   "text": "HP 250 · Schaden 25 · Ziele: Boden — Shield. When played, he gives a Shield to the 7 closest ground minions within 8 range.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/3f/BannerMan.png/revision/latest?cb=20260830203005",
+   "tier": "B"
+  },
+  {
+   "name": "Bats Bats Bats!",
+   "type": "spell",
+   "mana": 4,
+   "rarity": "rare",
+   "faction": "Voidborne",
+   "count": "",
+   "text": "max. 1 Kopie(n) im Team-Deck (2v2) — For the next 6 seconds summon 1 Nether Bat for each mana you spend, that instantly Netherstep in the direction of the played card. Playing it again only prolongs the duration.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/69/BatSwarm.jpg/revision/latest?cb=20181228143836",
+   "tier": "B"
+  },
+  {
+   "name": "Battle Shi-Hou",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "common",
+   "faction": "Zen-Chi",
+   "count": "x1",
+   "text": "HP 420 · Schaden 70 · Ziele: Boden — Attacks faster for each enemy within range (Max 350% bonus for 5 enemies).",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/7/7e/AwarenessMonk.jpg/revision/latest?cb=20170808002001",
+   "tier": "B"
+  },
+  {
+   "name": "Bazooka Scrat",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "common",
+   "faction": "Scrat",
+   "count": "x1",
+   "text": "HP 110 · Schaden 150 · Ziele: nur Gebäude — Only attacks buildings. Deals half damage to Masters.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/34/BazookaScrat.jpg/revision/latest?cb=20170810190446",
+   "tier": "C"
+  },
+  {
+   "name": "Beam of DOOM!",
+   "type": "spell",
+   "mana": 7,
+   "rarity": "common",
+   "faction": "Outlander",
+   "count": "",
+   "text": "Schaden 600 · Ziele: Boden & Luft — Deals massive damage in a small area.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/e/eb/DoomBeam.png/revision/latest?cb=20161130014611",
+   "tier": "B"
+  },
+  {
+   "name": "Bearvalanche",
+   "type": "spell",
+   "mana": 4,
+   "rarity": "rare",
+   "faction": "Stoutheart",
+   "count": "",
+   "text": "Schaden 140 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Spectral bears charge forwards, which damage ground units, and reduce their movement speed by 3.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/a/a7/Bearvalanche.png/revision/latest?cb=20230111210029",
+   "tier": "S"
+  },
+  {
+   "name": "Bearzerker",
+   "type": "minion",
+   "mana": 7,
+   "rarity": "supreme",
+   "faction": "Stoutheart",
+   "count": "x1",
+   "text": "HP 420 · Schaden 45 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Every 8 seconds, gain a Vicious Strike, starts active. When at 33% health for the first time, remove all Stun, Fear, and Frozen from Bearzerker. Gains Haste, Vicious Strike, and inflicts Fear on all enemies within 6 range.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/08/Bearzerker.png/revision/latest?cb=20241202212512",
+   "tier": "A"
+  },
+  {
+   "name": "Black Hole",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "supreme",
+   "faction": "Voidborne",
+   "count": "",
+   "text": "Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Suck up ALL minions in an area, removing them from the board for the rest of the spell's duration.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/d4/BlackHole.jpg/revision/latest?cb=20200601110232",
+   "tier": "B"
+  },
+  {
+   "name": "Bladestar",
+   "type": "spell",
+   "mana": 4,
+   "rarity": "rare",
+   "faction": "Empyrean",
+   "count": "",
+   "text": "Schaden 100 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Send a spinning Bladestar from your Master that bounces off units and the edges of the arena until its duration ends, or it has bounced 8 times.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/7/79/Bladestar.png/revision/latest?cb=20210805182044",
+   "tier": "B"
+  },
+  {
+   "name": "Blastmancer",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "rare",
+   "faction": "Accursed",
+   "count": "x1",
+   "text": "HP 150 · Schaden 6 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — When attacking an enemy that dies, perform Soul Detonate.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/4/4a/Blastmancer.png/revision/latest?cb=20211031171700",
+   "tier": "A"
+  },
+  {
+   "name": "Blind Date",
+   "type": "spell",
+   "mana": 4,
+   "rarity": "supreme",
+   "faction": "Empyrean",
+   "count": "",
+   "text": "max. 1 Kopie(n) im Team-Deck (2v2) — Summons a random 5-mana minion card.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/d1/SpellPowerSummon.png/revision/latest?cb=20161130014326",
+   "tier": "B"
+  },
+  {
+   "name": "Blood Imps",
+   "type": "minion",
+   "mana": 1,
+   "rarity": "supreme",
+   "faction": "Voidborne",
+   "count": "x5",
+   "text": "HP 30 · Schaden 15 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Blood Pact",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/c/c3/BloodImps.jpg/revision/latest?cb=20170807042812",
+   "tier": "B"
+  },
+  {
+   "name": "Blue Golem",
+   "type": "minion",
+   "mana": 7,
+   "rarity": "common",
+   "faction": "Zen-Chi",
+   "count": "x1",
+   "text": "HP 750 · Schaden 200 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Has high health and high damage.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/90/BlueGolem.jpg/revision/latest?cb=20200626094755",
+   "tier": "B"
+  },
+  {
+   "name": "Boom Buggy",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "supreme",
+   "faction": "Scrat",
+   "count": "x1",
+   "text": "HP 180 · Schaden 240 · Ziele: Boden & Luft — Piloted. Rains a barrage of 6 missiles at random targets within range. Scrat Swarm: Gain Marksmanship",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/a/af/BoomBuggy.jpg/revision/latest?cb=20190815155854",
+   "tier": "B"
+  },
+  {
+   "name": "Boomer",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "common",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 25 · Schaden 250 · Ziele: Boden — Hatches from an Egg after a short delay. The boomer explodes on contact or death. Voidborne Wound: Reduce Mana Cost by 1",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/8b/Boomer.png/revision/latest?cb=20260830200406",
+   "tier": "B"
+  },
+  {
+   "name": "Border Patrol",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "rare",
+   "faction": "Crystal Elves",
+   "count": "x2",
+   "text": "max. 1 Kopie(n) im Team-Deck (2v2) — Mana Freeze(2) Summon 1 Crystal Sentry and 1 Crystal Arcanist.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/1/1d/BorderPatrol.jpg/revision/latest?cb=20190524193906",
+   "tier": "B"
+  },
+  {
+   "name": "Bounce Berry Flingers",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "rare",
+   "faction": "Zen-Chi",
+   "count": "x1",
+   "text": "HP 90 · Schaden 30 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Myriad (1). When drawn, plant a Growthburst Shroom. Throws 2 Bounce Berries that bounce to nearby enemies.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/35/BounceBerryFlingers.jpg/revision/latest?cb=20211128173448",
+   "tier": "B"
+  },
+  {
+   "name": "Bounty Sniper",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "supreme",
+   "faction": "Scrat",
+   "count": "x1",
+   "text": "HP 50 · Schaden 130 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Gives you 2 XP whenever it kills a Minion or damages the enemy Master. Gain Shield if you have less XP than your opponent.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/4/45/BountySniper.png/revision/latest?cb=20161130014732",
+   "tier": "A"
+  },
+  {
+   "name": "Bridge Buddies",
+   "type": "spell",
+   "mana": 2,
+   "rarity": "supreme",
+   "faction": "Scrat",
+   "count": "",
+   "text": "max. 2 Kopie(n) im Team-Deck (2v2) — Summon a Scrat on both bridges. Scrat Swarm: Summon 2 scrats with Barrel Shield on each bridge instead.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/5/5c/ScratAmbush.jpg/revision/latest?cb=20200730131815",
+   "tier": "B"
+  },
+  {
+   "name": "Bridge Shrine",
+   "type": "building",
+   "mana": 3,
+   "rarity": "supreme",
+   "faction": "Empyrean",
+   "count": "",
+   "text": "HP 500 — Generates an extra XP whenever you gain XP from the Bridge in the same lane.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/31/PowerShrine.png/revision/latest?cb=20161130015152",
+   "tier": "B"
+  },
+  {
+   "name": "Brother of the Burning Fist",
+   "type": "minion",
+   "mana": 7,
+   "rarity": "common",
+   "faction": "Empyrean",
+   "count": "x1",
+   "text": "HP 675 · Schaden 150 · Ziele: Boden — Armor of Holy Fire",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/d1/BrotherOfTheBurningFist.jpg/revision/latest?cb=20200329192808",
+   "tier": "C"
+  },
+  {
+   "name": "Brothers of Light",
+   "type": "minion",
+   "mana": 10,
+   "rarity": "common",
+   "faction": "Empyrean",
+   "count": "x2",
+   "text": "HP 650 · Schaden 150 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Armor of Light",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/4/4d/Brothersoflight.jpg/revision/latest?cb=20190221175854",
+   "tier": "C"
+  },
+  {
+   "name": "Brothers of the Void",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "supreme",
+   "faction": "Voidborne",
+   "count": "",
+   "text": "This card has 2 sides. Switch sides on play. Side A - Summon an Assassin with Rage Side B - Summon a Fire Imp with Rage",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/a/ab/Brothersofthevoid.jpg/revision/latest?cb=20201005180712",
+   "tier": "B"
+  },
+  {
+   "name": "Brutish Betrayer",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 325 · Schaden 180 · Ziele: nur Gebäude · max. 1 Kopie(n) im Team-Deck (2v2) — Blood Pact Only attacks buildings",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/b/b0/BetrayerRammer.jpg/revision/latest?cb=20180807153415",
+   "tier": "C"
+  },
+  {
+   "name": "Caber Tosser",
+   "type": "minion",
+   "mana": 6,
+   "rarity": "rare",
+   "faction": "Stoutheart",
+   "count": "x1",
+   "text": "HP 600 · Schaden 75 · Ziele: Boden — This powerful Stoutheart tosses his Caber at the first nearby enemy. Revelry: Gain Haste.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/d0/CaberTosser.jpg/revision/latest?cb=20200105215120",
+   "tier": "C"
+  },
+  {
+   "name": "Caeleth Dawnhammer",
+   "type": "minion",
+   "mana": 8,
+   "rarity": "legendary",
+   "faction": "Empyrean",
+   "count": "x1",
+   "text": "HP 625 · Schaden 150 · Ziele: Boden — Armor of Light Gain Divine Shield when Armor of Light activates. Empyrean Army: gain Taunt.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/7/7b/Caelethdawnhammer.jpg/revision/latest?cb=20190221175839",
+   "tier": "B"
+  },
+  {
+   "name": "Caged Prowler",
+   "type": "building",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Slither",
+   "count": "",
+   "text": "HP 100 · max. 1 Kopie(n) im Team-Deck (2v2) — Slitherbind (1) After 20 seconds the cage releases the Prowler and falls apart.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/6d/CagedProwler.jpg/revision/latest?cb=20190815155906",
+   "tier": "A"
+  },
+  {
+   "name": "Call To Arms",
+   "type": "spell",
+   "mana": 4,
+   "rarity": "supreme",
+   "faction": "Empyrean",
+   "count": "",
+   "text": "Heal a non-master building for 15% of its maximum health, and summon a Warrior and 2 Crossbow Dudes to protect it.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/00/CallToArms.jpg/revision/latest?cb=20200601110251",
+   "tier": "C"
+  },
+  {
+   "name": "Cannon Roller",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "common",
+   "faction": "Scrat",
+   "count": "x1",
+   "text": "HP 135 · Schaden 100 · Ziele: Boden — Piloted Rolls backwards when it fires.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/3f/ShockRoller.png/revision/latest?cb=20161130014349",
+   "tier": "C"
+  },
+  {
+   "name": "Chain Gang",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Slither",
+   "count": "x4",
+   "text": "Summon 4 Slitherbound Lancers. If you've played a card within the last 6 seconds summon 4 Slitherbound Darters instead. Can be used for Sacrifice",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/09/Chain_Gang.jpg/revision/latest?cb=20210328180016",
+   "tier": "B"
+  },
+  {
+   "name": "Chain Lightning",
+   "type": "spell",
+   "mana": 4,
+   "rarity": "common",
+   "faction": "Zen-Chi",
+   "count": "",
+   "text": "Schaden 100 · Ziele: Boden & Luft — A roaring streak of lightning that deals damage and causes stuns. It jumps to the nearest enemy up to 5 times.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/91/LightningBounces.png/revision/latest?cb=20170119114315",
+   "tier": "B"
+  },
+  {
+   "name": "Cheese Date",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "supreme",
+   "faction": "Scrat",
+   "count": "",
+   "text": "Summons a 3-mana Scrat Minion card. Scrat Swarm: It gains Rage.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/c/c3/CheeseDate.jpg/revision/latest?cb=20180815152623",
+   "tier": "C"
+  },
+  {
+   "name": "Chief Ice Breaker Bolf",
+   "type": "minion",
+   "mana": 6,
+   "rarity": "legendary",
+   "faction": "Stoutheart",
+   "count": "x1",
+   "text": "HP 600 · Schaden 60 · Ziele: Boden — Icebreaker Deals double damage to Frozen targets. The first attack against each enemy inflicts Frozen and Slow. Revelry: Gain Frozen and heal for 200 Health over the duration",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/2/2d/Bolf.jpg/revision/latest?cb=20220505132404",
+   "tier": "C"
+  },
+  {
+   "name": "Chisma BOOMSTICK",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "legendary",
+   "faction": "Scrat",
+   "count": "x1",
+   "text": "HP 90 · Schaden 50 · Ziele: Boden & Luft — Launch 8 rockets in a circle. Give self Fear after attacking unless you have Scrat Swarm.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/c/c2/Chisma.png/revision/latest?cb=20210704003145",
+   "tier": "B"
+  },
+  {
+   "name": "City Watch",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "supreme",
+   "faction": "Empyrean",
+   "count": "x3",
+   "text": "Summons 1 Legionnaire and 2 Crossbow Dudes. Empyrean Army: Increase cost by 2, and gain Legion (3).",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/fb/CityWatch.png/revision/latest?cb=20221111155718",
+   "tier": "B"
+  },
+  {
+   "name": "Clear Skies",
+   "type": "spell",
+   "mana": 2,
+   "rarity": "supreme",
+   "faction": "Empyrean",
+   "count": "",
+   "text": "Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Heals all Minions for 125 health and all Masters for 125 health. Removes Shield and Rage from enemy minions, and Poison and Curse from friendly minions.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/7/74/ClearSkies.jpg/revision/latest?cb=20180815152647",
+   "tier": "B"
+  },
+  {
+   "name": "Cleaver",
+   "type": "minion",
+   "mana": 6,
+   "rarity": "common",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 550 · Schaden 300 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Very high damage but very slow attack speed.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/df/Cleaver.png/revision/latest?cb=20161130014715",
+   "tier": "B"
+  },
+  {
+   "name": "Coax the Diplomancer",
+   "type": "minion",
+   "mana": 6,
+   "rarity": "legendary",
+   "faction": "Accursed",
+   "count": "x1",
+   "text": "HP 300 · Schaden 6 · Ziele: Boden & Luft — Attacks apply Hypnotize to each minion once, lasting 7 seconds.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/83/Diplomancer.png/revision/latest?cb=20210920162201",
+   "tier": "A"
+  },
+  {
+   "name": "Colossus",
+   "type": "minion",
+   "mana": 9,
+   "rarity": "legendary",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 1000 · Schaden 250 · Ziele: Boden — Swipes enemies in a huge arc in front of it.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/b/bb/Colossus.png/revision/latest?cb=20161130014657",
+   "tier": "B"
+  },
+  {
+   "name": "Combustion",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "supreme",
+   "faction": "Voidborne",
+   "count": "",
+   "text": "Schaden 200 · Ziele: Boden & Luft — After a delay, a friendly minion explodes, dealing 200 True Damage to itself and 200 regular damage to any nearby enemies.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/a/a7/Combustion.jpg/revision/latest?cb=20200601110306",
+   "tier": "B"
+  },
+  {
+   "name": "Commander Azali",
+   "type": "minion",
+   "mana": 7,
+   "rarity": "legendary",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 650 · Schaden 125 · Ziele: Boden — Shield When you take a bridge, Azali grants Shield to 10 friendly ground Minions.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/1/17/DemonCommanderShield.jpg/revision/latest?cb=20180807153437",
+   "tier": "B"
+  },
+  {
+   "name": "Corpse Explosion",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "supreme",
+   "faction": "Accursed",
+   "count": "",
+   "text": "Schaden 80 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Summon an Undying Corpse. All friendly Undying Corpses under your command explode and deal damage to nearby enemies. Can only be played in your own arena.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/31/CorpseExplosion.jpg/revision/latest?cb=20200730125443",
+   "tier": "B"
+  },
+  {
+   "name": "Cowardly Imps",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "common",
+   "faction": "Voidborne",
+   "count": "x4",
+   "text": "HP 30 · Schaden 30 · Ziele: Boden & Luft — Whenever a nearby friendly Cowardly Imp dies, gain Fear.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/65/CowardlyImps.png/revision/latest?cb=20221014144414",
+   "tier": "C"
+  },
+  {
+   "name": "Crakgul Doomcleaver",
+   "type": "minion",
+   "mana": 8,
+   "rarity": "legendary",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 550 · Schaden 300 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — When killing a Minion or hitting the enemy Master, reduce the mana cost of a random voidborne card in hand by 1 until it is played.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/2/2f/Crakguldoomcleaver.jpg/revision/latest?cb=20190221175822",
+   "tier": "A"
+  },
+  {
+   "name": "Crossbow Club House",
+   "type": "building",
+   "mana": 4,
+   "rarity": "supreme",
+   "faction": "Empyrean",
+   "count": "",
+   "text": "HP 400 · Schaden 20 · Ziele: Boden & Luft — Summons 3 Crossbow Dudes with Rush when destroyed.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/39/CrossbowClubhouse.png/revision/latest?cb=20240306230058",
+   "tier": "A"
+  },
+  {
+   "name": "Crossbow Dudes",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "common",
+   "faction": "Empyrean",
+   "count": "x2",
+   "text": "HP 25 · Schaden 20 · Ziele: Boden & Luft — Cheap ranged support with low health and damage.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/5/5d/CrossbowMan.png/revision/latest?cb=20260830203107",
+   "tier": "B"
+  },
+  {
+   "name": "Crossbow Guild",
+   "type": "building",
+   "mana": 6,
+   "rarity": "common",
+   "faction": "Empyrean",
+   "count": "",
+   "text": "HP 300 · max. 1 Kopie(n) im Team-Deck (2v2) — Summons Crossbow Dudes over time.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/e/e1/CrossbowGuild.png/revision/latest?cb=20161130014646",
+   "tier": "B"
+  },
+  {
+   "name": "Crystal Arcanist",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "common",
+   "faction": "Crystal Elves",
+   "count": "x1",
+   "text": "HP 40 · Schaden 40 · Ziele: Boden & Luft — Mana Surge Deals damage to groups of enemies.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/5/55/CrystalMage.jpg/revision/latest?cb=20181021134833",
+   "tier": "B"
+  },
+  {
+   "name": "Crystal Archers",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "common",
+   "faction": "Crystal Elves",
+   "count": "x2",
+   "text": "HP 40 · Schaden 30 · Ziele: Boden & Luft — Mana Surge Fragile, but deadly at long range.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/03/CrystalArcher.jpg/revision/latest?cb=20200626094820",
+   "tier": "B"
+  },
+  {
+   "name": "Crystal Construct",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "common",
+   "faction": "Crystal Elves",
+   "count": "x1",
+   "text": "HP 800 · Schaden 100 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Haste. Gain 1 mana on death.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/0d/CrystalConstruct.jpg/revision/latest?cb=20181021134754",
+   "tier": "B"
+  },
+  {
+   "name": "Crystal Sentry",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "common",
+   "faction": "Crystal Elves",
+   "count": "x1",
+   "text": "HP 300 · Schaden 70 · Ziele: Boden & Luft — A versatile ranged fighter.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/fc/CrystalSentry.jpg/revision/latest?cb=20181021134849",
+   "tier": "B"
+  },
+  {
+   "name": "Cursebearer",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "supreme",
+   "faction": "Accursed",
+   "count": "x1",
+   "text": "HP 300 · Schaden 50 · Ziele: Boden — Cursed Aura. Very effective against big minions.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/0f/CursedSkeleton.jpg/revision/latest?cb=20180807131314",
+   "tier": "B"
+  },
+  {
+   "name": "Daggerfall",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "common",
+   "faction": "Slither",
+   "count": "",
+   "text": "Schaden 50 · Ziele: Boden & Luft — Deals low damage in a large area.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/2/2c/Barrage.png/revision/latest?cb=20161130014808",
+   "tier": "S"
+  },
+  {
+   "name": "Defenso Chopper",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "common",
+   "faction": "Scrat",
+   "count": "x1",
+   "text": "HP 450 · Schaden 35 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Piloted. When hit by melee attackers, it deals 50 counter damage and stuns them for 3 seconds.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/37/DefensoChopper2.jpg/revision/latest?cb=20170812225233",
+   "tier": "A"
+  },
+  {
+   "name": "Demon Warrior",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "supreme",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 350 · Schaden 100 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — From the 4th time this card is played and beyond, Demon Warrior has double health and damage.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/ff/DemonCommander.png/revision/latest?cb=20161130014628",
+   "tier": "C"
+  },
+  {
+   "name": "Denver, the Last King",
+   "type": "minion",
+   "mana": 9,
+   "rarity": "legendary",
+   "faction": "Slither",
+   "count": "x1",
+   "text": "HP 1100 · Schaden 140 · Ziele: Boden — Mythic. Throws enemies into the air. They damage other enemies if they land on them.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/d4/Denver.png/revision/latest?cb=20231012230502",
+   "tier": "B"
+  },
+  {
+   "name": "Disruptor Puff",
+   "type": "minion",
+   "mana": 1,
+   "rarity": "rare",
+   "faction": "Outlander",
+   "count": "x1",
+   "text": "Puff · HP 10 — Remains on bridges and while on a bridge, teleports to the other bridge every 6 seconds, then stuns all minions on it for 1 second. Stuns attackers for 3 seconds.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/98/DisruptorPuff.png/revision/latest?cb=20161130014623",
+   "tier": "C"
+  },
+  {
+   "name": "Divine Warrior",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "rare",
+   "faction": "Empyrean",
+   "count": "x1",
+   "text": "HP 350 · Schaden 70 · Ziele: Boden — Divine Shield, Taunt.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/3d/DivineWarrior.jpg/revision/latest?cb=20200326125922",
+   "tier": "B"
+  },
+  {
+   "name": "Dormant Defenders",
+   "type": "building",
+   "mana": 8,
+   "rarity": "supreme",
+   "faction": "Crystal Elves",
+   "count": "x2",
+   "text": "HP 800 · Schaden 100 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Summon 2 Crystal Constructs as buildings that can't attack. The next time you have 6 mana, they wake up and turn into minions and gain 2 Arcane Spheres",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/5/51/DormantDefenders.jpg/revision/latest?cb=20200601120641",
+   "tier": "C"
+  },
+  {
+   "name": "Dragon Ball",
+   "type": "spell",
+   "mana": 6,
+   "rarity": "rare",
+   "faction": "Voidborne",
+   "count": "",
+   "text": "Schaden 220 · Ziele: Boden & Luft — It's a Fireball, but a Flightless Dragon Whelp summons in the wake. If the last card you played was a Minion card with a mana cost of 5 or more: summon a Dragon Whelp instead.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/2/23/DragonBall.jpg/revision/latest?cb=20180807153548",
+   "tier": "B"
+  },
+  {
+   "name": "Dragon Nest",
+   "type": "building",
+   "mana": 5,
+   "rarity": "legendary",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 350 · max. 1 Kopie(n) im Team-Deck (2v2) — Hatch Flightless Dragons with the next 3 spells you cast: *When you cast a spell that costs 0-2: Summon 1 Flightless Dragon. *When you cast a spell that costs 3-4: Summon 2 Flightless Dragons. *When you cast a spell that costs 5 or more: Summon 2 Flightless Dragons with Rage.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/2/26/DragonNest.jpg/revision/latest?cb=20200601110359",
+   "tier": "B"
+  },
+  {
+   "name": "Dragon Pack",
+   "type": "minion",
+   "mana": 7,
+   "rarity": "rare",
+   "faction": "Voidborne",
+   "count": "x3",
+   "text": "Fliegend · HP 100 · Schaden 50 · Ziele: Boden & Luft — 3 Dragon Whelps. Highly effective against melee ground Minions. Voidborne Wound: Reduce Mana cost by 1.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/8a/DragonWhelps.png/revision/latest?cb=20161130014553",
+   "tier": "B"
+  },
+  {
+   "name": "Dragon Whelp",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "common",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "Fliegend · HP 100 · Schaden 50 · Ziele: Boden & Luft — Voidborne Wound: gain Rage. Can fly, which is good against melee ground minions.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/8d/DragonWhelp.jpg/revision/latest?cb=20200730125554",
+   "tier": "B"
+  },
+  {
+   "name": "Drone Buzzers",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "common",
+   "faction": "Outlander",
+   "count": "x2",
+   "text": "Fliegend · HP 60 · Schaden 20 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Versitile but weak flying Minions.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/fc/DroneBuzzers.jpg/revision/latest?cb=20190221175758",
+   "tier": "B"
+  },
+  {
+   "name": "Drone Walker",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "common",
+   "faction": "Outlander",
+   "count": "x1",
+   "text": "HP 150 · Schaden 40 · Ziele: Boden & Luft — Solid ranged attacker with no fear. Escorted by a Gn4t.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/2/29/DroneWalker.jpg/revision/latest?cb=20190221175708",
+   "tier": "B"
+  },
+  {
+   "name": "Elite Swarmer",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "common",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 175 · Schaden 20 · Ziele: Boden — A fast and somewhat durable monster.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/7/75/EliteSwarmer.jpg/revision/latest?cb=20200730125606",
+   "tier": "B"
+  },
+  {
+   "name": "Empowered Soul Stealer",
+   "type": "minion",
+   "mana": 7,
+   "rarity": "supreme",
+   "faction": "Slither",
+   "count": "x1",
+   "text": "Fliegend · HP 180 · Schaden 50 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Vampiric, Soul Steal, Rage Sacrifice: Gain 2 souls for each Slitherbound sacrificed.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/3c/EmpoweredSoulStealer.jpg/revision/latest?cb=20180815153135",
+   "tier": "B"
+  },
+  {
+   "name": "Feng the Wanderer",
+   "type": "minion",
+   "mana": 6,
+   "rarity": "legendary",
+   "faction": "Zen-Chi",
+   "count": "x1",
+   "text": "HP 400 · Schaden 70 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — When played, gains a positive effect for each card of a different faction in your hand.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/e/ea/FengTheWanderer.png/revision/latest?cb=20220804110336",
+   "tier": "A"
+  },
+  {
+   "name": "Fergus Flagon Fighter",
+   "type": "minion",
+   "mana": 7,
+   "rarity": "legendary",
+   "faction": "Stoutheart",
+   "count": "x1",
+   "text": "HP 600 · Schaden 40 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Wielding his famous bladed mugs, Fergus does a wild Spin-attack. After the attack, Fergus gets dizzy and cannot attack or move for 5 seconds. Revelry: Increase permanently movement speed by 2.(triggers only once)",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/89/FergusFlagonFighter.jpg/revision/latest?cb=20200105135411",
+   "tier": "C"
+  },
+  {
+   "name": "Fire Imp",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "common",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 130 · Schaden 200 · Ziele: Boden — Icebreaker Leaves a fiery DOT on the ground that deals heavy damage to ground Units in the area.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/a/ab/FireImp.png/revision/latest?cb=20260830202508",
+   "tier": "B"
+  },
+  {
+   "name": "Fireball",
+   "type": "spell",
+   "mana": 5,
+   "rarity": "common",
+   "faction": "Voidborne",
+   "count": "",
+   "text": "Schaden 220 · Ziele: Boden & Luft — Deals medium damage to Units in the area.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/09/Explosion.png/revision/latest?cb=20161130014530",
+   "tier": "B"
+  },
+  {
+   "name": "Flightless Dragons",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "common",
+   "faction": "Voidborne",
+   "count": "x3",
+   "text": "HP 100 · Schaden 50 · Ziele: Boden — If you have less health than your opponent, gain Rage.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/1/14/ClippedDragons.png/revision/latest?cb=20170913152152",
+   "tier": "B"
+  },
+  {
+   "name": "Frostbearer",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "supreme",
+   "faction": "Accursed",
+   "count": "",
+   "text": "HP 300 · Schaden 50 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Summoned with Frozen. Frozen Aura.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/9b/Frostbearer.png/revision/latest?cb=20220602143400",
+   "tier": "B"
+  },
+  {
+   "name": "Frostberry Bearer",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "supreme",
+   "faction": "Stoutheart",
+   "count": "x1",
+   "text": "HP 350 · Schaden 75 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Thick Hide. The first 2 times a friendly minion within 7 range, and this minion, drops below 50% health, inflict Frozen to it, and heal it for 200 health over the duration. If it has a Revelry effect, trigger it.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/88/FrostberryBearer.png/revision/latest?cb=20230908202319",
+   "tier": "A"
+  },
+  {
+   "name": "Frostfang Familiar",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "rare",
+   "faction": "Accursed",
+   "count": "x1",
+   "text": "Fliegend · HP 75 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Haunts the closest friendly (non-Puff) Minion. The haunted minion gains Vampiric, heals for 50 health, and casts Frost Nova. When the target dies, the Hugger reappears. Stuns masters for 5 seconds.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/93/FrostfangFamiliar.png/revision/latest?cb=20240516005239",
+   "tier": "A"
+  },
+  {
+   "name": "Frostfeather Flyby",
+   "type": "spell",
+   "mana": 2,
+   "rarity": "rare",
+   "faction": "Stoutheart",
+   "count": "",
+   "text": "Schaden 143 · Ziele: Boden & Luft — 11 Frostfeathers swoop down to perform one attack on a random enemy minion within the area before flying off. The Frostfeathers move at higher speed and inflict Slow.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/01/FrostfeatherFlyby.jpg/revision/latest?cb=20200105221626",
+   "tier": "B"
+  },
+  {
+   "name": "Frostfeathers",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "common",
+   "faction": "Stoutheart",
+   "count": "x3",
+   "text": "Fliegend · HP 20 · Schaden 13 · Ziele: Boden & Luft — Inflicts Slow on attack.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/2/21/Frostfeathers.jpg/revision/latest?cb=20200105214711",
+   "tier": "B"
+  },
+  {
+   "name": "Future Past",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "supreme",
+   "faction": "Slither",
+   "count": "",
+   "text": "max. 1 Kopie(n) im Team-Deck (2v2) — When used, it permanently replaces itself with another random 1-cost or higher card and reduces that card's mana cost by 1. The random card changes with each play.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/33/FuturePast.png/revision/latest?cb=20161130015146",
+   "tier": "B"
+  },
+  {
+   "name": "Future Present",
+   "type": "spell",
+   "mana": 8,
+   "rarity": "rare",
+   "faction": "Slither",
+   "count": "",
+   "text": "max. 1 Kopie(n) im Team-Deck (2v2) — When used, it permanently replaces itself with another random 2-cost or higher card and reduces that card's mana cost by 2. The card changes with each play.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/5/57/FuturePresent.jpg/revision/latest?cb=20170807235844",
+   "tier": "B"
+  },
+  {
+   "name": "Gambler's Ball",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "supreme",
+   "faction": "Slither",
+   "count": "",
+   "text": "Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Casts either a Healing Fireball or a Fireball. Sacrifice (2): Cast this spell twice.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/7/7e/GamblersBall.png/revision/latest?cb=20180807131450",
+   "tier": "B"
+  },
+  {
+   "name": "Gax the World Bomb",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "legendary",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 25 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Hatches from an egg after a short delay. On contact or death, he blows up to deal damage to EVERYTHING.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/5/54/Gax.png/revision/latest?cb=20260830195637",
+   "tier": "B"
+  },
+  {
+   "name": "Ghast",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "common",
+   "faction": "Accursed",
+   "count": "x1",
+   "text": "HP 550 · Schaden 130 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Whenever an enemy minion dies nearby, store its essence. (0.2 second cooldown.) When there are no enemies nearby, summon a Skeleton with Rush and Cursed where each stored minion died.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/89/Ghast.png/revision/latest?cb=20230414134748",
+   "tier": "A"
+  },
+  {
+   "name": "Ghost",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "legendary",
+   "faction": "Accursed",
+   "count": "x1",
+   "text": "Fliegend · HP 100 · Ziele: Boden & Luft — Possesses an enemy, turning it to your side. The enemy becomes Cursed and gains Spirit. Masters and Mythic units get stunned for 12 seconds instead. Mythic units also get Cursed.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/a/ab/Ghost.png/revision/latest?cb=20161130014506",
+   "tier": "B"
+  },
+  {
+   "name": "Ghost Turret",
+   "type": "building",
+   "mana": 3,
+   "rarity": "common",
+   "faction": "Accursed",
+   "count": "",
+   "text": "HP 350 · Schaden 50 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Defensive Building with good damage and attack speed. On death, give a random friendly Minion Spirit.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/da/GhostTurret.png/revision/latest?cb=20161130014500",
+   "tier": "A"
+  },
+  {
+   "name": "Glenn's Brew",
+   "type": "spell",
+   "mana": 2,
+   "rarity": "supreme",
+   "faction": "Stoutheart",
+   "count": "",
+   "text": "Ziele: Boden & Luft — Gives a friendly unit Frozen. Heal it for 175 health over the duration. If the target is a Stoutheart trigger its Revelry.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/96/GlennsBrew.png/revision/latest?cb=20200105220025",
+   "tier": "B"
+  },
+  {
+   "name": "Gor'Rakk Brutes",
+   "type": "minion",
+   "mana": 6,
+   "rarity": "supreme",
+   "faction": "Voidborne",
+   "count": "",
+   "text": "This card has 2 sides. Switch sides on play. Side A - Summon a Rammer and an Illusion of a Cleaver Side B - Summon a Cleaver with an Illusion of a Rammer",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/c/c4/DestructiveDemonDuo.jpg/revision/latest?cb=20180807153523",
+   "tier": "B"
+  },
+  {
+   "name": "Gor'Rakk Gate",
+   "type": "spell",
+   "mana": 4,
+   "rarity": "supreme",
+   "faction": "Voidborne",
+   "count": "",
+   "text": "max. 1 Kopie(n) im Team-Deck (2v2) — Open a portal to the void and Summon either of the following with Blood Pact and Rush: - 3x Flightless Dragons - 2x Dragon Whelps - 1x Cleaver Voidborne Wound: Reduce the mana cost by 1.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/8c/Gorrakkgate.jpg/revision/latest?cb=20190221175646",
+   "tier": "B"
+  },
+  {
+   "name": "Gor'Rakk Sacrifice",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Voidborne",
+   "count": "",
+   "text": "Ziele: Boden & Luft — Stuns a random Minion under your control for 4 seconds, then kills it to summon a Cleaver. This spell cannot target Mythic Minions.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/7/7c/SummoningRitual.jpg/revision/latest?cb=20180807153734",
+   "tier": "B"
+  },
+  {
+   "name": "Grasping Thorns",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Accursed",
+   "count": "",
+   "text": "Schaden 150 · Ziele: Boden — Slows enemies to 2 speed and deals damage in an area. Can only be cast in your own arena. After the duration, summon a Skeleton for each enemy that Grasping Thorns killed, up to a maximum of 4.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/4/4f/GraspingThorns.jpg/revision/latest?cb=20190221175543",
+   "tier": "B"
+  },
+  {
+   "name": "Grenadier",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "common",
+   "faction": "Scrat",
+   "count": "x1",
+   "text": "HP 50 · Schaden 30 · Ziele: Boden — Damages groups of enemies.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/2/23/GrenadierRat.png/revision/latest?cb=20161130014455",
+   "tier": "B"
+  },
+  {
+   "name": "Groggy Woodsman",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Stoutheart",
+   "count": "x1",
+   "text": "HP 600 · Schaden 75 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Starts with half health poisoned and Slow Revelry: gain Haste.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/2/2a/GroggyWoodsman.jpg/revision/latest?cb=20201103175913",
+   "tier": "C"
+  },
+  {
+   "name": "Guardian",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "supreme",
+   "faction": "Crystal Elves",
+   "count": "x1",
+   "text": "HP 800 · Schaden 100 · Ziele: Boden · max. 2 Kopie(n) im Team-Deck (2v2) — Absorbs 66% of all damage dealt to nearby friendly Crystal Elf ground Minions.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/fd/Guardian.png/revision/latest?cb=20170901133923",
+   "tier": "B"
+  },
+  {
+   "name": "Harbinger",
+   "type": "minion",
+   "mana": 7,
+   "rarity": "supreme",
+   "faction": "Slither",
+   "count": "x1",
+   "text": "Fliegend · HP 250 · Schaden 275 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Has an extremely long range and causes knock-back.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/32/Harbinger.jpg/revision/latest?cb=20180807132548",
+   "tier": "A"
+  },
+  {
+   "name": "Harmful Souls",
+   "type": "spell",
+   "mana": 5,
+   "rarity": "supreme",
+   "faction": "Accursed",
+   "count": "",
+   "text": "Schaden 400 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — 5 souls infest an area, absorbing into enemies and dealing 80 damage each. Accursed Ascension: +3 extra souls.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/8c/HarmfulSouls.jpg/revision/latest?cb=20211128173211",
+   "tier": "S"
+  },
+  {
+   "name": "Haunting Hugger",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "rare",
+   "faction": "Accursed",
+   "count": "x1",
+   "text": "Fliegend · HP 75 · Schaden 80 · Ziele: Boden & Luft — Haunts its target, giving it Cursed. When the target dies, the Hugger reappears to find a new target.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/5/5f/HauntingHugger.jpg/revision/latest?cb=20190524193922",
+   "tier": "B"
+  },
+  {
+   "name": "Heal Puff",
+   "type": "minion",
+   "mana": 1,
+   "rarity": "common",
+   "faction": "Zen-Chi",
+   "count": "x1",
+   "text": "Puff · HP 10 — Remains on bridges and while on a bridge it Heals your Master for 50 health every 4 seconds.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/c/ca/HealPuff.png/revision/latest?cb=20161130014443",
+   "tier": "C"
+  },
+  {
+   "name": "Healing Fireball",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "common",
+   "faction": "Zen-Chi",
+   "count": "",
+   "text": "Ziele: Boden & Luft — Splits healing evenly between all friendly minions in the area.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/89/HealingFireball.png/revision/latest?cb=20161130014449",
+   "tier": "B"
+  },
+  {
+   "name": "Healing Shrine",
+   "type": "building",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Zen-Chi",
+   "count": "",
+   "text": "HP 100 — Heals all nearby friendly minions over time.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/f6/HealingShrine.png/revision/latest?cb=20170901134038",
+   "tier": "B"
+  },
+  {
+   "name": "Herald Ah'Mun",
+   "type": "minion",
+   "mana": 8,
+   "rarity": "legendary",
+   "faction": "Slither",
+   "count": "x1",
+   "text": "Fliegend · HP 250 · Schaden 200 · Ziele: Boden & Luft — Slitherbind (2) Attacks enemies with his Shatter Whip. When Ah'Mun is about to die for the first time, Sacrifice: Heal 75 health for each Slitherbound sacrificed instead. Brutally lashes groups of enemies.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/5/56/HeraldAhmun.jpg/revision/latest?cb=20190815155919",
+   "tier": "B"
+  },
+  {
+   "name": "High Inquisitor Ardera",
+   "type": "minion",
+   "mana": 6,
+   "rarity": "legendary",
+   "faction": "Empyrean",
+   "count": "x1",
+   "text": "HP 250 · Schaden 30 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Ardera burns 4% of her Max Health each second while attacking. Upon death, she grants Rage to 5 nearby friendly Minions. Empyrean minions also gain Divine Shield.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/d5/HiArdera.png/revision/latest?cb=20200330194927",
+   "tier": "B"
+  },
+  {
+   "name": "High Marshal Rystar",
+   "type": "minion",
+   "mana": 10,
+   "rarity": "legendary",
+   "faction": "Empyrean",
+   "count": "x1",
+   "text": "HP 600 · Schaden 200 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Legion (4). The next 10 Legionnaires you summon are promoted to Centurions.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/f3/Rystar.png/revision/latest?cb=20240306230154",
+   "tier": "A"
+  },
+  {
+   "name": "High-Mage Leiliel",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "legendary",
+   "faction": "Crystal Elves",
+   "count": "x1",
+   "text": "HP 220 · Schaden 40 · Ziele: Boden & Luft · max. 2 Kopie(n) im Team-Deck (2v2) — Mana Freeze (2) , Marksmanship, Mana Surge While Mana Surge is active, Leiliel also absorbs 50% of ranged attack damage and sends it back at attackers.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/1/15/CrystalElfLeiliel.jpg/revision/latest?cb=20200105220829",
+   "tier": "B"
+  },
+  {
+   "name": "Highland Huntress",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "common",
+   "faction": "Stoutheart",
+   "count": "x1",
+   "text": "HP 270 · Schaden 45 · Ziele: Boden & Luft — Every 8 seconds, gain a Vicious Strike, starts active.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/7/7e/HighlandHuntress.png/revision/latest?cb=20230908202904",
+   "tier": "B"
+  },
+  {
+   "name": "Howling Moon",
+   "type": "spell",
+   "mana": 9,
+   "rarity": "legendary",
+   "faction": "Accursed",
+   "count": "",
+   "text": "Ziele: Boden & Luft — Reduces all Minions to 50% health, inflicts Fear on them, and summons 2 Werewolves by your Master Tower.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/8e/HowlingMoon.jpg/revision/latest?cb=20181228143430",
+   "tier": "C"
+  },
+  {
+   "name": "Hypnotize",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "supreme",
+   "faction": "Slither",
+   "count": "",
+   "text": "Ziele: Boden & Luft — Applies Hypnotized to enemy Minions within range.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/a/a8/Hypnotize.jpg/revision/latest?cb=20170807235319",
+   "tier": "B"
+  },
+  {
+   "name": "Idol of Sacrifice",
+   "type": "building",
+   "mana": 4,
+   "rarity": "supreme",
+   "faction": "Slither",
+   "count": "",
+   "text": "HP 900 · Schaden 150 · Ziele: nur Gebäude · max. 1 Kopie(n) im Team-Deck (2v2) — Slitherbind (1) When performing a Sacrifice effect, this building becomes a Minion, gains Haste, and is healed for 60 health per Slitherbound sacrificed, and deals 50 damage to nearby enemies and knocks them back.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/6e/IdolOfSacrifice.png/revision/latest?cb=20220901101708",
+   "tier": "A"
+  },
+  {
+   "name": "Illusory Cleaver",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "rare",
+   "faction": "Voidborne",
+   "count": "",
+   "text": "HP 2 · Schaden 100 · Ziele: Boden — Summons an Illusion of a Cleaver.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/06/IllusoryCleaver.png/revision/latest?cb=20260830202610",
+   "tier": "B"
+  },
+  {
+   "name": "Illusory Dragon Whelp",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "supreme",
+   "faction": "Voidborne",
+   "count": "",
+   "text": "Fliegend · HP 2 · Schaden 15 · Ziele: Boden — Summons an Illusion of a Dragon Whelp. Voidborne Wound: Increase mana cost by 1, and summon 2 more Illusory Dragon Whelps.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/b/b0/SmallFireDragonIllusory.jpg/revision/latest?cb=20201005180201",
+   "tier": "C"
+  },
+  {
+   "name": "Impatient Statue",
+   "type": "minion",
+   "mana": 6,
+   "rarity": "rare",
+   "faction": "Slither",
+   "count": "x1",
+   "text": "HP 900 · Schaden 150 · Ziele: nur Gebäude — Slitherbind (3). Impatient. If played Impatiently, gain Haste and Divine Shield. When in Mana Frenzy Impatient Statue gains Haste and Divine Shield, even if not played impatiently",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/7/70/ImpatientStatue.png/revision/latest?cb=20210704001023",
+   "tier": "B"
+  },
+  {
+   "name": "Impetus Blast",
+   "type": "spell",
+   "mana": 2,
+   "rarity": "supreme",
+   "faction": "Outlander",
+   "count": "",
+   "text": "Schaden 10 · Ziele: Boden & Luft — Push all enemies in the area away and deal a small amount of damage.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/6e/ImpetusBlast.jpg/revision/latest?cb=20220203224907",
+   "tier": "B"
+  },
+  {
+   "name": "Incubus",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "rare",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 300 · Schaden 65 · Ziele: Boden — Bulwark. Will Netherstep towards enemy ranged attackers.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/04/Incubus.png/revision/latest?cb=20211031183534",
+   "tier": "B"
+  },
+  {
+   "name": "Infiltration",
+   "type": "spell",
+   "mana": 5,
+   "rarity": "supreme",
+   "faction": "Outlander",
+   "count": "",
+   "text": "max. 1 Kopie(n) im Team-Deck (2v2) — Summon 4 Plasma Marines with Rush anywhere in the Arena.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/63/Infiltrators.jpg/revision/latest?cb=20190221175517",
+   "tier": "A"
+  },
+  {
+   "name": "Ion Grenade",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Outlander",
+   "count": "",
+   "text": "Schaden 45 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Deal damage to enemy minions in an area. Outlander Tech: Explode an extra time for every 20 Tech spend (Max 3)",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/c/c6/IonGrenade.jpg/revision/latest?cb=20210703220650",
+   "tier": "A"
+  },
+  {
+   "name": "Jade Flingers",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "common",
+   "faction": "Zen-Chi",
+   "count": "x2",
+   "text": "HP 125 · Schaden 25 · Ziele: Boden & Luft — Throws 2 Jade Daggers in quick succession.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/3c/JadeFlingers.jpg/revision/latest?cb=20200329192835",
+   "tier": "C"
+  },
+  {
+   "name": "Jadespark Watchers",
+   "type": "minion",
+   "mana": 10,
+   "rarity": "rare",
+   "faction": "Zen-Chi",
+   "count": "x4",
+   "text": "max. 2 Kopie(n) im Team-Deck (2v2) — Growthburst Shroom(2) Summon 2 Shi-hou with Bulwark and 2 Mu-Hou",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/ff/JadeSparkWatchers.jpg/revision/latest?cb=20200329192845",
+   "tier": "B"
+  },
+  {
+   "name": "Jahun, Keeper of Jadespark",
+   "type": "minion",
+   "mana": 10,
+   "rarity": "legendary",
+   "faction": "Zen-Chi",
+   "count": "x1",
+   "text": "HP 1000 · Schaden 150 · Ziele: Boden & Luft — Mythic Pulls rocks from the ground and slams them back down, dealing 75 damage twice. When you play Jahun, add a one-use Sunder card to the top of your deck.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/6c/Jahun.jpg/revision/latest?cb=20200329194459",
+   "tier": "B"
+  },
+  {
+   "name": "Jez'Ra, the Voidmother",
+   "type": "minion",
+   "mana": 8,
+   "rarity": "legendary",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 750 · Schaden 130 · Ziele: Boden — Mythic. If Jez'Ra's attack kills a minion, reduce the cost of Void Tear by 1 mana. Ability - Void Tear",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/83/Jezra.png/revision/latest?cb=20230519133304",
+   "tier": "B"
+  },
+  {
+   "name": "Jing Long",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "legendary",
+   "faction": "Zen-Chi",
+   "count": "x1",
+   "text": "Fliegend · HP 80 · Schaden 25 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — When you play a spell, Jing Long pops into another realm for 2 seconds. On return do Shocking Re-entry Zen-Chi Flow: do Shocking Re-entry on spawn.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/01/JingLong.png/revision/latest?cb=20210503213215",
+   "tier": "B"
+  },
+  {
+   "name": "Jolo the Hero Scrat",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "legendary",
+   "faction": "Scrat",
+   "count": "x1",
+   "text": "HP 90 · Schaden 40 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — 100% chance to avoid any damage, -12% per dodge. Gains Haste when summoned if your hand is full of Scrat cards.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/4/43/HeroScrat.jpg/revision/latest?cb=20190524193937",
+   "tier": "B"
+  },
+  {
+   "name": "Jungle Jumble",
+   "type": "spell",
+   "mana": 4,
+   "rarity": "supreme",
+   "faction": "Zen-Chi",
+   "count": "",
+   "text": "Remove this card and shuffle a 1–3-cost, a 4–6-cost, and a 7+-cost Zen-Chi minion into your deck. They gain Growthburst Shroom.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/d2/JungleJumble.png/revision/latest?cb=20240424171026",
+   "tier": "C"
+  },
+  {
+   "name": "Kamikazeppelin",
+   "type": "spell",
+   "mana": 4,
+   "rarity": "supreme",
+   "faction": "Scrat",
+   "count": "",
+   "text": "Schaden 160 · Ziele: Boden & Luft — Piloted Summon a Kamikazeppelin. It flies towards the targeted area, dropping bombs along the way. Once it reaches the area it explodes.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/dc/Kamikazeppelin.png/revision/latest?cb=20240526144023",
+   "tier": "B"
+  },
+  {
+   "name": "Karmic",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "legendary",
+   "faction": "Zen-Chi",
+   "count": "x1",
+   "text": "HP 300 · Schaden 24 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Every 6 seconds, gain a Karma Shield. First Shield active after 3 seconds.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/86/Karmic.png/revision/latest?cb=20240726130027",
+   "tier": "S"
+  },
+  {
+   "name": "Korrrgoth, Tyrant Of Gor'Rakk",
+   "type": "minion",
+   "mana": 10,
+   "rarity": "legendary",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 1300 · Schaden 300 · Ziele: Boden — Doom Hammer, Mythic. Starts as Seal Of Korrrgoth in your deck. If his attack kills a minion, Invoke.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/b/b4/Korrrgoth.png/revision/latest?cb=20221014145108",
+   "tier": "B"
+  },
+  {
+   "name": "Kurrrnath Crystalback",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "legendary",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 210 · Schaden 25 · Ziele: Boden — The first 2 times a player from either team plays a spell, deal 100 damage to the closest 3 enemy units within 16 range.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/88/Kurrrnath.png/revision/latest?cb=20211023224639",
+   "tier": "C"
+  },
+  {
+   "name": "Lady Infray the Spire Warden",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "legendary",
+   "faction": "Crystal Elves",
+   "count": "x1",
+   "text": "HP 150 · Schaden 30 · Ziele: Boden & Luft · max. 2 Kopie(n) im Team-Deck (2v2) — Mana Surge Every 3rd attack is a powerful Piercing Shot.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/2/2e/LadyInfray.jpg/revision/latest?cb=20200626094901",
+   "tier": "B"
+  },
+  {
+   "name": "Laser Turret",
+   "type": "building",
+   "mana": 5,
+   "rarity": "rare",
+   "faction": "Scrat",
+   "count": "",
+   "text": "HP 300 · Schaden 35 · Ziele: Boden & Luft — When staying on the same target, it fires faster and faster.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/1/1a/LaserTurret.jpg/revision/latest?cb=20200730125620",
+   "tier": "B"
+  },
+  {
+   "name": "Lash of Ah'mun",
+   "type": "spell",
+   "mana": 6,
+   "rarity": "supreme",
+   "faction": "Slither",
+   "count": "",
+   "text": "Schaden 400 · Ziele: Boden & Luft — Slitherbind (3) Calls upon the spirit of Ah'mun to attack the area twice. (Damage dealt to the opponent Master is reduced to 10%)",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/5/5d/Lashofahmun.jpg/revision/latest?cb=20210406152548",
+   "tier": "B"
+  },
+  {
+   "name": "Last Stand",
+   "type": "spell",
+   "mana": 7,
+   "rarity": "rare",
+   "faction": "Empyrean",
+   "count": "",
+   "text": "Summons 5 Legionnaires, but 7 if your opponent controls both bridges!",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/34/Clone.png/revision/latest?cb=20260830200043",
+   "tier": "C"
+  },
+  {
+   "name": "Legionnaires",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "common",
+   "faction": "Empyrean",
+   "count": "x2",
+   "text": "HP 150 · Schaden 30 · Ziele: Boden — Legion (1). A tough group of melee fighters. Empyrean Army: Increase mana cost by 1, and summon an additional Legionnaire.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/2/2c/Legionairs.png/revision/latest?cb=20260830195052",
+   "tier": "B"
+  },
+  {
+   "name": "Leiliel's Vortex",
+   "type": "spell",
+   "mana": 2,
+   "rarity": "supreme",
+   "faction": "Crystal Elves",
+   "count": "",
+   "text": "Schaden 65 · Ziele: Boden & Luft — Mana Freeze (2) Pulls all Enemy Minions towards its center, dealing damage to them. Damage is reduced the farther from the center they are.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/4/49/LeilielsVortex.png/revision/latest?cb=20200105220428",
+   "tier": "B"
+  },
+  {
+   "name": "Lightning Bolt",
+   "type": "spell",
+   "mana": 4,
+   "rarity": "supreme",
+   "faction": "Zen-Chi",
+   "count": "",
+   "text": "Ziele: Boden & Luft — Destroy a random enemy Minion or Building.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/e/e8/LightningBolt.png/revision/latest?cb=20170530062258",
+   "tier": "B"
+  },
+  {
+   "name": "Living Statue",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "common",
+   "faction": "Slither",
+   "count": "x1",
+   "text": "HP 900 · Schaden 150 · Ziele: nur Gebäude — Slitherbind (1). Only attacks buildings.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/5/58/LivingStatue.png/revision/latest?cb=20260830194411",
+   "tier": "B"
+  },
+  {
+   "name": "Lone Scout",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "rare",
+   "faction": "Crystal Elves",
+   "count": "x1",
+   "text": "HP 40 · Schaden 30 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Mana Surge. If there are no other Minions under your command when Lone Scout is summoned, gain Haste and Sneaky.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/80/LoneRanger.png/revision/latest?cb=20260831105936",
+   "tier": "C"
+  },
+  {
+   "name": "Lone Wolf",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "supreme",
+   "faction": "Accursed",
+   "count": "x1",
+   "text": "Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Summon a Warrior with Rage. If there are no other minions under your command, summon a Werewolf with Rage instead.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/5/55/LoneWolf.jpg/revision/latest?cb=20190221175406",
+   "tier": "B"
+  },
+  {
+   "name": "Lord Fanriel the Stormcharger",
+   "type": "minion",
+   "mana": 8,
+   "rarity": "legendary",
+   "faction": "Crystal Elves",
+   "count": "x1",
+   "text": "HP 800 · Schaden 140 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — True Damage When no enemies are near, Fanriel begins a Stormcharge.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/b/b4/LordFanriel.jpg/revision/latest?cb=20200601112309",
+   "tier": "B"
+  },
+  {
+   "name": "Lord-Sentinel Thelec",
+   "type": "minion",
+   "mana": 8,
+   "rarity": "legendary",
+   "faction": "Crystal Elves",
+   "count": "x1",
+   "text": "HP 650 · Schaden 50 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Spawns with 1 Crystal Archer If you have 4 Spells in your deck, gain Mana Freeze (2) and summon 5 additional Crystal Archers.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/4/4f/CrystalCommander.jpg/revision/latest?cb=20181021134734",
+   "tier": "B"
+  },
+  {
+   "name": "Lost Legionnaires",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Empyrean",
+   "count": "x1",
+   "text": "HP 150 · Schaden 30 · Ziele: Boden · max. 2 Kopie(n) im Team-Deck (2v2) — Shield, Legion (1)",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/01/TwoLegionnaires.png/revision/latest?cb=20260830202852",
+   "tier": "B"
+  },
+  {
+   "name": "M0nitor Gn4ts",
+   "type": "spell",
+   "mana": 2,
+   "rarity": "rare",
+   "faction": "Outlander",
+   "count": "",
+   "text": "Ziele: Boden — Summon 2 Gn4ts to protect a ground minion.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/1/1e/Gnats.jpg/revision/latest?cb=20220112025124",
+   "tier": "B"
+  },
+  {
+   "name": "Magma Cannon",
+   "type": "building",
+   "mana": 4,
+   "rarity": "common",
+   "faction": "Voidborne",
+   "count": "",
+   "text": "HP 400 · Schaden 75 · Ziele: Boden & Luft — Icebreaker Fires flaming balls of magma at enemies in range.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/e/eb/BurstCannon.jpg/revision/latest?cb=20200730125414",
+   "tier": "B"
+  },
+  {
+   "name": "Magma Storm",
+   "type": "spell",
+   "mana": 6,
+   "rarity": "rare",
+   "faction": "Voidborne",
+   "count": "",
+   "text": "Schaden 180 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Calls down 13 magma rocks in a large area. Also deals damage to friendly Units.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/69/MagmaStorm.jpg/revision/latest?cb=20170807040213",
+   "tier": "A"
+  },
+  {
+   "name": "Magnetic Bombs",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "supreme",
+   "faction": "Outlander",
+   "count": "x6",
+   "text": "HP 50 · Schaden 60 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Rolls from your master tower, gradually increasing their speed, and attaches themselves to the nearest enemy minion, and explodes after a delay. Only one attaches per minion. Deals half damage to the Master Tower.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/9d/MagneticBombs.png/revision/latest?cb=20221208195742",
+   "tier": "A"
+  },
+  {
+   "name": "Mal'Shar Shadowfork",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "legendary",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 150 · Schaden 70 · Ziele: Boden — Stealth, Nether Strike. Deals triple damage when attacking while Stealthed.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/2/2b/Malshar.png/revision/latest?cb=20200330194819",
+   "tier": "B"
+  },
+  {
+   "name": "Mana Chaser",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "common",
+   "faction": "Crystal Elves",
+   "count": "x1",
+   "text": "Fliegend · HP 50 · Schaden 25 · Ziele: Boden & Luft — Stealth On play, if you have 6+ mana, summon 2 more Mana Chasers and gain Mana Freeze (3).",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/f7/ManaChaser.png/revision/latest?cb=20230312170746",
+   "tier": "B"
+  },
+  {
+   "name": "Mana Puff",
+   "type": "minion",
+   "mana": 1,
+   "rarity": "common",
+   "faction": "Crystal Elves",
+   "count": "x1",
+   "text": "Puff · HP 10 — Remains on bridges and while on a bridge it generates 1 mana every 10 seconds. (First after 12 seconds)",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/0e/ManaPuff.png/revision/latest?cb=20161130014407",
+   "tier": "B"
+  },
+  {
+   "name": "Mana Puff Madness",
+   "type": "spell",
+   "mana": 1,
+   "rarity": "supreme",
+   "faction": "Crystal Elves",
+   "count": "",
+   "text": "max. 1 Kopie(n) im Team-Deck (2v2) — Mana Freeze (1) Summons 4 Mana Puffs at the Master Tower for each team.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/6d/ManaPuffMadness.jpg/revision/latest?cb=20181021134908",
+   "tier": "B"
+  },
+  {
+   "name": "Mar'Dred, Prince of Nightmares",
+   "type": "minion",
+   "mana": 10,
+   "rarity": "legendary",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 1000 · Schaden 160 · Ziele: Boden — Mythic When Mar'Dred attacks a minion with 30% or less health, Destroy and inflict Fear on nearby enemy Minions.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/e/e0/Mardred.jpg/revision/latest?cb=20200822172419",
+   "tier": "B"
+  },
+  {
+   "name": "Morgrul the Swarmer King",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "legendary",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 300 · Schaden 25 · Ziele: Boden — On summon and on death, Morgrul roars and calls 3 Swarmers to his side, damages and knocks enemies back.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/d6/SwarmerKing.jpg/revision/latest?cb=20200730131840",
+   "tier": "B"
+  },
+  {
+   "name": "Morgrul's Mark",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "supreme",
+   "faction": "Voidborne",
+   "count": "x5",
+   "text": "Ziele: Boden — An enemy ground minion gains Taunt. Summon Swarmers with Rush over the duration.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/1/16/MorgrulsMark.png/revision/latest?cb=20230519125545",
+   "tier": "B"
+  },
+  {
+   "name": "Morgrul's Ragers",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "rare",
+   "faction": "Voidborne",
+   "count": "x2",
+   "text": "HP 175 · Schaden 20 · Ziele: Boden — Berserker Rage. Voidborne Wound: Increase cost by 1. When summoned, all other friendly minions also gain Rage",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/d9/MorgrulsRagers.jpg/revision/latest?cb=20200730125632",
+   "tier": "B"
+  },
+  {
+   "name": "Mountain Gale",
+   "type": "spell",
+   "mana": 4,
+   "rarity": "supreme",
+   "faction": "Stoutheart",
+   "count": "",
+   "text": "Ziele: Boden & Luft — For the duration of the spell, all Enemies have their speed reduced by 2 (Min. 1), while all friendly Minions gain 2 speed (Max. 10) and heal 30 health per second. Also triggers Revelry",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/e/e5/MountainGale.jpg/revision/latest?cb=20201103175848",
+   "tier": "B"
+  },
+  {
+   "name": "Mountainshaper",
+   "type": "spell",
+   "mana": 7,
+   "rarity": "legendary",
+   "faction": "Stoutheart",
+   "count": "",
+   "text": "Schaden 60 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Strikes all enemies in a large area with an earthattering Ground Rupture for each charge on Mountainshaper. Mountainshaper gains a charge for every 3.5 seconds it is in your hand. (Max 10 charges).",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/da/Mountainshaper.jpg/revision/latest?cb=20200105221144",
+   "tier": "B"
+  },
+  {
+   "name": "Musketeer",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "legendary",
+   "faction": "Slither",
+   "count": "x1",
+   "text": "HP 200 · Schaden 55 · Ziele: Boden — Slitherbind (1) Deflects melee attackers, then ripostes for double damage.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/89/Musketeer.png/revision/latest?cb=20170901134109",
+   "tier": "B"
+  },
+  {
+   "name": "Net Blaster",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "supreme",
+   "faction": "Scrat",
+   "count": "x1",
+   "text": "HP 120 · Schaden 90 · Ziele: Boden & Luft — Shoots a net that inflicts Grounded and Slow on all enemies in an area.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/65/NetBlaster.png/revision/latest?cb=20230202155553",
+   "tier": "B"
+  },
+  {
+   "name": "Nether Bats",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "rare",
+   "faction": "Voidborne",
+   "count": "x3",
+   "text": "Fliegend · HP 25 · Schaden 20 · Ziele: Boden & Luft — While not attacking, will sometimes Netherstep towards a random enemy minion. Also Nethersteps on summon.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/dc/BlinkBat.jpg/revision/latest?cb=20181228143807",
+   "tier": "B"
+  },
+  {
+   "name": "Netherstep",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "supreme",
+   "faction": "Voidborne",
+   "count": "",
+   "text": "Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Teleports friendly ground Minions in the area along the path to the enemy Master. If at least one minion was teleported, summon a Swarmer with Rush, plus an additional Swarmer for each Voidborne card in your hand. This spell cannot target Mythic Minions.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/30/Phase.jpg/revision/latest?cb=20180807153628",
+   "tier": "B"
+  },
+  {
+   "name": "Nezara the Cold Countess",
+   "type": "minion",
+   "mana": 6,
+   "rarity": "legendary",
+   "faction": "Accursed",
+   "count": "x1",
+   "text": "HP 480 · Schaden 80 · Ziele: Boden — Cold Blood Vampiric, Icebreaker Ability: Frost Nova",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/96/Nezara.png/revision/latest?cb=20240516005644",
+   "tier": "B"
+  },
+  {
+   "name": "Null Matrix",
+   "type": "spell",
+   "mana": 4,
+   "rarity": "rare",
+   "faction": "Outlander",
+   "count": "",
+   "text": "Schaden 100 · Ziele: Boden & Luft — Removes all positive effects from minions in the area, then deals 100 damage to all minions in the area. Deals an additional 50 damage to minions which had effects removed.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/e/e4/Null_Matrix.png/revision/latest?cb=20240726125452",
+   "tier": "B"
+  },
+  {
+   "name": "Nyrvir the Fallen",
+   "type": "minion",
+   "mana": 9,
+   "rarity": "legendary",
+   "faction": "Accursed",
+   "count": "x1",
+   "text": "HP 1800 · Schaden 240 · Ziele: Boden & Luft — Mythic, Impactful Entry Starts as Nyrvir Slumbers in your deck. Swap this card for Nyrvir Slumbers when played. Nyrvir breathes spiritfire at a large area.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/3b/NyrvirAwakens.jpg/revision/latest?cb=20190524194035",
+   "tier": "B"
+  },
+  {
+   "name": "Nyrvir's Breath",
+   "type": "spell",
+   "mana": 7,
+   "rarity": "supreme",
+   "faction": "Accursed",
+   "count": "",
+   "text": "Schaden 175 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Covers a large area with spiritfire burning all ground enemies for 175 damage over the duration. Accursed Ascension: Summon 10 Skeletons.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/2/2b/NyrvirsBreath.jpg/revision/latest?cb=20190524194134",
+   "tier": "A"
+  },
+  {
+   "name": "Once Bitten",
+   "type": "spell",
+   "mana": 2,
+   "rarity": "rare",
+   "faction": "Accursed",
+   "count": "",
+   "text": "Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Give the nearest friendly ground Minion in the area Lycanthropy. This spell can only be played in your own arena and it cannot target Mythic Minions.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/dc/OnceBitten.jpg/revision/latest?cb=20181228143329",
+   "tier": "C"
+  },
+  {
+   "name": "Pincer of Dread",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Voidborne",
+   "count": "",
+   "text": "Schaden 140 · Ziele: Boden & Luft — Deal True Damage to the closest enemy Minion in the area. If it survives, give it Fear.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/7/71/PincerofDread.jpg/revision/latest?cb=20200822172406",
+   "tier": "B"
+  },
+  {
+   "name": "Plasma Marines",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "common",
+   "faction": "Outlander",
+   "count": "x2",
+   "text": "HP 50 · Schaden 10 · Ziele: Boden & Luft — Ranged Minions with average damage, speed and health.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/e/ef/DroneContender.jpg/revision/latest?cb=20190221175732",
+   "tier": "B"
+  },
+  {
+   "name": "Poison Strike",
+   "type": "spell",
+   "mana": 4,
+   "rarity": "common",
+   "faction": "Slither",
+   "count": "",
+   "text": "Ziele: Boden & Luft — Inflicts Poison to all enemies in the area. Sacrifice (2): Double the duration.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/7/74/PoisonStrike.jpg/revision/latest?cb=20190815155954",
+   "tier": "B"
+  },
+  {
+   "name": "Priestess",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "common",
+   "faction": "Empyrean",
+   "count": "x1",
+   "text": "HP 100 · Schaden 8 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — If there are damaged friendly units nearby, she will constantly Heal.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/93/Priestess.jpg/revision/latest?cb=20200601110327",
+   "tier": "A"
+  },
+  {
+   "name": "Prime Sergeant Raddick",
+   "type": "minion",
+   "mana": 7,
+   "rarity": "legendary",
+   "faction": "Outlander",
+   "count": "x1",
+   "text": "HP 550 · Schaden 135 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Mythic Shoots a blast of 9 pellets with his trusty E22X Shotgun Blaster. Ability - Rocket Jump",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/5/5c/Raddick.png/revision/latest?cb=20230812225525",
+   "tier": "A"
+  },
+  {
+   "name": "Propeller Horde",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "rare",
+   "faction": "Scrat",
+   "count": "x6",
+   "text": "Fliegend · HP 15 · Schaden 10 · Ziele: Boden & Luft — If a friendly Minion has Rage, summon 4 more.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/04/PropellerHorde.jpg/revision/latest?cb=20180815153202",
+   "tier": "B"
+  },
+  {
+   "name": "Propeller Scrats",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "common",
+   "faction": "Scrat",
+   "count": "x4",
+   "text": "Fliegend · HP 15 · Schaden 10 · Ziele: Boden & Luft — Quick and weak flying melee Minions.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/b/bb/PropellerScrats.jpg/revision/latest?cb=20170807235405",
+   "tier": "B"
+  },
+  {
+   "name": "Protocol 45.54.55-1N",
+   "type": "minion",
+   "mana": 6,
+   "rarity": "legendary",
+   "faction": "Outlander",
+   "count": "x1",
+   "text": "HP 459 · Schaden 50 · Ziele: Boden — Every 5 seconds, gain an Arc Slash.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/a/ab/Roboninja.png/revision/latest?cb=20240726125125",
+   "tier": "B"
+  },
+  {
+   "name": "Prowler",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "common",
+   "faction": "Slither",
+   "count": "x1",
+   "text": "HP 350 · Schaden 75 · Ziele: Boden · max. 2 Kopie(n) im Team-Deck (2v2) — Jumps at enemies at range, dealing double damage.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/1/12/Prowler.jpg/revision/latest?cb=20170816010410",
+   "tier": "B"
+  },
+  {
+   "name": "R4Z:0R Squadron",
+   "type": "minion",
+   "mana": 6,
+   "rarity": "legendary",
+   "faction": "Outlander",
+   "count": "x2",
+   "text": "Fliegend · HP 100 · Schaden 20 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Piloted.,Unstable Core",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/35/RazorSquadron.png/revision/latest?cb=20210703221653",
+   "tier": "B"
+  },
+  {
+   "name": "Rabid Prowler",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "rare",
+   "faction": "Slither",
+   "count": "x1",
+   "text": "HP 350 · Schaden 75 · Ziele: Boden — Is summoned with all of its health poisoned. Inflicts Poison for 1 seconds on attack. Sacrifice (2): Gain Haste",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/7/7f/RabidProwler.jpg/revision/latest?cb=20180815153225",
+   "tier": "B"
+  },
+  {
+   "name": "Raging Reinforcements",
+   "type": "spell",
+   "mana": 7,
+   "rarity": "supreme",
+   "faction": "Empyrean",
+   "count": "",
+   "text": "Summons a Brother of Light or 2x Warriors or 6x Spear Throwers and gives them Rage!",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/1/11/RagingReinforcements.png/revision/latest?cb=20161130015203",
+   "tier": "B"
+  },
+  {
+   "name": "Rammer",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "common",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 325 · Schaden 180 · Ziele: nur Gebäude · max. 2 Kopie(n) im Team-Deck (2v2) — Moves fast and only attacks buildings.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/9c/Rammer.jpg/revision/latest?cb=20200730125646",
+   "tier": "B"
+  },
+  {
+   "name": "Rampage",
+   "type": "spell",
+   "mana": 2,
+   "rarity": "common",
+   "faction": "Voidborne",
+   "count": "",
+   "text": "Ziele: Boden & Luft — Gives friendly Minions Rage",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/f4/Rampage.jpg/revision/latest?cb=20170807235454",
+   "tier": "B"
+  },
+  {
+   "name": "Rampant Growth",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "supreme",
+   "faction": "Zen-Chi",
+   "count": "",
+   "text": "Ziele: Boden & Luft — On draw, plant 2 Growthburst Shrooms A friendly minion absorbs all of your Growthburst Shrooms. The minion is healed for 85 health for each shroom absorbed, and Stuns all nearby enemy minions.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/3d/RampantGrowth.png/revision/latest?cb=20220804111314",
+   "tier": "B"
+  },
+  {
+   "name": "Rapid Response Reserves",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "supreme",
+   "faction": "Outlander",
+   "count": "",
+   "text": "Summons one of the following: * 6 Plasma Marines * 3 Drone Buzzers * 1 S1ege Br3aker MK1 Reduce the cost of cards in your opponent's hand by 1 mana.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/64/RRR.png/revision/latest?cb=20230812230025",
+   "tier": "B"
+  },
+  {
+   "name": "Ravenous Swarmers",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Voidborne",
+   "count": "x4",
+   "text": "HP 30 · Schaden 20 · Ziele: Boden — A few Swarmers, but if the last card you played was a spell, they gain Rage and Haste.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/5/5a/CannibalSwarmers.jpg/revision/latest?cb=20200730125431",
+   "tier": "B"
+  },
+  {
+   "name": "Re-boomer",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 25 · Schaden 250 · Ziele: Boden — Hatches from an egg after a short delay. As a boomer it explodes on contact or death, but turns back into an egg.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/85/ReBoomer.png/revision/latest?cb=20260830200239",
+   "tier": "C"
+  },
+  {
+   "name": "Red Golem",
+   "type": "minion",
+   "mana": 9,
+   "rarity": "supreme",
+   "faction": "Zen-Chi",
+   "count": "x1",
+   "text": "HP 875 · Schaden 225 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — If you have 50% or less health, gain Rage and Spirit",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/1/1b/RedGolem.png/revision/latest?cb=20260830194849",
+   "tier": "B"
+  },
+  {
+   "name": "Rendrath the Deathless",
+   "type": "minion",
+   "mana": 8,
+   "rarity": "legendary",
+   "faction": "Accursed",
+   "count": "x1",
+   "text": "HP 800 · Schaden 150 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Inflicts Rendrath's Mark which returns slain enemies to fight for you.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/e/e4/Rendrath.png/revision/latest?cb=20230414140051",
+   "tier": "S"
+  },
+  {
+   "name": "Resonating Blast Crystal",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Crystal Elves",
+   "count": "",
+   "text": "Schaden 100 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Mana Freeze (2). Deal damage in an area and drop a Blast Crystal.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/37/ResonatingBlast.jpg/revision/latest?cb=20200601121914",
+   "tier": "A"
+  },
+  {
+   "name": "Resonating Construct",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Crystal Elves",
+   "count": "x1",
+   "text": "HP 800 · Schaden 120 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Mana Freeze (2) Drops a Blast Crystal on death.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/5/51/ResonatingConstruct.png/revision/latest?cb=20240305152237",
+   "tier": "A"
+  },
+  {
+   "name": "Restless Dead",
+   "type": "spell",
+   "mana": 4,
+   "rarity": "rare",
+   "faction": "Accursed",
+   "count": "",
+   "text": "Summon 2 Undying Corpses randomly in your arena. Can only be played in your own arena.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/1/18/RestlessDead.jpg/revision/latest?cb=20200730130407",
+   "tier": "C"
+  },
+  {
+   "name": "Rimargaal's Breath",
+   "type": "spell",
+   "mana": 5,
+   "rarity": "supreme",
+   "faction": "Stoutheart",
+   "count": "",
+   "text": "Schaden 200 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Deals damage over two large vertical areas and inflicts Frozen on enemies.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/b/bd/RimargaalsBreath.png/revision/latest?cb=20220602143249",
+   "tier": "B"
+  },
+  {
+   "name": "Rimargaal, Scourge of the Summit",
+   "type": "minion",
+   "mana": 10,
+   "rarity": "legendary",
+   "faction": "Stoutheart",
+   "count": "x1",
+   "text": "HP 1600 · Schaden 500 · Ziele: Boden — Defrost (25). Impactful Entry. Mythic. Spews cones of Rimefyre at enemies which have Icebreaker.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/2/27/Rimargaal.png/revision/latest?cb=20220407144628",
+   "tier": "B"
+  },
+  {
+   "name": "Ritual of Servitude",
+   "type": "spell",
+   "mana": 6,
+   "rarity": "legendary",
+   "faction": "Slither",
+   "count": "",
+   "text": "max. 1 Kopie(n) im Team-Deck (2v2) — Summon a random 6 cost Minion card. If this is the cheapest card that started in your deck this match, summon an 8 cost minion card instead.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/1/1b/RitualOfServitude.jpg/revision/latest?cb=20190815160012",
+   "tier": "B"
+  },
+  {
+   "name": "Rock Rivals",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "supreme",
+   "faction": "Zen-Chi",
+   "count": "x1",
+   "text": "HP 750 · Schaden 200 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Taunt Summon an enemy Living Statue with Slow and Berserker's Rage at the opponent's Master Tower.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/e/ec/RockRivals.png/revision/latest?cb=20260830195506",
+   "tier": "B"
+  },
+  {
+   "name": "Rocket Scrat",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "supreme",
+   "faction": "Scrat",
+   "count": "x1",
+   "text": "HP 15 · Schaden 90 · Ziele: Boden — Barrel Shield Launches itself at nearby enemies, damaging them and itself.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/a/a9/RocketScrat.png/revision/latest?cb=20220707143414",
+   "tier": "B"
+  },
+  {
+   "name": "Rockin' Roller",
+   "type": "spell",
+   "mana": 10,
+   "rarity": "common",
+   "faction": "Zen-Chi",
+   "count": "",
+   "text": "Schaden 450 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — A giant meteor slams the ground, dealing 300 damage on impact. It rolls forward dealing 150 more damage over 2 seconds, pushing all enemy Minions in its path, until finally a Blue Golem rises from the crater.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/32/RockinRoller.png/revision/latest?cb=20210503212836",
+   "tier": "A"
+  },
+  {
+   "name": "S.T.INT",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "rare",
+   "faction": "Outlander",
+   "count": "x1",
+   "text": "HP 80 · Schaden 25 · Ziele: Boden & Luft — Outlander Tech: Spend 75 Tech to claim the furthest bridge on spawn.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/d8/SingleTrackInterceptor.jpg/revision/latest?cb=20190221175238",
+   "tier": "B"
+  },
+  {
+   "name": "S1ege Br3aker MK1",
+   "type": "minion",
+   "mana": 6,
+   "rarity": "common",
+   "faction": "Outlander",
+   "count": "x1",
+   "text": "HP 625 · Schaden 100 · Ziele: Boden — Piloted. Big damage, big health, but slow attack speed.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/4/4a/SiegeBreaker.png/revision/latest?cb=20221208195047",
+   "tier": "B"
+  },
+  {
+   "name": "Sanctum of the Cleansing Fire",
+   "type": "building",
+   "mana": 3,
+   "rarity": "legendary",
+   "faction": "Empyrean",
+   "count": "",
+   "text": "HP 400 — Every 5 seconds, when a friendly minion is damaged, set Holy Fire to the ground beneath it.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/f1/SanctumoftheCleansingFire.png/revision/latest?cb=20221111154349",
+   "tier": "B"
+  },
+  {
+   "name": "Sapphire Pebble",
+   "type": "building",
+   "mana": 1,
+   "rarity": "rare",
+   "faction": "Zen-Chi",
+   "count": "",
+   "text": "HP 60 · Schaden 90 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Myriad (1). After attacking, move to the location it attacked and stop attacking. Transform into a new Sapphire Pebble after 4 seconds.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/4/4a/SapphirePebble.png/revision/latest?cb=20211023224740",
+   "tier": "B"
+  },
+  {
+   "name": "Scott The Sensitive Savage",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "legendary",
+   "faction": "Stoutheart",
+   "count": "x1",
+   "text": "HP 600 · Schaden 50 · Ziele: Boden — Will Cry at 50% health.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/d6/SaltyBarbarian.jpg/revision/latest?cb=20200111215845",
+   "tier": "B"
+  },
+  {
+   "name": "Scrap Yard",
+   "type": "building",
+   "mana": 4,
+   "rarity": "supreme",
+   "faction": "Outlander",
+   "count": "",
+   "text": "HP 300 · max. 1 Kopie(n) im Team-Deck (2v2) — Outlander Tech: Summons a random 2-5 mana Outlander ground minion every 5 seconds. Spend 13 Tech per mana of the card.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/1/12/ScrapYard.png/revision/latest?cb=20210703221010",
+   "tier": "B"
+  },
+  {
+   "name": "Scrat Horde",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Scrat",
+   "count": "x9",
+   "text": "HP 15 · Schaden 10 · Ziele: Boden — Summons a horde of small Scrats.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/87/RatArmy.png/revision/latest?cb=20161130014355",
+   "tier": "B"
+  },
+  {
+   "name": "Scrat Launcher",
+   "type": "building",
+   "mana": 4,
+   "rarity": "supreme",
+   "faction": "Scrat",
+   "count": "",
+   "text": "HP 150 · Schaden 100 · Ziele: nur Gebäude — Massive range, always shoots at the nearest enemy building.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/1/11/SiegeTurret.png/revision/latest?cb=20161130014343",
+   "tier": "C"
+  },
+  {
+   "name": "Scrat Pack",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "common",
+   "faction": "Scrat",
+   "count": "x4",
+   "text": "HP 15 · Schaden 10 · Ziele: Boden — Good for taking bridges and as cheap targets. Scrat Swarm: Gain Haste.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/98/GangOfRats.jpg/revision/latest?cb=20200626094843",
+   "tier": "B"
+  },
+  {
+   "name": "Scrat Tank",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "rare",
+   "faction": "Scrat",
+   "count": "x1",
+   "text": "HP 600 · Schaden 60 · Ziele: Boden — Piloted. When not attacking, the Scrat Tank becomes completely immune to damage and stuns.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/64/ScratTank.png/revision/latest?cb=20170901134134",
+   "tier": "B"
+  },
+  {
+   "name": "Scrat Tunnels",
+   "type": "building",
+   "mana": 3,
+   "rarity": "supreme",
+   "faction": "Scrat",
+   "count": "",
+   "text": "HP 150 · max. 1 Kopie(n) im Team-Deck (2v2) — Summon 4 Scrats every 4 seconds. Ability: Emergency Tunnelling",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/b/b3/ScratTunnels.png/revision/latest?cb=20210805182621",
+   "tier": "B"
+  },
+  {
+   "name": "Scratillery",
+   "type": "spell",
+   "mana": 5,
+   "rarity": "rare",
+   "faction": "Scrat",
+   "count": "",
+   "text": "Schaden 200 · Ziele: Boden & Luft — Fires 5 furry rockets that each summon a Scrat on impact. Scrat Swarm: Summoned Scrats gain Haste.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/5/5b/ScratStorm.jpg/revision/latest?cb=20190815160033",
+   "tier": "B"
+  },
+  {
+   "name": "Screaming Scrat",
+   "type": "minion",
+   "mana": 1,
+   "rarity": "legendary",
+   "faction": "Scrat",
+   "count": "x1",
+   "text": "HP 15 · Schaden 30 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Barrel Shield, Taunt Moves towards the enemy Master until it Explodes after some time or when the barrel shield is destroyed, dealing damage to all nearby ground Units.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/c/cd/ScreamingScrat.jpg/revision/latest?cb=20180815153329",
+   "tier": "A"
+  },
+  {
+   "name": "Sewer Scrat",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "rare",
+   "faction": "Scrat",
+   "count": "x1",
+   "text": "HP 15 · Schaden 10 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Barrel Shield Attacks inflict 2.5 seconds of Poison. Additionally, when Sewer Scrat is hit by melee attackers, it inflicts Poison for 2.5 seconds.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/6b/SewerScrat.jpg/revision/latest?cb=20190815160146",
+   "tier": "A"
+  },
+  {
+   "name": "Shadow Whelp",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "rare",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "Fliegend · HP 100 · Schaden 60 · Ziele: Boden & Luft — Stealth. Deals triple damage when attacking while Stealthed.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/de/Shadowwhelp.jpg/revision/latest?cb=20190221175313",
+   "tier": "B"
+  },
+  {
+   "name": "Shars'Rakk Twins",
+   "type": "minion",
+   "mana": 6,
+   "rarity": "supreme",
+   "faction": "Voidborne",
+   "count": "",
+   "text": "This card has 2 sides. Switch sides on play. Side A - Summon an Incubus with Rage and Sneaky. Side B - Summon a Succubus with Rage and Sneaky.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/fa/SharsrakkTwins.jpg/revision/latest?cb=20180807153704",
+   "tier": "B"
+  },
+  {
+   "name": "Shen Stormstrike",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "legendary",
+   "faction": "Zen-Chi",
+   "count": "x1",
+   "text": "HP 420 · Schaden 175 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Stuns for 2 seconds. If they are already stunned, he instead unleashes a powerful blast. Zen-Chi Flow: Stun all nearby enemies when played for 2 seconds.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/0f/ShenStormstrike.jpg/revision/latest?cb=20190421121124",
+   "tier": "A"
+  },
+  {
+   "name": "Shen's Shock Stick",
+   "type": "spell",
+   "mana": 4,
+   "rarity": "supreme",
+   "faction": "Zen-Chi",
+   "count": "",
+   "text": "Schaden 50 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Growthburst Shroom Cast 2 Shock Rocks for each charge on this. Gain a charge whenever you plant a Growthburst Shroom while this is in your hand (max 4).",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/7/72/ShensShockStick.jpg/revision/latest?cb=20200329194516",
+   "tier": "B"
+  },
+  {
+   "name": "Shield-Captain Avea",
+   "type": "minion",
+   "mana": 6,
+   "rarity": "legendary",
+   "faction": "Empyrean",
+   "count": "x1",
+   "text": "HP 450 · Schaden 70 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Shield, Bulwark, Shield of Light, Taunt Whenever Avea shields at least 1 minion with Shield of Light, Legion (1).",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/4/4e/ShieldCaptainAvea.jpg/revision/latest?cb=20201103175933",
+   "tier": "B"
+  },
+  {
+   "name": "Shielded Crossbow Dudes",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "rare",
+   "faction": "Empyrean",
+   "count": "x3",
+   "text": "HP 25 · Schaden 20 · Ziele: Boden & Luft — Shield, Marksmanship If your opponent controls both bridges, summon 1 extra.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/02/ShieldedCrossbowDudes.png/revision/latest?cb=20260830202754",
+   "tier": "B"
+  },
+  {
+   "name": "Shieldguard of Light",
+   "type": "minion",
+   "mana": 7,
+   "rarity": "rare",
+   "faction": "Empyrean",
+   "count": "x1",
+   "text": "HP 750 · Schaden 80 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Armor of Light, Shield Slam.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/d9/Shieldguard.jpg/revision/latest?cb=20190221175300",
+   "tier": "S"
+  },
+  {
+   "name": "Shock Rock",
+   "type": "spell",
+   "mana": 2,
+   "rarity": "rare",
+   "faction": "Zen-Chi",
+   "count": "",
+   "text": "Schaden 25 · Ziele: Boden & Luft — Stuns and damages enemies in the area.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/5/57/StunThunder.png/revision/latest?cb=20161130014302",
+   "tier": "A"
+  },
+  {
+   "name": "Shroom Puff",
+   "type": "minion",
+   "mana": 1,
+   "rarity": "rare",
+   "faction": "Zen-Chi",
+   "count": "x1",
+   "text": "Puff · HP 10 — When it reaches the bridge, it waits for 2 seconds then turns into a Growthburst Shroom.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/64/Shroom-Puff.png/revision/latest?cb=20210627005302",
+   "tier": "C"
+  },
+  {
+   "name": "Shroomama Shumi",
+   "type": "minion",
+   "mana": 6,
+   "rarity": "legendary",
+   "faction": "Zen-Chi",
+   "count": "x1",
+   "text": "HP 550 · Schaden 80 · Ziele: Boden (Nahkampf) · max. 1 Kopie(n) im Team-Deck (2v2) — Whenever this receives a new Positive Effect, split into two minions with 70% damage and health.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/5/54/Shroomama.png/revision/latest?cb=20230627212104",
+   "tier": "A"
+  },
+  {
+   "name": "Shroomer",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Zen-Chi",
+   "count": "x1",
+   "text": "HP 275 · Schaden 40 · Ziele: Boden (Nahkampf) — On draw, plant a Growthburst Shroom. When this enters the opponent's arena, it splits into two copies of itself.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/a/a6/Shroomer.png/revision/latest?cb=20230627211544",
+   "tier": "B"
+  },
+  {
+   "name": "Siege Imperator Ruby",
+   "type": "minion",
+   "mana": 8,
+   "rarity": "legendary",
+   "faction": "Outlander",
+   "count": "x1",
+   "text": "HP 800 · Schaden 10 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Mythic. Ruby drives towards the enemy Master, shooting at enemies with her two Side Cannons. Ability: Plasma Blast",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/61/SiegeImperatorRuby.jpg/revision/latest?cb=20220112024957",
+   "tier": "B"
+  },
+  {
+   "name": "Simulacrum",
+   "type": "minion",
+   "mana": 1,
+   "rarity": "legendary",
+   "faction": "Outlander",
+   "count": "x1",
+   "text": "HP 50 · Schaden 10 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — On each draw, becomes a copy of a random non-Mythic minion card in an opponent's hand. Outlander Tech: Spend 40 Tech to give the summoned minions Haste.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/a/a1/Simulacrum.jpg/revision/latest?cb=20220303123250",
+   "tier": "B"
+  },
+  {
+   "name": "Skeleton Crew",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "common",
+   "faction": "Accursed",
+   "count": "x2",
+   "text": "HP 50 · Schaden 25 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Grants 2 additional Accursed Ascension progress when played. Accursed Ascension: Summon 2 more Skeletons.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/1/1d/Skeletons.jpg/revision/latest?cb=20200626095100",
+   "tier": "B"
+  },
+  {
+   "name": "Skeleton Horde",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "common",
+   "faction": "Accursed",
+   "count": "x8",
+   "text": "HP 50 · Schaden 25 · Ziele: Boden · max. 2 Kopie(n) im Team-Deck (2v2)",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/e/eb/SkeletonHorde.jpg/revision/latest?cb=20190524194217",
+   "tier": "B"
+  },
+  {
+   "name": "Slitherbound",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "common",
+   "faction": "Slither",
+   "count": "x2",
+   "text": "max. 1 Kopie(n) im Team-Deck (2v2) — Summon 1 Slitherbound Lancer and 1 Slitherbound Darter that inflict Poison for 1.5 seconds on attack. Can be used for Sacrifice.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/3e/Slitherbound.jpg/revision/latest?cb=20190815160201",
+   "tier": "A"
+  },
+  {
+   "name": "Slithering Summons",
+   "type": "spell",
+   "mana": 5,
+   "rarity": "rare",
+   "faction": "Slither",
+   "count": "",
+   "text": "Summon a Living Statue, Prowler or Soul Stealer. Sacrifice (3): Gain Spirit and Rage.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/c/cc/SlitheringSummons.jpg/revision/latest?cb=20190815160219",
+   "tier": "B"
+  },
+  {
+   "name": "Smite",
+   "type": "spell",
+   "mana": 4,
+   "rarity": "rare",
+   "faction": "Empyrean",
+   "count": "",
+   "text": "Schaden 150 · Ziele: Boden — Deals damage to ground Minions in an area. Empyrean Army: Set Holy Fire to the ground and increase cost by 1.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/7/75/Smite.jpg/revision/latest?cb=20200329194526",
+   "tier": "B"
+  },
+  {
+   "name": "Snake Druid",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "legendary",
+   "faction": "Slither",
+   "count": "x1",
+   "text": "Fliegend · HP 80 · Schaden 50 · Ziele: Boden — Slitherbind (1) His attacks immobilize enemies for 2 seconds.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/7/79/SpiritLeecher.png/revision/latest?cb=20161130014313",
+   "tier": "B"
+  },
+  {
+   "name": "Snap Freeze",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "common",
+   "faction": "Stoutheart",
+   "count": "",
+   "text": "Schaden 35 · Ziele: Boden — Inflicts Slow and Frozen on ground enemies in the area.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/c/ce/SnapFreeze.jpg/revision/latest?cb=20220505132511",
+   "tier": "B"
+  },
+  {
+   "name": "Sniper Scrat",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "common",
+   "faction": "Scrat",
+   "count": "x1",
+   "text": "HP 50 · Schaden 130 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Sneaky. Very long range and good damage, but takes a while to aim.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/a/a0/SniperRat.png/revision/latest?cb=20161130014337",
+   "tier": "A"
+  },
+  {
+   "name": "Sniper Squad",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "rare",
+   "faction": "Scrat",
+   "count": "x2",
+   "text": "HP 50 · Schaden 130 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Sneaky. Very long range, but takes a long time to load.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/66/SniperSquad.png/revision/latest?cb=20180807132020",
+   "tier": "A"
+  },
+  {
+   "name": "Soul Stealer",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "rare",
+   "faction": "Slither",
+   "count": "x1",
+   "text": "Fliegend · HP 180 · Schaden 50 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Vampiric, Soul Steal",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/b/b0/SpiritLeech.png/revision/latest?cb=20161130014318",
+   "tier": "B"
+  },
+  {
+   "name": "Spawn of Fury",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "supreme",
+   "faction": "Voidborne",
+   "count": "",
+   "text": "Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Stun a random friendly minion within the area, reduce its max Health and Damage by 25%, then summon a copy of it at the arena’s vertically mirrored coordinate. This spell cannot target Mythic Minions.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/7/76/SpawnofFury.png/revision/latest?cb=20190609123210",
+   "tier": "B"
+  },
+  {
+   "name": "Spear Throwers",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "common",
+   "faction": "Empyrean",
+   "count": "x4",
+   "text": "HP 90 · Schaden 15 · Ziele: Boden & Luft (erster Speer), sonst Boden — Their first attack is a ranged spear with double damage.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/5/56/SpearThrowers.png/revision/latest?cb=20260830201356",
+   "tier": "B"
+  },
+  {
+   "name": "Spelldancer",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Crystal Elves",
+   "count": "x1",
+   "text": "HP 130 · Schaden 25 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Mana Surge Spawns with 4 Arcane Spheres. When played, if you had 6+ mana, also fire 4 Arcane Sparks at random enemy units in a horizontal line and gain Mana Freeze (2).",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/a/a8/Spelldancer.png/revision/latest?cb=20230312170312",
+   "tier": "A"
+  },
+  {
+   "name": "Spiderlings",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "common",
+   "faction": "Slither",
+   "count": "x8",
+   "text": "HP 10 · Schaden 5 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Inflicts 1.3 seconds of Poison with each attack.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/2/2c/Spiderlings.png/revision/latest?cb=20240828132920",
+   "tier": "A"
+  },
+  {
+   "name": "Spire Stag",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "common",
+   "faction": "Crystal Elves",
+   "count": "x1",
+   "text": "HP 400 · Schaden 30 · Ziele: Boden — While no enemies are nearby, starts to gallop, moving faster. When attacking an enemy while galloping, deals 150 damage and applies a large knockback.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/6c/SpireStag.png/revision/latest?cb=20240305151842",
+   "tier": "B"
+  },
+  {
+   "name": "Spirit Infusion",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "common",
+   "faction": "Accursed",
+   "count": "",
+   "text": "Ziele: Boden & Luft — Gives 4 random friendly Minions Spirit over 8 seconds. Accursed Ascension: Gives 2 extra Spirits.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/0c/SpiritInfusion.jpg/revision/latest?cb=20170807234740",
+   "tier": "C"
+  },
+  {
+   "name": "Spirit Vessel",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "rare",
+   "faction": "Accursed",
+   "count": "x1",
+   "text": "HP 50 · Schaden 25 · Ziele: Boden — Spirit. Gives a random friendly Minion Spirit on death.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/97/SpiritVessel.jpg/revision/latest?cb=20170807040515",
+   "tier": "C"
+  },
+  {
+   "name": "Spiritmancer",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "rare",
+   "faction": "Accursed",
+   "count": "x1",
+   "text": "HP 150 · Schaden 6 · Ziele: Boden & Luft — When attacking an enemy that dies, perform Soul Rip.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/7/7e/Necromancer.jpg/revision/latest?cb=20170810190854",
+   "tier": "B"
+  },
+  {
+   "name": "Squire Puff",
+   "type": "minion",
+   "mana": 1,
+   "rarity": "rare",
+   "faction": "Empyrean",
+   "count": "x1",
+   "text": "Puff · HP 10 — Remains on bridges and while on a bridge it gives 3 friendly ground Minions Shield every 8 seconds. Empyrean Army: Give 5 minions Shield instead",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/1/12/Squirepuff.jpg/revision/latest?cb=20190221175043",
+   "tier": "B"
+  },
+  {
+   "name": "Stormtamer",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "supreme",
+   "faction": "Stoutheart",
+   "count": "x1",
+   "text": "HP 200 · Schaden 50 · Ziele: Boden & Luft — Lifts enemy minions into the air with a Cyclone before attacking them. The minion gains Flying but cannot move or attack while in a Cyclone.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/84/Stormtamer.png/revision/latest?cb=20240111144750",
+   "tier": "C"
+  },
+  {
+   "name": "Stormy",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "legendary",
+   "faction": "Zen-Chi",
+   "count": "x1",
+   "text": "Fliegend · HP 200 · Schaden 100 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Shoots Chain Lightning at enemies, damaging itself (with True Damage) in the process. Zen-Chi Flow: Stun all enemies in range for 2 seconds.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/e/e0/Stormy.jpg/revision/latest?cb=20190321203537",
+   "tier": "A"
+  },
+  {
+   "name": "Stun Blast",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Outlander",
+   "count": "",
+   "text": "Ziele: Boden & Luft — Stuns and inflicts Marked to enemies in the area.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/00/Freeze.png/revision/latest?cb=20161130014524",
+   "tier": "B"
+  },
+  {
+   "name": "Stun Lancers",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "common",
+   "faction": "Slither",
+   "count": "x2",
+   "text": "HP 130 · Schaden 30 · Ziele: Boden — Slitherbind (1) Their first attack to each enemy Stuns for 4 seconds.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/c/c7/StunLancer.jpg/revision/latest?cb=20200111215832",
+   "tier": "B"
+  },
+  {
+   "name": "Styxi",
+   "type": "minion",
+   "mana": 6,
+   "rarity": "legendary",
+   "faction": "Scrat",
+   "count": "x1",
+   "text": "HP 150 · Schaden 130 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Stealth If Styxi attacks a target but doesn't kill it, he'll stop attacking for 5 seconds.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/7/74/Styxi.png/revision/latest?cb=20161130014256",
+   "tier": "B"
+  },
+  {
+   "name": "Succubus",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "supreme",
+   "faction": "Voidborne",
+   "count": "x1",
+   "text": "HP 200 · Schaden 50 · Ziele: Boden & Luft — Netherstep backwards when damaged by melee attackers.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/2/2f/Summoner.png/revision/latest?cb=20161130014250",
+   "tier": "B"
+  },
+  {
+   "name": "Sugilite Shield",
+   "type": "spell",
+   "mana": 0,
+   "rarity": "supreme",
+   "faction": "Crystal Elves",
+   "count": "",
+   "text": "Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Mana Freeze (1) Minions within the barrier cannot take ranged damage from outside the barrier.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/4/43/Shield.jpg/revision/latest?cb=20200626095011",
+   "tier": "B"
+  },
+  {
+   "name": "Sun Burn",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "supreme",
+   "faction": "Empyrean",
+   "count": "",
+   "text": "Schaden 80 · Ziele: Boden & Luft — Deals damage to enemies in an area. ALL affected minions gain Rage and are cured of Frozen and Slow.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/3a/SunBurn.jpg/revision/latest?cb=20180815153346",
+   "tier": "C"
+  },
+  {
+   "name": "Swarmer Totem",
+   "type": "building",
+   "mana": 5,
+   "rarity": "common",
+   "faction": "Voidborne",
+   "count": "",
+   "text": "HP 250 — Summons groups of Swarmers over time. When destroyed, deals 50 damage and knocks back enemies in a radius of 5, and summons 3 Swarmers.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/dd/SpawnerShrine.png/revision/latest?cb=20161130014331",
+   "tier": "C"
+  },
+  {
+   "name": "Swarmers",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "common",
+   "faction": "Voidborne",
+   "count": "x3",
+   "text": "HP 30 · Schaden 20 · Ziele: Boden — Swarmers are fast and have decent damage but low health.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/5/5c/SwarmerHorde.png/revision/latest?cb=20260830200328",
+   "tier": "B"
+  },
+  {
+   "name": "T.A.A.S.",
+   "type": "building",
+   "mana": 3,
+   "rarity": "legendary",
+   "faction": "Outlander",
+   "count": "",
+   "text": "HP 300 — Spawns with Shield . The closest enemy minion gets Marked. Outlander Tech: Spend 30 tech to summon 2 Gn4ts to protect this. Ability: H3LL-F1R3",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/c/c3/TAAS.jpg/revision/latest?cb=20210702210023",
+   "tier": "B"
+  },
+  {
+   "name": "Taloc, the Vessel",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "legendary",
+   "faction": "Slither",
+   "count": "x1",
+   "text": "HP 210 · Schaden 70 · Ziele: Boden — Deals +50% bonus damage to Stunned or Poisoned minions. Taloc counts as a Slitherbound when performing a Sacrifice effect, without killing Taloc.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/a/a4/TalocTheVessel.png/revision/latest?cb=20220901101616",
+   "tier": "B"
+  },
+  {
+   "name": "Tantrum Throwers",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Empyrean",
+   "count": "x3",
+   "text": "HP 90 · Schaden 15 · Ziele: Boden & Luft (erster Speer), sonst Boden — Summon 3 spearless Spear Throwers with Rage. If your opponent controls both bridges, they gain their spears.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/a/a8/RageThrowers.png/revision/latest?cb=20260830201505",
+   "tier": "B"
+  },
+  {
+   "name": "The Revenant",
+   "type": "minion",
+   "mana": 7,
+   "rarity": "legendary",
+   "faction": "Accursed",
+   "count": "x1",
+   "text": "HP 475 · Schaden 70 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — When summoned, the enemy minion with the highest maximum health with at least 200 health is inflicted with Marked for Death. The first attack against each minion inflicts Fear. It also inflicts Root if the target is Marked for Death. When killing a Marked for Death minion, heal 100 health and gain Rage and Haste.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/07/Revenant.png/revision/latest?cb=20250515184423",
+   "tier": "B"
+  },
+  {
+   "name": "The Veilstalker",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "legendary",
+   "faction": "Crystal Elves",
+   "count": "x1",
+   "text": "HP 180 · Schaden 40 · Ziele: Boden — Mana Surge, Stealth. While Stealthed: Reduce speed to 2, and if an enemy is in range teleport behind it and do a Crystalline Sweep.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/81/Veilstalker.png/revision/latest?cb=20210704004245",
+   "tier": "B"
+  },
+  {
+   "name": "Ting, Teng & Tung",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "legendary",
+   "faction": "Zen-Chi",
+   "count": "x1",
+   "text": "HP 300 · Schaden 90 · Ziele: Boden & Luft — These brothers count as a single Minion. At 50% health lost, one of them falls off. At 75% health lost, the second falls off. Each brother bombards enemies with Bounce Berries",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/b/bd/TingTengTung.jpg/revision/latest?cb=20200329194643",
+   "tier": "B"
+  },
+  {
+   "name": "Toll of the Dead",
+   "type": "spell",
+   "mana": 5,
+   "rarity": "supreme",
+   "faction": "Accursed",
+   "count": "",
+   "text": "max. 1 Kopie(n) im Team-Deck (2v2) — Summon an Undying Skeleton. After the second death, its remains linger on the field until.. Accursed Ascension: Convert all remains left by this card into Undying Corpses",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/f4/TollOfTheDead.jpg/revision/latest?cb=20190524194251",
+   "tier": "B"
+  },
+  {
+   "name": "Tranquil Shi-Hou",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "common",
+   "faction": "Zen-Chi",
+   "count": "x1",
+   "text": "HP 400 · Schaden 60 · Ziele: Boden — Heals itself when no enemies are near.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/1/19/PrayingShiHou.jpg/revision/latest?cb=20200626094922",
+   "tier": "C"
+  },
+  {
+   "name": "Troubadour",
+   "type": "minion",
+   "mana": 8,
+   "rarity": "legendary",
+   "faction": "Stoutheart",
+   "count": "x1",
+   "text": "HP 1500 · Schaden 100 · Ziele: nur Gebäude — Taunt Revelry: give nearby enemy Minions Slow.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/f3/Troubadour.jpg/revision/latest?cb=20200111215803",
+   "tier": "C"
+  },
+  {
+   "name": "Undying Skeleton",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "common",
+   "faction": "Accursed",
+   "count": "x1",
+   "text": "HP 300 · Schaden 50 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Leaves an Undying Corpse the first time it dies.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/62/UndyingSkeleton.jpg/revision/latest?cb=20170808000817",
+   "tier": "A"
+  },
+  {
+   "name": "Unholy Ground",
+   "type": "spell",
+   "mana": 3,
+   "rarity": "supreme",
+   "faction": "Accursed",
+   "count": "",
+   "text": "Ziele: Boden & Luft · max. 2 Kopie(n) im Team-Deck (2v2) — Grounds and immobilizes all flying minions in the area. While there are enemies in the area, summon 5 Skeletons over the duration. Accursed Ascension: Increase the duration by 3 seconds. Summon 3 more Skeletons.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/e/e2/UnholyGround.jpg/revision/latest?cb=20200730131855",
+   "tier": "S"
+  },
+  {
+   "name": "Urclaw, Protector of the Peaks",
+   "type": "minion",
+   "mana": 7,
+   "rarity": "legendary",
+   "faction": "Stoutheart",
+   "count": "x1",
+   "text": "HP 700 · Schaden 90 · Ziele: Boden — Taunt, Thick Hide. When at 50% health for the first time, Urclaw roars, deals damage to all nearby enemies and stuns them, and gains Berserker's Rage and Haste.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/9e/Urclaw.png/revision/latest?cb=20230111210529",
+   "tier": "B"
+  },
+  {
+   "name": "Void Altar",
+   "type": "building",
+   "mana": 7,
+   "rarity": "supreme",
+   "faction": "Voidborne",
+   "count": "",
+   "text": "HP 350 · max. 1 Kopie(n) im Team-Deck (2v2) — When played, a Void Soul of an Incubus, Succubus or Shadow Whelp is spread across the arena every 10 seconds. When a friendly Minion consumes a Void Soul, the Minion contained within is summoned by the Void Altar.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/09/VoidAltar.jpg/revision/latest?cb=20200822172355",
+   "tier": "B"
+  },
+  {
+   "name": "Vuk's Clutchcooker",
+   "type": "minion",
+   "mana": 6,
+   "rarity": "legendary",
+   "faction": "Scrat",
+   "count": "x1",
+   "text": "HP 450 · Schaden 180 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Flamethrower, Grappling Claw, Piloted. When played, if you have at least 3 Piloted cards in your deck, Bombard nearby enemies.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/b/ba/Clutchcooker.png/revision/latest?cb=20230202155228",
+   "tier": "A"
+  },
+  {
+   "name": "Vulture Prime A83",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Outlander",
+   "count": "x1",
+   "text": "Fliegend · HP 60 · Schaden 20 · Ziele: Boden & Luft — Inflicts Marked.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/df/Vultureprime.png/revision/latest?cb=20210703215944",
+   "tier": "B"
+  },
+  {
+   "name": "Walking Blind Date",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "supreme",
+   "faction": "Empyrean",
+   "count": "x1",
+   "text": "HP 2 · max. 1 Kopie(n) im Team-Deck (2v2) — Rush,Taunt When killed, instead it transforms into a random 4 mana Minion card.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/b/b0/WalkingBlindDate.png/revision/latest?cb=20170903134954",
+   "tier": "B"
+  },
+  {
+   "name": "Wall",
+   "type": "building",
+   "mana": 2,
+   "rarity": "common",
+   "faction": "Empyrean",
+   "count": "",
+   "text": "HP 375 · max. 1 Kopie(n) im Team-Deck (2v2) — When hit by melee attackers, it deals 50% counter damage.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/96/Wall.png/revision/latest?cb=20170903134704",
+   "tier": "B"
+  },
+  {
+   "name": "Wardancers",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "common",
+   "faction": "Crystal Elves",
+   "count": "x2",
+   "text": "HP 130 · Schaden 25 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Mana Surge Two fast hitting short ranged fighters. Far better at dealing damage than at receiving it.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/1/1c/Wardancers.png/revision/latest?cb=20210704002042",
+   "tier": "A"
+  },
+  {
+   "name": "Warrior",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "common",
+   "faction": "Empyrean",
+   "count": "x1",
+   "text": "HP 350 · Schaden 70 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — All-round fighter with average health and damage.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/95/Warrior.jpg/revision/latest?cb=20200326125904",
+   "tier": "B"
+  },
+  {
+   "name": "Wartrack Dreadnaught",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "legendary",
+   "faction": "Scrat",
+   "count": "x1",
+   "text": "HP 500 · Schaden 45 · Ziele: Boden — Mythic, Piloted (1) If played after perk 2: Costs +2 mana, gains +150 health, gains +2 Piloted, and shoots two shots at once. If played after perk 3: Costs +4 mana, gains +350 health, gains +4 Piloted, and shoots Missile Scrats out of its back. (Mythic; nicht in Category:Cards des Wikis gelistet, aber aktive Karte)",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/fe/Dreadnaught.png/revision/latest?cb=20240526143653",
+   "tier": "B"
+  },
+  {
+   "name": "Wheel of Doom",
+   "type": "spell",
+   "mana": 4,
+   "rarity": "legendary",
+   "faction": "Voidborne",
+   "count": "",
+   "text": "Schaden 300 · Ziele: Boden — Hits ALL ground targets in a line 2 times for 150 damage. If something survives both hits, the Wheel breaks.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/e/e0/WheelOfDoom.jpg/revision/latest?cb=20181102195856",
+   "tier": "B"
+  },
+  {
+   "name": "Whirly Scrat",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "common",
+   "faction": "Scrat",
+   "count": "x1",
+   "text": "HP 325 · Schaden 50 · Ziele: Boden — Deals damage in an area around himself",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/a/ac/WhirlyRat.png/revision/latest?cb=20161130014208",
+   "tier": "B"
+  },
+  {
+   "name": "Wild Stonebjorn",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "common",
+   "faction": "Stoutheart",
+   "count": "x1",
+   "text": "HP 350 · Schaden 75 · Ziele: Boden — Thick Hide.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/fd/WildStonebjorn.jpg/revision/latest?cb=20210922193812",
+   "tier": "C"
+  },
+  {
+   "name": "Windwalker Shi-Hou",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "common",
+   "faction": "Zen-Chi",
+   "count": "x1",
+   "text": "HP 400 · Schaden 70 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Bulwark. When summoned, he performs a mighty Jump",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/4/46/Windwalker.jpg/revision/latest?cb=20200329194657",
+   "tier": "A"
+  },
+  {
+   "name": "Wizard Puff",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "legendary",
+   "faction": "Crystal Elves",
+   "count": "x1",
+   "text": "Puff · HP 130 · Schaden 70 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — If it dies, Transform a random enemy Minion or Building into a friendly Mana Puff.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/3a/WizardPuff.png/revision/latest?cb=20161130014202",
+   "tier": "B"
+  },
+  {
+   "name": "Woggosaur Pup",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "common",
+   "faction": "Slither",
+   "count": "x1",
+   "text": "HP 350 · Schaden 30 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — On play, Spit Poison at a nearby enemy minion.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/f9/Woggosaur.png/revision/latest?cb=20231012225818",
+   "tier": "B"
+  },
+  {
+   "name": "Wolf Among Sheep",
+   "type": "minion",
+   "mana": 6,
+   "rarity": "common",
+   "faction": "Accursed",
+   "count": "x3",
+   "text": "HP 150 · Schaden 30 · Ziele: Boden — Summon 3 Legionnaires. One of them gains Lycanthropy at random, and gains Rage after transforming.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/a/ad/WolfAmongSheep.jpg/revision/latest?cb=20181228143206",
+   "tier": "B"
+  },
+  {
+   "name": "Woodsman",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "common",
+   "faction": "Stoutheart",
+   "count": "x1",
+   "text": "HP 600 · Schaden 75 · Ziele: Boden — Revelry: gain Haste.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/67/Woodsman.jpg/revision/latest?cb=20200105215357",
+   "tier": "B"
+  },
+  {
+   "name": "Wrecked Walker",
+   "type": "minion",
+   "mana": 2,
+   "rarity": "rare",
+   "faction": "Outlander",
+   "count": "x1",
+   "text": "HP 150 — Outlander Tech: Spend 30 Tech to summon 2 Gn4t protecting this.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/b/bd/WreckedWalker.png/revision/latest?cb=20210704003540",
+   "tier": "B"
+  },
+  {
+   "name": "Wreckinator 9000",
+   "type": "minion",
+   "mana": 7,
+   "rarity": "legendary",
+   "faction": "Scrat",
+   "count": "x1",
+   "text": "HP 900 · Schaden 17 · Ziele: Boden · max. 1 Kopie(n) im Team-Deck (2v2) — Piloted This metal monster will first slice and dice, then slam and bam. At least until it Self-Destructs.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/4/4a/Wreckinator.jpg/revision/latest?cb=20190815160232",
+   "tier": "B"
+  },
+  {
+   "name": "Xiao Long",
+   "type": "minion",
+   "mana": 3,
+   "rarity": "legendary",
+   "faction": "Zen-Chi",
+   "count": "x1",
+   "text": "Fliegend · HP 80 · Schaden 25 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Growthburst Shroom When an opponent plays a spell, Xiao Long pops into another realm for 2 seconds. He also gains Rage and Haste.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/c/c5/TinyDragon.jpg/revision/latest?cb=20170808002133",
+   "tier": "B"
+  },
+  {
+   "name": "Zap Shrine",
+   "type": "building",
+   "mana": 3,
+   "rarity": "rare",
+   "faction": "Zen-Chi",
+   "count": "",
+   "text": "HP 100 · Schaden 25 · Ziele: Boden & Luft · max. 1 Kopie(n) im Team-Deck (2v2) — Stuns and damages the closest 2 enemies for 3 seconds. Zen-Chi Flow: Stun all enemies within range for 2 seconds when played.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/c/c8/ZapShrine.jpg/revision/latest?cb=20190421120719",
+   "tier": "A"
+  },
+  {
+   "name": "Zealots of the Burning Fist",
+   "type": "minion",
+   "mana": 7,
+   "rarity": "supreme",
+   "faction": "Empyrean",
+   "count": "x2",
+   "text": "HP 350 · Schaden 70 · Ziele: Boden — If there is only one friendly Zealot in play, she gains Rage and Haste, and a Holy Fire is set to the ground beneath her.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/f3/BurningFistZealots.jpg/revision/latest?cb=20200327180645",
+   "tier": "B"
+  },
+  {
+   "name": "Zeppelin Bomber",
+   "type": "minion",
+   "mana": 4,
+   "rarity": "common",
+   "faction": "Scrat",
+   "count": "x1",
+   "text": "Fliegend · HP 85 · Schaden 50 · Ziele: nur Gebäude — Piloted, Barrel Shield. Flies over the battlefield towards enemy Master Tower and drops bombs every 1 second along the way. Scrat Swarm: Lose Barrel Shield and gain Rage and Haste.",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/3/3a/ZeppelinBomber.png/revision/latest?cb=20170903134829",
+   "tier": "B"
+  },
+  {
+   "name": "Zipp's Zappinator",
+   "type": "minion",
+   "mana": 5,
+   "rarity": "legendary",
+   "faction": "Scrat",
+   "count": "x1",
+   "text": "HP 450 · Schaden 80 · Ziele: Boden & Luft · max. 2 Kopie(n) im Team-Deck (2v2) — Piloted. Attacks inflict Stun for 2 seconds. Ability: More Zap!",
+   "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/7/77/ZippsZappinator.png/revision/latest?cb=20220707142135",
+   "tier": "A"
+  }
+ ],
+ "top_cards": [
+  {
+   "name": "A'Zog, Voidfiend of Shars'Rakk",
+   "why": "4-Mana-Legendary mit gratis/billiger Ability Shadow Dash (Teleport + Flächenschaden). Seit Mitte 2026 in jedem Patch generft (2.30, 2.33, 2.34) und auf 1 Kopie limitiert – das stärkste Signal für Meta-Dominanz."
+  },
+  {
+   "name": "Karmic",
+   "why": "4 Mana, negiert alle 6 s eine komplette Schadensinstanz und wirft Angriffsschaden zurück. Gewinnt dadurch Duelle gegen große Einzelschläger (Cleaver, Golem) weit über seinen Kosten; 2.31 limitiert, 2.33/2.34 generft."
+  },
+  {
+   "name": "Unholy Ground",
+   "why": "3-Mana-Zauber, der Flieger erdet/festhält und dabei Skelette beschwört – Anti-Air, Brückenkontrolle und Board-Präsenz in einer Karte. Community nennt sie 'eine der besten Karten im Spiel'; erlaubt sogar 2 Kopien."
+  },
+  {
+   "name": "Harmful Souls",
+   "why": "5 Seelen à 80 Schaden (mit Accursed Ascension 8) – eines der effizientesten Removal-Spells überhaupt, trifft Boden und Luft. Wurde 2025 auf 1 Kopie im Team-Deck begrenzt."
+  },
+  {
+   "name": "Daggerfall",
+   "why": "3 Mana, großer Radius, räumt Schwärme und fragile Fernkämpfer (Scrats, Skelette, Sniper, Crossbow Dudes) ab. Laut Deck-Guide von 2024 in den meisten Decks; Master-Schaden wurde 2025 halbiert."
+  },
+  {
+   "name": "Arcane Barrage",
+   "why": "Wird mit jedem Ziehen stärker (bis 10 Stacks; Start 3) und trifft Boden und Luft – im Late Game ein riesiger Flächen-Burst für 3 Mana (+ Mana Freeze 1, d.h. das nächste 1 Mana wird nicht gutgeschrieben). So stark, dass Future Past/Present sie nicht mehr generieren dürfen und sie auf 1 Kopie limitiert ist."
+  },
+  {
+   "name": "Shieldguard of Light",
+   "why": "Tank mit 750 HP, Armor of Light (Flächen-Gegenschlag) und Shield Slam – erobert Brücken zuverlässig ohne echte Schwäche (Guide 2024). Trotz HP-Nerf auf 1 Kopie limitiert."
+  },
+  {
+   "name": "Bearvalanche",
+   "why": "4 Mana, Geisterbären walzen eine ganze Bahn nieder, verlangsamen und schieben – Top-Konter gegen Bodenschwärme und Pushes. In vielen Guide-Decks und 2026 auf 1 Kopie limitiert."
+  },
+  {
+   "name": "Rendrath the Deathless",
+   "why": "Alles, was er getroffen hat, steht nach dem Tod für dich wieder auf; zusätzlich Curse. Kippt lange Kämpfe komplett – 2.28 generft (wiederbelebte Einheiten -35%) und 2.34 auf 1 Kopie limitiert."
+  },
+  {
+   "name": "Ghast",
+   "why": "5-Mana-Tank (550 HP, 130 Schaden), der für jeden toten Gegner in der Nähe ein Skelett mit Rush und Curse erzeugt. Nach dem Buff in 2.32 sofort in 2.34 limitiert."
+  },
+  {
+   "name": "Spiderlings",
+   "why": "8 giftige Spinnen für 3 Mana; Gift stapelt und ignoriert Rüstung. Seit dem Schadens-Buff (2→5) in 2.31 so stark, dass sie in 2.34 limitiert wurden."
+  },
+  {
+   "name": "Prime Sergeant Raddick",
+   "why": "Mythic-Schrotflinte (9 Projektile) mit Rocket-Jump-Ability, trifft Boden und Luft. Nach Buffs Anfang 2026 so dominant, dass er in 2.31 generft und limitiert wurde."
+  },
+  {
+   "name": "Shen Stormstrike",
+   "why": "Betäubt bei jedem Treffer 2 s und löst gegen bereits betäubte Ziele eine Explosion aus; mit Zen-Chi Flow betäubt er beim Ausspielen alles um sich herum. 2.31 limitiert."
+  },
+  {
+   "name": "Magnetic Bombs",
+   "why": "6 Bomben, die sich selbstständig an Gegner heften – kaum zu verfehlender Flächenschaden auch gegen Flieger. Nach dem Rework 2.29 so stark, dass in 2.32 HP generft und limitiert."
+  },
+  {
+   "name": "Harbinger",
+   "why": "Fliegender Artillerist mit extrem großer Reichweite (14), 275 Schaden und Rückstoß – dominiert Bahnen aus sicherer Entfernung. 2.32 limitiert."
+  },
+  {
+   "name": "Coax the Diplomancer",
+   "why": "Hypnotisiert jedes getroffene Minion 7 s lang – große Gegner kämpfen plötzlich für dich. Community-Dauerbrenner ('absurd' stark); 2026 wurde die Hypnose sogar verlängert."
+  },
+  {
+   "name": "Zipp's Zappinator",
+   "why": "Jeder Angriff betäubt 2 s, trifft Boden und Luft, dazu die More-Zap!-Ability. In der Community als einer der stärksten Einzelziel-Kontrolleure bekannt."
+  },
+  {
+   "name": "Shock Rock",
+   "why": "2-Mana-Flächen-Stun – unterbricht Angriffe, rettet Brücken und stoppt Assassin/Rammer im richtigen Moment. Seit Jahren Standard-Kontrollkarte in Zen-Chi- und Spell-Decks."
+  },
+  {
+   "name": "Spelldancer",
+   "why": "3 Mana, 4 Arcane Spheres als Schutz und bei 6+ Mana zusätzlich 4 Arcane Sparks (Preis: Mana Freeze 2, die nächsten 2 Mana verfallen) – viel Wert für wenig Mana. 2.30 gebufft (3→4 Sparks), 2.33 limitiert."
+  },
+  {
+   "name": "Infiltration",
+   "why": "4 Plasma Marines mit Rush überall in der Arena beschwören – greift ungeschützte Fernkämpfer/Gebäude im Rücken an oder schnappt Brücken. 2025 auf 1 Kopie limitiert."
+  },
+  {
+   "name": "Resonating Construct",
+   "why": "3 Mana für 800 HP und 120 Schaden plus Blast Crystal beim Tod; selbst inklusive Mana Freeze (2) – die nächsten 2 Mana-Gewinne verfallen – extrem viel HP pro Mana. Deshalb schon 2025 auf 1 Kopie begrenzt."
+  }
+ ],
+ "combos": [
+  {
+   "name": "Crossbow Guild Brücken-Burg",
+   "cards": [
+    "Crossbow Guild",
+    "Living Statue"
+   ],
+   "why": "Die Guild produziert laufend Crossbow Dudes, die Living Statue (900 HP, greift nur Gebäude an) tankt davor. Laut Deck-Guide (2024) gewinnt man nach dem Aufbau oft automatisch.",
+   "how": "Guild nahe der eigenen Brücke platzieren, Statue davor spielen, dann weitere Einheiten nachschieben. Fireball als Notfall-Clear."
+  },
+  {
+   "name": "Rystar-Legion",
+   "cards": [
+    "High Marshal Rystar",
+    "Legionnaires",
+    "City Watch",
+    "Last Stand"
+   ],
+   "why": "Rystar befördert die nächsten 10 Legionnaires zu Centurions. Legion-Karten fluten das Feld mit danach deutlich stärkeren Einheiten.",
+   "how": "Rystar ausspielen, wenn genug Mana da ist (z.B. Mana Frenzy), dann zügig Legionnaires/City Watch/Last Stand folgen lassen."
+  },
+  {
+   "name": "Slither-Opferkette",
+   "cards": [
+    "Slitherbound",
+    "Chain Gang",
+    "Rabid Prowler",
+    "Empowered Soul Stealer",
+    "Idol of Sacrifice"
+   ],
+   "why": "Slitherbound-Einheiten sind Futter für Sacrifice-Effekte: Rabid Prowler bekommt Haste, Empowered Soul Stealer +2 Seelen je Opfer, Idol of Sacrifice wird zur Einheit, heilt 60 je Opfer und stößt Gegner zurück.",
+   "how": "Erst Slitherbound/Chain Gang aufs Feld, dann die Sacrifice-Karte direkt danach spielen, solange die Lancer/Darter leben."
+  },
+  {
+   "name": "Taloc-Gratisopfer",
+   "cards": [
+    "Taloc, the Vessel",
+    "Spiderlings",
+    "Shock Rock"
+   ],
+   "why": "Taloc zählt bei Sacrifice als Slitherbound, ohne zu sterben, und macht +50% Schaden gegen vergiftete oder betäubte Ziele – Spiderlings (Gift) und Shock Rock (Stun) aktivieren den Bonus.",
+   "how": "Taloc mit Spiderlings zusammen pushen, Shock Rock auf das Hauptziel; Taloc als Dauer-Opfer für Sacrifice-Karten nutzen."
+  },
+  {
+   "name": "Gift-Verstärker An'Kahesh",
+   "cards": [
+    "An'Kahesh, Desert's Doom",
+    "Poison Strike",
+    "Spiderlings"
+   ],
+   "why": "An'Kahesh macht Bonusschaden in Höhe des Gifts auf dem Ziel. Poison Strike und Spiderlings stapeln Gift vorab.",
+   "how": "Poison Strike auf die gegnerische Front, An'Kahesh dahinter laufen lassen; Spiderlings halten das Gift aufrecht."
+  },
+  {
+   "name": "Accursed Ascension",
+   "cards": [
+    "Skeleton Crew",
+    "Harmful Souls",
+    "Unholy Ground",
+    "Nyrvir's Breath",
+    "Nyrvir the Fallen"
+   ],
+   "why": "Skeleton Crew gibt +2 Ascension-Fortschritt. Sobald Ascension aktiv ist, bekommt Harmful Souls +3 Seelen, Unholy Ground +3 s/+3 Skelette, Nyrvir's Breath beschwört 10 Skelette und Nyrvir Slumbers wird gratis.",
+   "how": "Früh billige Accursed-Karten und Skeleton Crew spielen, um Ascension zu laden; die Payoffs fürs Late Game aufheben. Laut Community besonders stark in 2v2."
+  },
+  {
+   "name": "Corpse-Explosion",
+   "cards": [
+    "Undying Skeleton",
+    "Restless Dead",
+    "Toll of the Dead",
+    "Corpse Explosion"
+   ],
+   "why": "Corpse Explosion lässt ALLE eigenen Undying Corpses gleichzeitig explodieren (AoE 3,5 seit 2.33). Mehrere Leichen = mehrfacher Flächenschaden.",
+   "how": "Leichen in der eigenen Arena sammeln (Undying Skeleton stirbt einmal, Restless Dead, Toll mit Ascension), dann Corpse Explosion zünden, wenn der Gegner-Push darüber läuft."
+  },
+  {
+   "name": "Revelry-Kette (Stoutheart)",
+   "cards": [
+    "Glenn's Brew",
+    "Mountain Gale",
+    "Frostberry Bearer",
+    "Woodsman",
+    "Caber Tosser"
+   ],
+   "why": "Glenn's Brew, Mountain Gale und Frostberry Bearer lösen Revelry aus; Woodsman/Caber Tosser bekommen dadurch Haste, Bolf heilt sich, Troubadour verlangsamt Gegner.",
+   "how": "Revelry-Minion an die Brücke schicken, im Kampf Glenn's Brew (Heilung + Revelry) draufwerfen; Mountain Gale für den großen Push."
+  },
+  {
+   "name": "Frost + Icebreaker",
+   "cards": [
+    "Snap Freeze",
+    "Rimargaal's Breath",
+    "Chief Ice Breaker Bolf",
+    "Fire Imp",
+    "Magma Cannon"
+   ],
+   "why": "Icebreaker = doppelter Schaden gegen Frozen-Ziele. Snap Freeze/Rimargaal's Breath frieren ein; Bolf friert selbst ein, Fire Imp und (seit 2.34) Magma Cannon haben Icebreaker.",
+   "how": "Gegnerischen Push mit Snap Freeze/Rimargaal's Breath einfrieren, dann Fire Imp oder Bolf in die eingefrorene Gruppe."
+  },
+  {
+   "name": "Rage-Schwarm",
+   "cards": [
+    "Morgrul's Ragers",
+    "Propeller Horde",
+    "Rampage"
+   ],
+   "why": "Propeller Horde beschwört 4 zusätzliche Scrats, wenn ein eigenes Minion Rage hat. Morgrul's Ragers geben beim Beschwören allen eigenen Minions Rage; Rampage gibt Rage global.",
+   "how": "Erst Morgrul's Ragers (oder Rampage auf eigene Einheiten), dann sofort Propeller Horde = 10 fliegende Scrats."
+  },
+  {
+   "name": "Azali-Schildwall",
+   "cards": [
+    "Commander Azali",
+    "Skeleton Horde",
+    "Scrat Horde"
+   ],
+   "why": "Azali gibt bei jeder Brückeneroberung 10 eigenen Boden-Minions Shield – ein Schwarm mit Schild übersteht AoE wie Daggerfall.",
+   "how": "Azali mit einem Schwarm zur Brücke schicken; wenn die Brücke fällt, bekommen alle Shield und überrollen den Gegner."
+  },
+  {
+   "name": "Spiritmancer + Mana Puffs (2v2)",
+   "cards": [
+    "Spiritmancer",
+    "Mana Puff Madness",
+    "Commander Azali"
+   ],
+   "why": "Laut Deck-Guide (2024) harmonieren Spiritmancer und Mana Puffs extrem gut; Azali schützt die Puffs mit Shield.",
+   "how": "Mana Puff Madness früh, Spiritmancer an schwache/sterbende Gegner für Soul Rip; Azali zur Brücke für Schild-Wellen."
+  },
+  {
+   "name": "Bridge Shrine Doppel-XP",
+   "cards": [
+    "Bridge Shrine"
+   ],
+   "why": "Gibt bei jedem Brücken-XP derselben Lane 1 Extra-XP – man erreicht Perks und Mana Frenzy deutlich schneller (Guide 2024).",
+   "how": "Eine Brücke sicher halten und den Shrine in dieser Lane bauen; mit Defensivkarten (Wall, Defenso Chopper) absichern."
+  },
+  {
+   "name": "Spell-Synergie Dragon Nest",
+   "cards": [
+    "Dragon Nest",
+    "Rampage",
+    "Shock Rock",
+    "Fireball"
+   ],
+   "why": "Die nächsten 3 Zauber brüten Flightless Dragons aus: 0–2 Mana = 1, 3–4 Mana = 2, 5+ Mana = 2 mit Rage.",
+   "how": "Nest in der eigenen Arena bauen, danach günstige Zauber ohnehin spielen; ein Fireball als letzter Zauber liefert 2 gerage-te Drachen."
+  },
+  {
+   "name": "Zauber-Kombos mit Jing Long / Xiao Long / Ravenous Swarmers",
+   "cards": [
+    "Jing Long",
+    "Ravenous Swarmers",
+    "Kurrrnath Crystalback",
+    "Shock Rock"
+   ],
+   "why": "Jing Long macht nach jedem eigenen Zauber Shocking Re-entry; Ravenous Swarmers bekommen Rage + Haste, wenn die letzte Karte ein Zauber war; Kurrrnath feuert bei den ersten 2 Zaubern (beider Seiten) 100 Schaden auf 3 Ziele.",
+   "how": "Billigen Zauber (Shock Rock) direkt vor Ravenous Swarmers spielen; Jing Long/Kurrrnath vorher aufs Feld."
+  },
+  {
+   "name": "Crystal-Elf 6-Mana-Tricks",
+   "cards": [
+    "Spelldancer",
+    "Mana Chaser",
+    "Armored Escort",
+    "Border Patrol"
+   ],
+   "why": "Spelldancer, Mana Chaser und Armored Escort bekommen bei 6+ Mana starke Bonus-Effekte (Sparks, 2 Extra-Chaser, Sentry-Eskorte). Der Preis ist Mana Freeze – die nächsten 2–3 Mana-Gewinne verfallen, d.h. die Kosten werden nur 'nachträglich' bezahlt.",
+   "how": "Mana auf 6+ ansparen, dann eine dieser Karten für den Bonus spielen und mit dem restlichen Mana sofort nachlegen; den Freeze in einer ruhigen Phase einplanen, nicht direkt vor einem gegnerischen Push."
+  },
+  {
+   "name": "Guardian-Festung",
+   "cards": [
+    "Guardian",
+    "Crystal Construct",
+    "Resonating Construct",
+    "Spire Stag"
+   ],
+   "why": "Guardian absorbiert 66% des Schadens an nahen Crystal-Elf-Bodenminions; mit robusten Constructs kaum zu knacken.",
+   "how": "Guardian hinter Crystal Construct/Resonating Construct laufen lassen; Fernkampf-Elfen dahinter."
+  },
+  {
+   "name": "Shen-Stun-Kette",
+   "cards": [
+    "Shen Stormstrike",
+    "Zap Shrine",
+    "Shock Rock",
+    "Zipp's Zappinator"
+   ],
+   "why": "Shen löst gegen bereits betäubte Ziele eine starke Explosion aus. Zap Shrine, Shock Rock und Zipp's betäuben vorab.",
+   "how": "Zap Shrine an der Brücke oder Shock Rock auf die Gruppe, Shen hinein – jeder Treffer wird zum Blast."
+  },
+  {
+   "name": "Vuk + Piloted-Paket",
+   "cards": [
+    "Vuk's Clutchcooker",
+    "Defenso Chopper",
+    "Zipp's Zappinator",
+    "Cannon Roller",
+    "Scrat Tank"
+   ],
+   "why": "Vuk bombardiert beim Ausspielen nahe Gegner, wenn mindestens 3 Piloted-Karten im Deck sind – die Piloted-Karten sind ohnehin solide.",
+   "how": "Deck mit ≥3 Piloted-Karten bauen; Vuk mitten in eine gegnerische Gruppe an der Brücke spielen."
+  },
+  {
+   "name": "Netherstep-Turmsturm",
+   "cards": [
+    "Netherstep",
+    "Living Statue",
+    "Rammer"
+   ],
+   "why": "Netherstep teleportiert eigene Bodeneinheiten Richtung gegnerischen Master und beschwört Swarmer mit Rush. Gebäude-Angreifer wie Living Statue/Rammer überspringen so die Verteidigung.",
+   "how": "Living Statue/Rammer über die Brücke laufen lassen, dann Netherstep auf sie – sie landen direkt vor dem Turm."
+  },
+  {
+   "name": "Dragon Ball nach großem Minion",
+   "cards": [
+    "Dragon Ball",
+    "Cleaver",
+    "Colossus"
+   ],
+   "why": "Dragon Ball beschwört einen echten (fliegenden) Dragon Whelp statt eines Flightless, wenn die letzte Karte ein Minion mit 5+ Mana war.",
+   "how": "Erst Cleaver/Colossus o.ä. spielen, dann Dragon Ball als Clear – Bonus-Flieger gratis."
+  },
+  {
+   "name": "Rampage-Schwarmangriff",
+   "cards": [
+    "Rampage",
+    "Skeleton Horde",
+    "Scrat Horde"
+   ],
+   "why": "Rage erhöht Angriffstempo/Schaden aller eigenen Minions; bei 8–9 Einheiten verdoppelt sich effektiv der Burst. Community nannte Rampage schon früh 'zu stark für die Kosten'.",
+   "how": "Schwarm an den Gegner heranführen und Rampage erst im Kontakt casten."
+  },
+  {
+   "name": "Sanctum + Tank",
+   "cards": [
+    "Sanctum of the Cleansing Fire",
+    "Shieldguard of Light",
+    "Brother of the Burning Fist"
+   ],
+   "why": "Sanctum setzt alle 5 s Holy Fire unter ein beschädigtes eigenes Minion – brennt Bodenschwärme rund um den Tank weg (Community 2022).",
+   "how": "Sanctum in der eigenen Arena, Tank in die gegnerischen Bodeneinheiten schicken."
+  },
+  {
+   "name": "Lone Wolf / Lone Scout Solo-Play",
+   "cards": [
+    "Lone Wolf",
+    "Lone Scout"
+   ],
+   "why": "Lone Wolf beschwört einen Werewolf mit Rage statt Warrior, wenn kein eigenes Minion auf dem Feld ist; Lone Scout bekommt dann Haste + Sneaky.",
+   "how": "Nach einem Board-Clear als erste Karte spielen, um einen Brückenkampf mit Werwolf zu eröffnen."
+  },
+  {
+   "name": "Infiltration-Rückenangriff",
+   "cards": [
+    "Infiltration",
+    "Sniper Scrat"
+   ],
+   "why": "4 Plasma Marines mit Rush überall in der Arena – ideal gegen fragile Fernkämpfer (Sniper, Crossbow Dudes) oder Gebäude hinter der gegnerischen Front.",
+   "how": "Warten, bis der Gegner Sniper/Gebäude in seiner Arena platziert, dann Infiltration direkt daneben."
+  }
+ ],
+ "counters": [
+  {
+   "threat": "A'Zog, Voidfiend of Shars'Rakk",
+   "answers": [
+    "Defenso Chopper",
+    "Wall",
+    "Musketeer",
+    "Shock Rock",
+    "Zap Shrine",
+    "Dragon Whelp"
+   ],
+   "tip": "A'Zog greift nur am Boden im Nahkampf an: Nahkampf-Bestrafer (Defenso Chopper betäubt, Wall/Musketeer kontern) und Stuns stoppen ihn; Flieger kann er nicht angreifen. Shadow Dash kostet nach jedem Einsatz 1 Mana mehr – zum Verbrauchen zwingen. (abgeleitet aus Kartentexten)"
+  },
+  {
+   "threat": "Karmic",
+   "answers": [
+    "Spiderlings",
+    "Skeleton Horde",
+    "Pincer of Dread",
+    "Null Matrix",
+    "Daggerfall"
+   ],
+   "tip": "Karma Shield negiert immer nur EINE Schadensinstanz und reflektiert nur direkte Angriffe. Viele kleine Treffer (Schwärme, Gift) oder Zauber vorab brechen den Schild; Null Matrix entfernt positive Effekte. (abgeleitet aus Wiki-Mechanik)"
+  },
+  {
+   "threat": "Schwärme (Scrat Horde, Skeleton Horde, Spiderlings, Swarmers)",
+   "answers": [
+    "Daggerfall",
+    "Bearvalanche",
+    "Grenadier",
+    "Fire Imp",
+    "Whirly Scrat",
+    "Annihilator",
+    "Magma Storm"
+   ],
+   "tip": "Billiger Flächenschaden ist der beste Tausch. Für Schwärme mit Shield (Azali/Banner Man) zuerst den Schild mit einem kleinen Treffer lösen."
+  },
+  {
+   "threat": "Große Tanks (Living Statue, Blue Golem, Korrrgoth, Rimargaal, Colossus)",
+   "answers": [
+    "Cursebearer",
+    "Haunting Hugger",
+    "Coax the Diplomancer",
+    "Ghost",
+    "Arcane Bolt",
+    "Lightning Bolt",
+    "The Revenant",
+    "Assassin"
+   ],
+   "tip": "Curse und prozentuale/Zerstörungs-Effekte statt rohem Schaden. Arcane Bolt zerstört Ziele bis 450 HP direkt; The Revenant markiert das Minion mit den meisten Max-HP."
+  },
+  {
+   "threat": "Fernkampf-Flieger (Harbinger, Soul Stealer, Dragon Whelp/Dragon Pack, AtG Drone)",
+   "answers": [
+    "Unholy Ground",
+    "Net Blaster",
+    "Crossbow Dudes",
+    "Plasma Marines",
+    "Crystal Archers",
+    "Sniper Scrat",
+    "Magma Cannon"
+   ],
+   "tip": "Unholy Ground und Net Blaster erden Flieger, sodass auch Nahkämpfer sie treffen. Harbinger hat nur 250 HP – ein Sniper oder Fernkampf-Burst reicht."
+  },
+  {
+   "threat": "Gebäude-Angreifer (Rammer, Bazooka Scrat, Brutish Betrayer, Impatient Statue)",
+   "answers": [
+    "Shock Rock",
+    "Hypnotize",
+    "Black Hole",
+    "Cleaver",
+    "Fire Imp",
+    "Warrior"
+   ],
+   "tip": "Sie ignorieren Minions – also mit Stun/Hypnose/Black Hole stoppen und mit hohem Einzelschaden töten, bevor sie den Turm erreichen."
+  },
+  {
+   "threat": "Stealth-Assassinen (Assassin, Mal'Shar Shadowfork, Styxi, Shadow Whelp, The Veilstalker)",
+   "answers": [
+    "Scrat Pack",
+    "Skeleton Crew",
+    "Daggerfall",
+    "Dormant Defenders",
+    "Bearvalanche"
+   ],
+   "tip": "Der Triple-Damage-Erstschlag sollte billiges Futter treffen. Flächenzauber auf die vermutete Position; laut Community schützen große Einheiten wie Dormant Defenders gut gegen Stealth."
+  },
+  {
+   "threat": "Sniper (Sniper Scrat, Sniper Squad, Bounty Sniper)",
+   "answers": [
+    "Daggerfall",
+    "Shock Rock",
+    "Frostfeather Flyby",
+    "Arcane Barrage",
+    "Incubus",
+    "Nether Bats"
+   ],
+   "tip": "Nur 50 HP – jeder Flächenzauber tötet sie. Incubus und Nether Bats nethersteppen direkt zu Fernkämpfern."
+  },
+  {
+   "threat": "Coax the Diplomancer",
+   "answers": [
+    "Skeleton Horde",
+    "Swarmers",
+    "Assassin",
+    "Cleaver"
+   ],
+   "tip": "Laut Community schwach gegen Schwärme und Einzelziel-Burst; keine großen Minions in seine Reichweite schicken, sonst werden sie hypnotisiert."
+  },
+  {
+   "threat": "Zipp's Zappinator",
+   "answers": [
+    "Scrat Horde",
+    "Skeleton Horde",
+    "\"Armored\" Scrats",
+    "Scratillery"
+   ],
+   "tip": "Laut Community anfällig für Hordes – der Stun trifft immer nur ein Ziel pro Angriff."
+  },
+  {
+   "threat": "Sanctum of the Cleansing Fire",
+   "answers": [
+    "Fireball",
+    "Bazooka Scrat",
+    "Dragon Whelp",
+    "Swarmer Totem",
+    "Crossbow Guild"
+   ],
+   "tip": "Holy Fire trifft nur Boden: Flieger, Zauber und große Einzelminions (statt Schwärme) nutzen (Community 2022). 400 HP – Gebäudeangreifer räumen es ab."
+  },
+  {
+   "threat": "Rendrath the Deathless",
+   "answers": [
+    "Coax the Diplomancer",
+    "Ghost",
+    "Cursebearer",
+    "Black Hole"
+   ],
+   "tip": "Nicht mit vielen kleinen Einheiten auf ihn werfen – jede getroffene Einheit wird nach dem Tod seine. Mythic-Einheiten und Gebäude kann er nicht wiederbeleben; Curse/Hypnose bzw. Black Hole nehmen ihn aus dem Spiel."
+  },
+  {
+   "threat": "Ghast",
+   "answers": [
+    "Cursebearer",
+    "Haunting Hugger",
+    "Assassin",
+    "Clear Skies"
+   ],
+   "tip": "Skelette entstehen erst, wenn keine Gegner mehr in der Nähe sind: Ghast direkt mit Einzelziel-Schaden töten statt viele kleine Einheiten verheizen. Clear Skies entfernt Curse von eigenen Minions."
+  },
+  {
+   "threat": "Shieldguard of Light / Armor-of-Light-Tanks",
+   "answers": [
+    "Cursebearer",
+    "Coax the Diplomancer",
+    "Assassin",
+    "Haunting Hugger"
+   ],
+   "tip": "Armor of Light schlägt bei Treffern zurück (75 Schaden, 14 s Cooldown) – keine Schwärme hineinwerfen; erst mit einem Treffer auslösen, dann mit Burst nachlegen."
+  },
+  {
+   "threat": "Screaming Scrat",
+   "answers": [
+    "Crossbow Dudes",
+    "Plasma Marines",
+    "Sniper Scrat",
+    "Shock Rock"
+   ],
+   "tip": "Taunt + Explosion: mit Fernkampf aus Distanz das Barrel Shield brechen, bevor er die eigene Gruppe erreicht. Seit 2.34 ohne Rush und mit 4 s Timer – mehr Zeit zum Reagieren."
+  },
+  {
+   "threat": "Magnetic Bombs",
+   "answers": [
+    "Scrat Pack",
+    "Propeller Scrats",
+    "Daggerfall"
+   ],
+   "tip": "Pro Minion heftet sich nur eine Bombe an: billige Einzelziele 'fressen' die Bomben; nur 50 HP – Flächenschaden auf dem Rollweg."
+  },
+  {
+   "threat": "Prime Sergeant Raddick",
+   "answers": [
+    "Ghost",
+    "Coax the Diplomancer",
+    "Assassin",
+    "Cleaver"
+   ],
+   "tip": "Raddick ist Mythic: Ghost betäubt Mythics 12 s und verflucht sie. Seit 2.31 kürzere Reichweite (5) – Nahkampf-Burst kommt leichter heran."
+  },
+  {
+   "threat": "Spells-lastige Kontrolle (Arcane Barrage, Harmful Souls, Daggerfall)",
+   "answers": [
+    "Sugilite Shield",
+    "Shroomer",
+    "Living Statue",
+    "Wild Stonebjorn"
+   ],
+   "tip": "Wenige große statt vieler kleiner Einheiten spielen; Sugilite Shield blockt Fernkampfschaden von außerhalb. Gegnerische Zauber zählen (Kurrrnath bestraft Zauber auf beiden Seiten)."
+  },
+  {
+   "threat": "Heiler (Priestess, Healing Shrine, Frostberry Bearer)",
+   "answers": [
+    "Daggerfall",
+    "Sniper Scrat",
+    "Infiltration",
+    "Bazooka Scrat"
+   ],
+   "tip": "Priestess (100 HP) und Healing Shrine (100 HP) zuerst ausschalten – Fernkampf oder ein Gebäudeangreifer für den Shrine."
+  },
+  {
+   "threat": "Brückenkontrolle / Mana Frenzy des Gegners",
+   "answers": [
+    "Last Stand",
+    "Tantrum Throwers",
+    "Shielded Crossbow Dudes",
+    "Infiltration"
+   ],
+   "tip": "Mehrere Karten werden stärker, wenn der Gegner beide Brücken hält (Last Stand 7 Legionnaires, Tantrum Throwers mit Speeren, Shielded Crossbow Dudes +1). Infiltration kann überall in der Arena beschworen werden."
+  }
+ ]
+}

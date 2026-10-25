@@ -1,0 +1,777 @@
+{
+ "sources": [
+  {
+   "url": "https://store.steampowered.com/api/appdetails?appids=489520",
+   "date": "2026-10-24 (abgerufen)"
+  },
+  {
+   "url": "https://store.steampowered.com/app/489520/Minion_Masters/",
+   "date": "2026-10-24 (abgerufen)"
+  },
+  {
+   "url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=489520 (Steam-News/Patchnotes 2017–2026)",
+   "date": "2026-10-24 (abgerufen)"
+  },
+  {
+   "url": "https://minionmasters.fandom.com/wiki/Game_Mechanics",
+   "date": "2026-10-24 (abgerufen via MediaWiki-API)"
+  },
+  {
+   "url": "https://minionmasters.fandom.com/wiki/Mana",
+   "date": "2026-10-24 (abgerufen)"
+  },
+  {
+   "url": "https://minionmasters.fandom.com/wiki/XP",
+   "date": "2026-10-24 (abgerufen)"
+  },
+  {
+   "url": "https://minionmasters.fandom.com/wiki/Unit_Behaviour",
+   "date": "2026-10-24 (abgerufen)"
+  },
+  {
+   "url": "https://minionmasters.fandom.com/wiki/Factions",
+   "date": "2026-10-24 (abgerufen)"
+  },
+  {
+   "url": "https://minionmasters.fandom.com/wiki/League",
+   "date": "2026-10-24 (abgerufen)"
+  },
+  {
+   "url": "https://minionmasters.fandom.com/wiki/Quests",
+   "date": "2026-10-24 (abgerufen)"
+  },
+  {
+   "url": "https://minionmasters.fandom.com/wiki/Draft",
+   "date": "2026-10-24 (abgerufen)"
+  },
+  {
+   "url": "https://minionmasters.fandom.com/wiki/Mayhem",
+   "date": "2026-10-24 (abgerufen)"
+  },
+  {
+   "url": "https://minionmasters.fandom.com/wiki/Adventures",
+   "date": "2026-10-24 (abgerufen)"
+  },
+  {
+   "url": "https://minionmasters.fandom.com/wiki/Level-Up_Reward",
+   "date": "2026-10-24 (abgerufen)"
+  },
+  {
+   "url": "https://minionmasters.fandom.com/wiki/Masters",
+   "date": "2026-10-24 (abgerufen)"
+  },
+  {
+   "url": "https://minionmasters.fandom.com/wiki/Lore",
+   "date": "2026-10-24 (abgerufen)"
+  },
+  {
+   "url": "https://minionmasters.fandom.com/ (Wiki-Vorlagen Buff/Debuff/FactionMechanic/CardFlag für Keyword-Texte)",
+   "date": "2026-10-24 (abgerufen)"
+  },
+  {
+   "url": "https://steamcommunity.com/games/489520/announcements (Minion masters 2.0 - Major changes overview)",
+   "date": "2023-11-21"
+  },
+  {
+   "url": "https://steamcommunity.com/games/489520/announcements (Upcoming changes to the Minion Masters Economy)",
+   "date": "2020-11-12"
+  },
+  {
+   "url": "https://steamcommunity.com/games/489520/announcements (Minion Masters Android release!!)",
+   "date": "2024-04-16"
+  },
+  {
+   "url": "https://blog.betadwarf.com/2024/07/ (Patch 2.6 Power UP – Alternative Master Perks)",
+   "date": "2024-07-25"
+  },
+  {
+   "url": "https://minionmastersthegame.com/",
+   "date": "2026-10-24 (abgerufen)"
+  },
+  {
+   "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2972227469 (BadAsAFish80 Guide)",
+   "date": "2023-05-06, aktualisiert 2024-03-09"
+  },
+  {
+   "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1596118192 (Pinco Starter Guide – Ökonomie veraltet)",
+   "date": "2018-12-20, aktualisiert 2019-08-30"
+  },
+  {
+   "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3435107735 (Deutscher Guide & Tipps)",
+   "date": "2025-02-27"
+  },
+  {
+   "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1839313893 (Wealth-Guide – Ökonomie veraltet)",
+   "date": "2019-08-20"
+  },
+  {
+   "url": "https://www.bluestacks.com/blog/game-guides/minion-masters/mim-beginner-guide-en.html",
+   "date": "undatiert (Mana-Werte veraltet)"
+  },
+  {
+   "url": "https://www.giantbomb.com/games/3030-57014/",
+   "date": "undatiert"
+  },
+  {
+   "url": "https://discord.com/api/v9/invites/minionmasters",
+   "date": "2026-10-24 (ca. 87.900 Mitglieder)"
+  }
+ ],
+ "overview": "Minion Masters ist ein schnelles Echtzeit-Strategiespiel von BetaDwarf (Dänemark), das Deckbuilding-Kartenspiel und Tower Defense kombiniert (Steam-Genres: Action, Strategie, Kostenlos spielbar). Zwei Spieler (1v1) oder zwei Teams (2v2) stehen sich in einer Arena gegenüber: Jeder Meister (Master) thront auf einem Turm in seiner Arenahälfte; die Hälften sind über zwei Brücken (= zwei Lanes) verbunden. Mit Mana spielt man Karten aus einem Deck mit 10 Karten – Diener (Minions), Zauber (Spells) und Gebäude (Buildings). Einmal beschworen, laufen Diener selbstständig los und lassen sich nicht mehr steuern – Platzierung und Timing sind alles. Ziel: die Lebenspunkte des gegnerischen Meisters auf 0 bringen. Wer die Brücken hält, sammelt schneller XP, schaltet die drei Perks seines Meisters früher frei und erreicht zuerst den Mana-Frenzy. Free-to-play auf Steam seit 6. Dezember 2018 (noch in Early Access), Vollversion 1.0 am 24. Mai 2019 (gleichzeitig Xbox One), Android seit 16. April 2024 mit Cross-Play und Cross-Save (PC ↔ Mobile). Laut Steam über 260 Karten, das Wiki zählt 295 erhältliche Karten; BetaDwarf versteht das Spiel als 'fair-to-play' (neue Karten/Meister kostenlos erspielbar, Bezahlinhalte nur schneller bzw. kosmetisch). Stand Oktober 2026 erscheint etwa monatlich ein Balance-Patch (zuletzt 2.34 am 19.10.2026).",
+ "mechanics": [
+  {
+   "title": "Arena & Lanes",
+   "text": "Jede Seite hat eine eigene Arenahälfte mit dem Turm des Meisters; zwei Brücken verbinden die Hälften und bilden zwei Lanes. Karten dürfen nur in der eigenen Hälfte gespielt werden (Ausnahmen über Effekte wie Infiltration oder Walking Blind Date; Tronveirs Runestone ragt leicht in die gegnerische Hälfte). Referenzmaß: Eine Brücke ist 8 Einheiten breit; 2 Bewegungstempo = 1 Reichweite pro Sekunde. Manche Gebäude haben eine 'Placement Aura' und lassen sich nicht direkt am Rand/hinter dem Turm platzieren."
+  },
+  {
+   "title": "Siegbedingung & Matchdauer",
+   "text": "Wer den gegnerischen Meister (bzw. dessen Turm) zerstört, gewinnt. Ein festes Zeitlimit ist nicht dokumentiert (unsicher); die Mana-Rate steigt alle 40 s, und ab 3:20 ist sie maximal, sodass Partien sich zum Ende hin stark beschleunigen. Die Tagesquest 'Rusher' (Sieg in unter 3 Minuten) deutet an, dass typische Matches länger als 3 Minuten dauern. Exakte Lebenspunkte der Meister: nicht verifiziert (unsicher)."
+  },
+  {
+   "title": "Mana",
+   "text": "Mana regeneriert automatisch und für alle gleich schnell; Maximum 10 Mana (ein angebrochener Bruchteil über 10 bleibt erhalten, wenn man rechtzeitig ausgibt). 1v1: Start mit 1 Mana alle 2,62 s; alle 40 s sinkt die Zeit um 0,22 s → 2,40 s (0:40), 2,18 s (1:20), 1,96 s (2:00), 1,74 s (2:40), 1,52 s ab 3:20. 2v2 (Team Battles): 3,15 s → 2,905 → 2,74 → 2,535 → 2,33 → 2,125 s ab 3:20. Karten kosten 0–10 Mana. Mana Freeze (Debuff/Kosten einiger Karten) streicht die nächsten X Mana, die man erhalten würde."
+  },
+  {
+   "title": "XP, Perks & Mana Frenzy",
+   "text": "XP (nicht zu verwechseln mit Profil-XP) entsteht im Match passiv und durch Brücken: 1 XP pro 4 s pro Meister passiv (1v1: 1 XP/4 s; 2v2: 2 XP/4 s, XP wird im Team geteilt) plus 1 XP pro 4 s für jede gehaltene Brücke (bzw. Bridge Shrine). Sonderquellen: Bounty Sniper +2 XP pro Kill/Turmtreffer, Dionas Ruffles +3 XP bei gelbem Fund. Schwellen: 20 XP = Perk 1, 60 XP = Perk 2, 120 XP = Perk 3, 200 XP = Mana Frenzy (in 2v2 laut Wiki 400 XP). Ab Mana Frenzy wird jedes weitere XP in Mana umgewandelt – Brückenkontrolle bedeutet dann direkt Bonus-Mana. Rechenbeispiel (abgeleitet): mit beiden Brücken 3 XP/4 s → Perk 1 nach ca. 27 s, Frenzy nach ca. 4:27; ohne Brücke erst nach ca. 13:20."
+  },
+  {
+   "title": "Brücken erobern",
+   "text": "Ein Diener, der über eine Brücke läuft bzw. darauf steht, erobert sie für seine Seite. Neutrale Brücken sind gelb und geben niemandem XP. Der direkte Effekt einer eroberten Brücke ist die XP (ab Frenzy: Mana); Brücken greifen den Meister nicht selbst an. Bestimmte Karten/Perks hängen an Brücken: Mana Puff erzeugt auf einer Brücke alle 10 s 1 Mana (erstes nach 12 s), Bridge Shrine gibt Extra-XP für die Brücke seiner Lane, Volcos 'Burn the Bridge' setzt eine Brücke in Brand."
+  },
+  {
+   "title": "Meister & Grundangriff",
+   "text": "Jeder Meister hat einen eigenen Grundangriff vom Turm aus (z. B. Valorian 45 Schaden alle 2 s; Stormbringer 35 Schaden alle 4 s mit Reichweite 20, ab Perk 1 global; Volco 50 Flächenschaden nur gegen Bodenziele alle 2,5 s; Tronveir 100 Schaden alle 4 s) und drei Perks, die im Match über XP freigeschaltet werden. Seit Patch 2.6 'Power UP' (25.07.2024) gibt es alternative Perks: Man wählt im Deckbau oder im Match, bis die XP-Schwelle erreicht ist – dann ist die Wahl fürs Match fix. Wiki-Liste: Apep, Diona, King Puff, Milloween, Mordar, Morellia, R3-KT, Ratbo, Ravager, Settsu, Stormbringer, Tronveir, Valorian, Volco. Meister werden mit Shards oder Rubinen freigeschaltet (z. B. Volco 1000 Shards/525 Rubine); wöchentlich sind 2 Meister kostenlos in der Rotation. Startmeister laut Wiki uneinheitlich (Valorian bzw. Stormbringer) (unsicher)."
+  },
+  {
+   "title": "Deck, Hand & Kartenzyklus",
+   "text": "Ein Deck besteht aus 10 Karten. Auf der Hand sind 4 Karten gleichzeitig verfügbar (Quelle: GiantBomb; ob zusätzlich die nächste Karte angezeigt wird: unsicher). Gespielte Karten wandern ans Ende des Decks (Wiki zu 'Ability'-Karten), das Deck rotiert also zyklisch. Perk-Karten werden oft 'oben' ins Deck gelegt (z. B. Valorians Searing Light). Ein Besitz-Exemplar genügt seit 2.0, um eine Karte mehrfach ins Deck zu packen (sofern erlaubt); manche Karten sind auf 1 Kopie pro Deck limitiert (z. B. seit 2.34 Ghast, Rendrath, Spiderlings, Undying Skeleton). Kartentypen: Minion, Spell, Building, Puff, Ability (Perk-Karten). Seltenheiten: Common, Rare, Supreme, Legendary (+ Perk). Seit 2.31 (27.07.2026) lassen sich Decks per Deck-Code exportieren/importieren (vorerst nur Steam)."
+  },
+  {
+   "title": "Beschwörung & Verzögerungen",
+   "text": "Nach dem Klick vergehen 0,5 s bis der Effekt startet. Zauber haben danach eine individuelle Cast-Verzögerung (von unter 1 s wie Black Hole bis über 2 s wie Call to Arms). Diener und Gebäude haben zusätzlich 1 s Beschwörungsübelkeit (Summoning Sickness): Sie stehen eingefroren da, können aber schon angegriffen werden. Das Keyword Rush hebt diese Verzögerung auf."
+  },
+  {
+   "title": "Zielauswahl der Einheiten",
+   "text": "Einheiten suchen ständig das nächstgelegene Ziel, das sie treffen können und das in ihrem Aggro-Radius liegt (8 oder ihre Reichweite, je nachdem was größer ist). Hat eine Einheit ein Ziel, bleibt sie dabei – auch wenn andere näher kommen oder sie angreifen. Ziel geht verloren, wenn es stirbt (oder der Tod vorhergesagt wird), den Aggro-Radius verlässt, untargetbar wird (Stealth, Black Hole) oder die eigene Einheit betäubt/verspottet wird. Ohne Ziel laufen Einheiten auf kürzestem Weg zum gegnerischen Turm. Manche Einheiten greifen nur Gebäude an oder können keine Flieger treffen (Kartenattribut 'Targets': Ground, Air, Buildings, All). Prioritäten: Marked > Taunt; bei mehreren Taunt-Zielen das nächste. Größere Einheiten (Unit-Radius) können kleinere wegschieben. Puffs laufen meist zur nächsten Brücke und bleiben dort."
+  },
+  {
+   "title": "Angriffsanimation",
+   "text": "Ein Angriff besteht aus Attack Delay (Ausholen/Zielen), dem eigentlichen Treffer bzw. Projektil und Attack Recovery; Delay + Recovery = Angriffstempo. Verliert eine Einheit im Delay ihr Ziel und es gibt kein anderes in Reichweite, bricht sie ab und läuft weiter; in der Recovery-Phase wartet sie diese erst ab. Mit neuem Ziel in Reichweite setzt sie den Zyklus nahtlos fort."
+  },
+  {
+   "title": "Spielmodi",
+   "text": "Ranked 1v1, Ranked 2v2 (zufälliger Partner oder Premade), Draft (750 Gold oder 55 Rubine; erster Draft gratis; Meister aus 3 wählen, dann 10× eine aus 3 Karten; Ende bei 12 Siegen oder 3 Niederlagen; Belohnung nach Siegen, ab 10 Siegen Chance auf Legendary), Mayhem (2v2 mit wöchentlich wechselnden Sonderregeln, Do–So bis 12:00 UTC, 750 Gold, erster Lauf pro Woche gratis), Adventures (Roguelike-Deckbuilding gegen KI-Bosse, solo oder zu zweit; einige 600 Rubine, 'Charging into Darkness' gratis; geben keine Profil-/Season-XP), Practice (gegen Bot mit wählbarer Schwierigkeit, seit 2.0), Friendly Fights. Entfernt: Expeditions (seit 1.12/April 2020 pausiert), Guild Conquest und House Event (mit 2.0 entfernt)."
+  }
+ ],
+ "keywords": [
+  {
+   "name": "Flying / Ground (Targets)",
+   "text": "Diener laufen am Boden oder fliegen. Jede Karte gibt an, was sie treffen kann (Ground, Air, Buildings, All). Nur Einheiten, die Luft treffen, können Flieger angreifen – Luftabwehr ist Pflicht im Deck."
+  },
+  {
+   "name": "Ranged / Melee",
+   "text": "Fernkämpfer greifen aus Distanz an (Aggro-Radius = Reichweite, mind. 8), Nahkämpfer müssen ans Ziel heran. Einige Effekte unterscheiden explizit (z. B. Bulwark, Marked, Volcos Embers für Melee/Ranged)."
+  },
+  {
+   "name": "AoE (Flächenschaden)",
+   "text": "Angriffe oder Zauber mit Flächenwirkung; der angegebene AoE-Wert ist der Radius. Wichtig gegen Schwärme (Swarmers, Scrats, Skelette)."
+  },
+  {
+   "name": "Taunt (Spott)",
+   "text": "Alle gegnerischen Einheiten im Umkreis von 5 müssen diese Einheit angreifen – auch solche, die sonst nur Gebäude angreifen. Stun deaktiviert Taunt für die Dauer."
+  },
+  {
+   "name": "Marked (Markiert)",
+   "text": "Gegnerische Fernkämpfer in Reichweite greifen diese Einheit zuerst an und verursachen +35 % Schaden. Entfernt Stealth. Hat Vorrang vor Taunt."
+  },
+  {
+   "name": "Stun (Betäubung)",
+   "text": "Betäubte Einheiten können weder angreifen noch sich bewegen; Fähigkeiten werden deaktiviert und Cooldowns zurückgesetzt (Ausnahmen: Highland Huntress, Bearzerker). Danach suchen sie das nächstgelegene Ziel neu."
+  },
+  {
+   "name": "Frozen (Eingefroren)",
+   "text": "Kann weder angreifen noch sich bewegen, erhält aber 50 % weniger Schaden und Heilung; 4 Sekunden. Setzt Fähigkeiten-Cooldowns zurück, wirkt aber (anders als Stun) nicht auf Taunt."
+  },
+  {
+   "name": "Icebreaker",
+   "text": "Ignoriert die Schadensreduktion von Frozen."
+  },
+  {
+   "name": "Slow (Verlangsamung)",
+   "text": "−20 % Angriffs- und Bewegungstempo. Entfernt Haste."
+  },
+  {
+   "name": "Haste (Eile)",
+   "text": "+33 % Angriffs- und Bewegungstempo. Entfernt Slow."
+  },
+  {
+   "name": "Rage (Wut)",
+   "text": "+50 % Angriffsschaden."
+  },
+  {
+   "name": "Berserker's Rage",
+   "text": "+100 % Angriffsschaden."
+  },
+  {
+   "name": "Shield (Schild)",
+   "text": "Blockt sämtlichen Schaden der nächsten Schadensquelle."
+  },
+  {
+   "name": "Divine Shield",
+   "text": "Heiliger Schild: immun gegen Schaden für 5 Sekunden."
+  },
+  {
+   "name": "Barrel Shield",
+   "text": "Scrat trägt ein Fass (60 HP), das ihn verlangsamt (Tempo −2); bricht es, kommt er mit voller Gesundheit heraus."
+  },
+  {
+   "name": "Bulwark",
+   "text": "Erhält 25 % weniger Schaden von Fernkämpfern."
+  },
+  {
+   "name": "Thick Hide (Dicke Haut)",
+   "text": "Reduziert Diener- und Zauberschaden um 7 pro Treffer (mindestens 1) – stark gegen schnelle, schwache Treffer."
+  },
+  {
+   "name": "Stealth (Tarnung)",
+   "text": "Wird unsichtbar, solange die Einheit 2 Sekunden lang weder angreift noch Schaden nimmt."
+  },
+  {
+   "name": "Sneaky",
+   "text": "Kann von Dienern nicht anvisiert werden, bis die Einheit erstmals Schaden nimmt oder angreift."
+  },
+  {
+   "name": "Spirit",
+   "text": "+40 % maximale Gesundheit (mind. +100, max. +350); nur einmal pro Diener."
+  },
+  {
+   "name": "Vampiric",
+   "text": "Beim Todesstoß heilt sich die Einheit um 20 % der max. Gesundheit des Ziels (bis 100)."
+  },
+  {
+   "name": "Marksmanship",
+   "text": "+2 Reichweite."
+  },
+  {
+   "name": "Rush",
+   "text": "Keine Beschwörungsübelkeit – die Einheit handelt sofort nach dem Beschwören."
+  },
+  {
+   "name": "Mana Surge",
+   "text": "+25 % Angriffstempo, solange man 6 oder mehr Mana hat."
+  },
+  {
+   "name": "Growthburst Shroom / Giant Growth",
+   "text": "Pflanzt Pilze in der eigenen Arena (45 s haltbar); ein Zen-Chi-Diener, der einen aufsammelt, erhält Giant Growth (Wachstums-Buff)."
+  },
+  {
+   "name": "Poison (Gift)",
+   "text": "10 Schaden alle 0,5 s; nicht auf Meister oder Gebäude anwendbar; weiteres Gift verlängert die Dauer."
+  },
+  {
+   "name": "Cursed (Verflucht)",
+   "text": "Verliert jede Sekunde 3 % der maximalen Gesundheit."
+  },
+  {
+   "name": "Fear (Furcht)",
+   "text": "Läuft 4 Sekunden in gerader Linie von der Quelle weg und kann nicht angreifen."
+  },
+  {
+   "name": "Hypnotized",
+   "text": "Gegnerische Diener greifen für die Dauer zufällige verbündete Einheiten in Reichweite an."
+  },
+  {
+   "name": "Mana Freeze (X)",
+   "text": "Streicht die nächsten X Mana, die man gewinnen würde – oft als Zusatzkosten mächtiger Karten."
+  },
+  {
+   "name": "Blood Pact",
+   "text": "Der eigene Meister erleidet True Damage in Höhe von 85 % des Schadens, den dieser Diener erleidet (auch Overkill)."
+  },
+  {
+   "name": "Knockback / Pull",
+   "text": "Effekte, die Einheiten wegstoßen oder verschieben (z. B. Tronveirs Runestone stößt Gegner zurück, King Puffs Trick Swap vertauscht Positionen, Cannon Roller rollt zurück). Mythic-Einheiten sind immun gegen Knockback. Kein eigenes Wiki-Keyword (unsicher)."
+  },
+  {
+   "name": "Mythic",
+   "text": "Immun gegen Knockback; Zerstören/Verwandeln verursacht stattdessen Schaden in Höhe der halben Gesundheit; verlässt das Feld statt zu sterben (keine 'on death'-Effekte, keine Wiederbelebung); pro Team nur eine Kopie gleichzeitig."
+  },
+  {
+   "name": "Legion (X)",
+   "text": "Mischt X einmalige Legionnaires ins Deck, die beim Ziehen sofort beschworen werden."
+  },
+  {
+   "name": "Myriad (X)",
+   "text": "Beim Ziehen werden X einmalige Kopien dieser Karte (ohne Myriad) ins Deck gemischt."
+  },
+  {
+   "name": "Piloted",
+   "text": "Beschwört beim Tod eine andere Einheit (Pilot)."
+  },
+  {
+   "name": "Ability (Fähigkeitskarte)",
+   "text": "Spielt man den Diener, kommt statt seiner eine Fähigkeitskarte auf die Hand; stirbt der Diener, geht er ans Deckende und die Fähigkeit wird abgeworfen."
+  },
+  {
+   "name": "Invoke",
+   "text": "Ersetzt eine Voidborne-Karte auf der Hand durch eine zufällige Voidborne-Karte, die 1 Mana mehr kostet (behält bis zum Ausspielen die alten Kosten)."
+  },
+  {
+   "name": "Slitherbind (X) / Sacrifice",
+   "text": "Slitherbind fügt einer Slither-Karte auf der Hand X Slitherbound-Diener hinzu, die mit ihr beschworen werden. Sacrifice: Effekte, die das Töten eigener Slitherbound als Bedingung haben."
+  },
+  {
+   "name": "Revelry (Stoutheart)",
+   "text": "Löst aus, wenn die Einheit nahe einer anderen Stoutheart-Einheit beschworen wird oder eine solche in der Nähe erscheint."
+  },
+  {
+   "name": "Accursed Ascension",
+   "text": "Wird aktiv, sobald man 80 Mana für Accursed-Karten ausgegeben hat – dann erhalten Accursed-Karten Zusatzeffekte."
+  },
+  {
+   "name": "Empyrean Army",
+   "text": "Aktiv mit 7 oder mehr verschiedenen Empyrean-Karten im Deck."
+  },
+  {
+   "name": "Outlander Tech",
+   "text": "Beim Ziehen einer Outlander-Karte erhält man 5 Tech pro Mana-Kosten; Tech wird von Karten für Effekte verbraucht."
+  },
+  {
+   "name": "Scrat Swarm",
+   "text": "Aktiv, solange man 5 oder mehr Scrat-Diener in der gegnerischen Arena hat (hält 5 s an)."
+  },
+  {
+   "name": "Voidborne Wound",
+   "text": "Aktiviert, wenn ein eigener Voidborne-Diener den gegnerischen Meister getroffen hat, während diese Karte auf der Hand ist."
+  },
+  {
+   "name": "Zen-Chi Flow",
+   "text": "Aktiv, wenn die zuletzt gespielte Karte eine Zen-Chi-Karte war."
+  },
+  {
+   "name": "Summoning Sickness",
+   "text": "1 s Starre nach dem Beschwören (zusätzlich zu 0,5 s Grundverzögerung); die Einheit ist dabei schon verwundbar."
+  },
+  {
+   "name": "Puff (Kartentyp)",
+   "text": "Seit 1.19 ein Kartentyp statt Fraktion. Puffs laufen meist zur nächsten Brücke und bleiben dort (z. B. Mana Puff). Seit 2.8 normal überall in der eigenen Hälfte platzierbar."
+  }
+ ],
+ "factions": [
+  {
+   "name": "Empyrean",
+   "theme": "Menschliche Streitmacht des Lichts: zähe Infanterie (Legionnaires, Crossbow Dudes) und große Diener, die Schaden schlucken; Heilung/Heiliges Feuer. Mechanik: Empyrean Army. Passender Meister: Valorian.",
+   "icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/88/Empyreanicon.png/revision/latest?cb=20251221102344"
+  },
+  {
+   "name": "Crystal Elf",
+   "theme": "Elfen mit Kristall- und Arkanmagie: überwältigende Fernkampfkraft hinter riesigen Golems, viele Zauber (Commander Lord-Sentinel Thelec, High-Mage Leiliel). Mana Puff gehört dazu.",
+   "icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/fc/CrystalElficon.png/revision/latest?cb=20251221102841"
+  },
+  {
+   "name": "Outlander",
+   "theme": "Hightech-Fraktion aus einer anderen Welt: Fernkämpfer, Drohnen und eine starke Luftwaffe; Ressource 'Tech'. Meister: Settsu, R3-KT.",
+   "icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/a/ab/Outlandericon.png/revision/latest?cb=20251221102946"
+  },
+  {
+   "name": "Zen-Chi",
+   "theme": "Wesen des Jadespark-Dschungels mit ostasiatischem Flair (Shi-Hou, Jing Long/Xiao Long, Feng): Stuns, Luft, Kontrolle, Heilung (Community-Einschätzung). Mechaniken: Zen-Chi Flow, Growthburst Shroom.",
+   "icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/5/5c/Zen-Chiicon.png/revision/latest?cb=20251221102624"
+  },
+  {
+   "name": "Voidborne",
+   "theme": "Dämonen aus der Leere (Imps, Gor'Rakk, Shars'Rakk, Mal'Shar): Tricksereien, Aggression auf den Meister. Mechaniken: Voidborne Wound, Invoke.",
+   "icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/4/40/Voidborneicon.png/revision/latest?cb=20251221102021"
+  },
+  {
+   "name": "Accursed",
+   "theme": "Untote und Nekromantie (Skelette, Geister, Morellia die Lich-Königin, Mordar): Wiederbelebung, Spirit, Flüche. Mechanik: Accursed Ascension.",
+   "icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/9a/Accursedicon.png/revision/latest?cb=20251221102418"
+  },
+  {
+   "name": "Slither",
+   "theme": "Schlangenvolk und böse Schlangengötter (Apep, Slitherbound): Gift, Opfer-Mechaniken. Mechaniken: Slitherbind, Sacrifice.",
+   "icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/b/b5/Slithericon.png/revision/latest?cb=20251221102652"
+  },
+  {
+   "name": "Scrat",
+   "theme": "Rattenartige Kreaturen mit Schwarm-Taktik, Sprengstoff und improvisierter Technik (Ratbo, Wreckinator 9000, Jolo). Mechanik: Scrat Swarm.",
+   "icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/6c/Scraticon.png/revision/latest?cb=20251222135545"
+  },
+  {
+   "name": "Stoutheart",
+   "theme": "Clans des kalten Nordens/Hochlands (Bären, Frostfeathers, Caber Tosser, Tronveir mit Runenmagie 'Runewyrd'): Frost/Frozen, Feierlaune. Mechanik: Revelry.",
+   "icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/a/ab/Stouthearticon.png/revision/latest?cb=20251221105125"
+  },
+  {
+   "name": "Puff",
+   "theme": "Kleine legendäre, fröhliche Wesen, die zwischen den Fäden der Realität leben und auftauchen/verschwinden können (King Puff). Seit 1.19 ist 'Puff' auch ein Kartentyp; das Wiki führt Puff weiterhin als eine der 10 Fraktionen.",
+   "icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/93/Pufficon.png/revision/latest?cb=20251221102811"
+  }
+ ],
+ "economy": [
+  {
+   "title": "Gold",
+   "text": "Häufigste Währung: Siege/Spiele, Tagesquests (je 1500 Gold + 75 Season-Pass-XP, bis zu 3 gleichzeitig aktiv), Profil-Level, Shop-Gratisangebote. Ausgabe: Power Tokens (je 1000 Gold), tägliche Shop-Angebote (seit 2.0 12 Daily Offers pro Tag, nur gegen Gold – darunter auch früher rubinexklusive Skins/Arenen), Draft/Mayhem (750 Gold)."
+  },
+  {
+   "title": "Shards (Scherben)",
+   "text": "Crafting-Währung: gezielt Karten herstellen, Meister und Arenen freischalten, Karten promoten. Gibt es u. a. aus Power Tokens (Bonus je nach Seltenheit), Rangbelohnungen und Shop. Ältere Faustregel aus Community-Guides: 1000 Gold ≈ 80 Rubine ≈ 125 Shards (Stand 2019, unsicher ob aktuell)."
+  },
+  {
+   "title": "Rubine",
+   "text": "Premium-Währung (Echtgeld, gelegentlich Gratis-Claim im Shop). Seit 2.0 als Belohnung stark reduziert (keine Rubine mehr in Profil-, Rang- und Season-Pass-Belohnungen), dafür Preise gesenkt: Season Pass 1050, Adventure 600, Legendary-Karte 1050, Legendary-Skin 1500, Supreme-Skin 1000, Legendary-Arena 2000, Legendary-Emote 400 Rubine (Stand Nov. 2023)."
+  },
+  {
+   "title": "Power Tokens / Power Tower",
+   "text": "'Lootbox' des Spiels: Jedes Token gibt eine zufällige Karte plus Shards. Kaufen im Shop für 1000 Gold; auch aus Season Pass (z. B. 35 Power Tokens pro Season-Pass-Track 2024), Rängen, Level-Ups. Ältere Community-Angabe zu Drop-Raten: Common 50 %, Rare 40 %, Supreme 8 %, Legendary 2 % (Stand 2019, unsicher)."
+  },
+  {
+   "title": "Karten-Promotion & Glory",
+   "text": "Karten lassen sich promoten (Rahmen-Stufen bis Gold); seit 2.0 gibt das Promoten Belohnungen (Power Tokens, Karten, Gold). Glory: Jede Karte im Deck bringt bei einem Sieg 1 Glory für den Season-Pass-Fortschritt, auf Gold-Stufe bis zu 5. Promotion erhöht keine Kampfwerte – Karten sind für alle gleich stark (fair-to-play)."
+  },
+  {
+   "title": "Season Pass",
+   "text": "Etwa monatliche Seasons mit 2 neuen Karten (eine nur im Premium-Pfad, später erspielbar), Skins, Emotes, Arenen und Ressourcen. Premium: 1050 Rubine. Fortschritt über Glory aus Siegen und Tagesquests. Free Track enthält seit 2.0 eine zusätzliche Legendary. Beispiel Season 'Commander's Blade' (2.2): 35 Power Tokens, 275 Shards, 7000 Gold, 3 Legendary-, 4 Supreme-Karten u. a. Historisch: Battle Pass seit Update 68 (14.06.2018, damals 1500 Rubine)."
+  },
+  {
+   "title": "Premium Upgrade (DLC)",
+   "text": "Einmalkauf (Steam ca. 19,50 €): dauerhaft +50 % Gold-Siegbonus, +20 % XP-Siegbonus, 2500 Rubine, 500 Shards, 5 Power Tokens, 6 zusätzliche Deck-Slots. Gilt in Community-Guides als bester erster Echtgeld-Kauf."
+  },
+  {
+   "title": "All Masters Upgrade (DLC)",
+   "text": "Schaltet alle aktuellen und zukünftigen Meister frei (Steam ca. 19,50 €; seit 10.12.2018)."
+  },
+  {
+   "title": "Fraktions-/Season-DLCs",
+   "text": "Zahlreiche Bundles (je ca. 14,79 €, beworben als '+300 % Wert') mit Fraktionskarten, Kosmetik und Season-Pass-Vorsprung, z. B. Voidborne Onslaught, Accursed Army Pack, Might of the Slither Lords, Crystal Conquest, Zealous Inferno, Charging Into Darkness, Nightmares, Uprising, Outlandish Operations, Scrat Infestation, Mordar's Malediction, Frost Dragon's Lair, KaBOOM Kingdom, Torment, Furry Fury, Arise!, Vanguard, Mountain Song, Frostbite, Power UP. Viele wurden zum Start kurzzeitig gratis verteilt."
+  },
+  {
+   "title": "Profil-Level-Belohnungen",
+   "text": "Jeder Profil-Level bringt etwas (Karten, Gold, Power Tokens, Deck-Slots, Draft-Tickets, Arenen); seit 2.0 auch Legendaries, Legendary-Skins und die Meister Volco und Milloween. Nach Level 50 wiederholen sich Belohnungen im 10er-Zyklus (u. a. Gold, Power Tokens)."
+  },
+  {
+   "title": "Rangbelohnungen (pro Season, einmalig)",
+   "text": "Wood: nichts; Stone: 15× zufällige Common; Bronze: 3000 Gold; Silver: 15× zufällige Rare; Gold: 5 Power Tokens; Platinum: 10× zufällige Supreme; Diamond: 500 Shards; Master: 10 Power Tokens; Grandmaster: 1 Legendary; Contender: 300 Rubine + Chatfarbe/Icon; 2× Contender: 2 Legendaries; 3× Contender: 3 Legendaries. Seit 2.0 ein gemeinsamer Track über alle Ranked-Modi."
+  },
+  {
+   "title": "Abgeschaffte Systeme",
+   "text": "Free Spin (bis 1.19, durch Gratis-Shop-Angebote ersetzt), Season Tokens & Battle Chest, Guild Conquest, House Event, Expeditions, Challenges (durch Practice ersetzt). Ältere Guides (2018–2019, teils kopiert in neueren) beschreiben diese noch – Vorsicht beim Lesen."
+  },
+  {
+   "title": "F2P-Tipps: Wofür zuerst ausgeben?",
+   "text": "1) Täglich einloggen: Tagesquests (geben Gold und Season-XP) und Gratis-Claims im Shop abholen. 2) Gold zuerst in Power Tokens bzw. gute Gold-Angebote für Karten stecken, die man wirklich spielt (Faustregel der Community: eine bestimmte Karte für unter 1000 Gold ist meist ein guter Deal). 3) Shards gezielt für Schlüsselkarten des eigenen Decks und für einen zweiten Meister nutzen – nicht für Promotion verschwenden. 4) Rubine für den Season Pass aufheben statt für Zufallskarten oder Tokens. 5) Meister vor dem Kauf in der Gratis-Rotation testen. 6) Wer Geld ausgeben will: zuerst Premium Upgrade, dann ggf. All Masters Upgrade. 7) Ein günstiges, solides Deck (Ø 3,5–4 Mana) bringt mehr als eine breite Sammlung."
+  }
+ ],
+ "ranks": "10 Ligen: Wood (Rang 40–36), Stone (35–31), Bronze (30–26), Silver (25–21), Gold (20–16), Platinum (15–11), Diamond (10–6), Master (5–1), darüber Grandmaster und Contender ohne Rangnummer (angezeigt wird die Platzierung; Contender erfordert 2000 Punkte innerhalb von Grandmaster). Getrennte Ranglisten für 1v1, 2v2 Random und 2v2 Premade; Draft hat seit 2.0 ein Leaderboard. Ranglisten werden pro Season (mit Updates) zurückgesetzt. Punkte hängen von Elo-Differenz und Rangdifferenz ab (Formel im Wiki; 2v2 mit Elo-Offset −400). In Wood und Stone verliert man bei Niederlagen keine Punkte; bis unterhalb Master I gibt es doppelte Punkte, wenn die beiden vorherigen Ladder-Spiele ebenfalls gewonnen wurden. Matchmaking sucht zunächst gleichen Rang und weitet dann schrittweise (max. ±20 Ränge); bei langer Wartezeit wird ein Spiel gegen den 'Queue Master' (Bot) angeboten. Externe Elo-Tracker aus der Community: fdmfdm.nl, minionmastersmanager.web.app.",
+ "beginner_tips": [
+  "Brücken sind das Herz des Spiels: Jede gehaltene Brücke bringt 1 XP alle 4 s – das heißt frühere Perks und früherer Mana-Frenzy. Halte möglichst oft beide.",
+  "Nimm billige Diener (1–2 Mana) ins Deck, um Brücken schnell zu erobern und zurückzuholen.",
+  "Spiele Karten mit mehreren Einheiten in die Mitte deiner Hälfte, damit sie sich auf beide Brücken aufteilen.",
+  "Achte auf eine durchschnittliche Deck-Mana-Kosten von etwa 3,5–4; mehr als 4 Karten mit 5+ Mana verstopfen die Hand.",
+  "Jedes Deck braucht Antworten auf: Flieger (Luftabwehr!), Schwärme (Flächenschaden), dicke Tanks und Fernkämpfer in der zweiten Reihe.",
+  "Diener lassen sich nach dem Beschwören nicht steuern – die Platzierung entscheidet, wohin sie laufen und wen sie zuerst angreifen (immer das nächste erreichbare Ziel).",
+  "Rechne die Verzögerung ein: 0,5 s bis zur Wirkung plus 1 s Beschwörungsübelkeit bei Dienern bzw. Cast-Verzögerung bei Zaubern.",
+  "Fernkämpfer gehören hinter einen Tank – vorne saugt der Tank den Schaden, hinten wird ungestört geschossen.",
+  "Spiele nicht jede Karte sofort: Ein gebündelter Push (Tank + Unterstützung) ist stärker als einzeln gespielte Einheiten.",
+  "Lerne die Perks deines Meisters und deren XP-Schwellen (20/60/120 XP) – plane Pushes rund um den Perk-Zeitpunkt.",
+  "Lies Karten genau (Rechtsklick/Info): Leben, Schaden, Reichweite, Ziele. Wenn der gegnerische Meister nur noch wenig Leben hat, kann ein Zauber das Spiel direkt beenden.",
+  "Teste Meister in der wöchentlichen Gratis-Rotation, bevor du Shards oder Rubine ausgibst.",
+  "Nutze den Practice-Modus gegen Bots, um neue Decks risikofrei auszuprobieren.",
+  "Hol täglich Quests und Gratis-Angebote im Shop ab – das ist die Hauptquelle für Gold und Season-Fortschritt.",
+  "Deine Lebenspunkte sind eine Ressource: Du musst nicht jeden Punkt verteidigen, wenn du dafür effizient kontern kannst."
+ ],
+ "advanced_tips": [
+  "Mana-Effizienz: Verteidige einen Push mit möglichst wenig Mana und kontere dann mit dem Überschuss – positive Mana-Trades gewinnen Spiele.",
+  "Brücken-Timing vor dem Frenzy: Wer die Brücken länger hält, erreicht zuerst 200 XP; danach wird jede XP zu Mana – Brückenkontrolle im Late Game ist also direkt Bonus-Mana.",
+  "Verteidigung in der Turmecke: Starke Schadensdealer neben den eigenen Turm setzen – der Turm zieht kurz Aggro und Schaden, dein Dealer räumt den Push ab und startet den Konter.",
+  "Aggro-Radius nutzen: Einheiten wählen das nächste erreichbare Ziel im Radius 8 (bzw. ihrer Reichweite). Mit gezielter Platzierung kannst du Gegner von Lanes wegziehen oder Einheiten an Verteidigern vorbeischleusen.",
+  "Zielbindung ausnutzen: Einmal gewählte Ziele werden nicht gewechselt. Ein billiger Köder zieht gegnerische Brecher auf sich, während deine Dealer frei arbeiten.",
+  "Gebäude-only-Einheiten (Siege) werden von Taunt-Einheiten abgelenkt – plane Taunt als Konter gegen Belagerungs-Pushes.",
+  "Marked schlägt Taunt: Fernkämpfer bevorzugen markierte Ziele (+35 % Schaden) – nutze das, um einen Gegner-Tank mit Taunt zu umgehen.",
+  "Spells gegen Stealth und Schwärme aufheben: Halte Flächenzauber für Schwarmkarten oder Stealth-Einheiten des Gegners zurück, statt sie auf Einzelziele zu verschwenden.",
+  "Gegner-Zyklus zählen: Mit 10-Karten-Decks und zyklischer Rotation kannst du mitzählen, wann die gefährliche Karte (z. B. AoE-Zauber) wieder verfügbar ist – und genau dann nicht in sie hineinspielen.",
+  "Die Summoning Sickness bestrafen: Frisch beschworene Einheiten sind 1 s wehrlos – Flächenschaden direkt auf eine frische Gruppe ist besonders effizient.",
+  "Stun/Freeze clever timen: Beide setzen Fähigkeiten-Cooldowns zurück. Frozen halbiert aber Schaden am Ziel – Icebreaker-Karten ignorieren das.",
+  "Lane-Splitting: Wenn der Gegner alles auf eine Brücke wirft, nimm dir die andere – billige Einheiten auf der leeren Lane bringen XP und erzwingen Reaktionen.",
+  "Verteidigen oder pushen? Wenn du Mana- oder Kartenvorteil hast oder der Gegner gerade teuer gespielt hat, pushe. Bei leerem Mana des Gegners lohnt ein Gegenangriff in die andere Lane.",
+  "Mana nicht verfallen lassen: Bei 10 Mana verschwendest du Regeneration – spiele lieber eine günstige Karte zur Brückensicherung.",
+  "Der Meister-Grundangriff ist Teil deiner Verteidigung: Lass schwache Einheiten in Reichweite deines Meisters kommen, statt Karten dafür zu verschwenden (je nach Meister: z. B. Volco trifft nur Bodenziele, Stormbringer hat große Reichweite).",
+  "Perks planen: Alternative Perks (seit 2.6) können noch im Match gewählt werden, bis die XP-Schwelle erreicht ist – passe die Wahl an Gegner-Meister und Deck an.",
+  "Late Game (ab 3:20 maximale Mana-Rate): Halte Konter für die größten Bedrohungen bereit und nutze die schnelle Regeneration für Doppel-Pushes.",
+  "Matchup-Wissen: Kenne Lebenspunkte und Schaden wichtiger Karten (z. B. welcher Zauber welchen Diener tötet), damit Trades nicht knapp misslingen.",
+  "2v2: Teammate sieht deine Karten und dein Mana – zeige mit Pings, was du als Nächstes spielen willst, und koordiniert Pushes auf dieselbe oder bewusst auf getrennte Lanes. XP ist geteilt, der Frenzy braucht im 2v2 laut Wiki 400 XP.",
+  "2v2: Nicht beide dasselbe kontern – sprecht ab, wer Luftabwehr und wer Schwarm-Clear übernimmt, um doppelte Mana-Ausgaben zu vermeiden."
+ ],
+ "lore": "Minion Masters spielt in derselben Welt wie BetaDwarfs frühere Titel FORCED (2013) und Forced Showdown (2017) – laut BetaDwarf teilen sich diese Spiele ein Universum (auch das 2020 angekündigte 'Project Haven' sollte darin spielen). Der Kontinent bzw. die Welt heißt laut Wiki-Karte 'Mider' (Map of Mider). Die Meister treten in Arena-Kämpfen gegeneinander an; der Rahmen spielt mit dem Showcharakter (Stormbringer gehört zu den wenigen Helden, die die 'Game Shows' lieben; die Arena 'Showdown' war einst Schauplatz einer intergalaktischen Spielshow). Figuren: Volco, ein ehemaliger Sklave mit dem Vulkanhammer; Stormbringer mit dem Sturmbogen (gleiche Herkunft wie Volco); Ravager, ein Apex-Jäger; King Puff aus dem Volk der Puffs; der wahnsinnige Lich Mordar; Ratbo, Held der Scrats; Apep, der Schlangengott; Settsu, eine gestrandete Ex-Soldatin, die einen Weg nach Hause sucht; Milloween, die Magierin, die für King Puff schwärmt; Diona die Hexenjägerin mit ihrem Hund Ruffles (Pinewood); Morellia die Lich-Königin, Herrscherin der verfluchten Lande mit dem Buch der Toten; Tronveir der Runeshaper der Stoutheart. Kurzgeschichten (PDF/Audio): 'Milloween and the Staff of Eternity', 'The Summoning', 'Shadows in Pinewood', 'The Corrupting Will', 'A Brother's Rite', 'The Lich Queen', 'Quest for Mountainshaper – Prologue'; jedes Adventure hat zudem eine kleine Story. Entwickler: BetaDwarf (Kopenhagen, Dänemark; laut eigener Aussage 2019 seit ca. 9 Jahren aktiv, Gründung also um 2010 – unsicher). Seit 2025 arbeitet BetaDwarf zusätzlich an 'Vaultbreakers' (Fantasy-Extraction-ARPG, ehemals 'Project F4E', Publisher Square Enix, Demo seit Oktober 2026); Minion Masters erhält weiterhin monatliche Patches.",
+ "timeline": [
+  {
+   "date": "2016-11",
+   "event": "Steam Early Access (früheste dokumentierte Updates 0.3.25 am 19.11.2016; Premium Upgrade DLC seit 02.12.2016) (genaues Startdatum unsicher)"
+  },
+  {
+   "date": "2017",
+   "event": "Wöchentliche Updates: u. a. Draft-Modus, Team Battle (2v2), Turniere"
+  },
+  {
+   "date": "2018-06-14",
+   "event": "Update 68: Battle Pass und Glory-System eingeführt"
+  },
+  {
+   "date": "2018-12-06",
+   "event": "Minion Masters wird auf Steam Free-to-Play (noch Early Access)"
+  },
+  {
+   "date": "2018-12-10",
+   "event": "All Masters Upgrade DLC erscheint"
+  },
+  {
+   "date": "2019-02-07",
+   "event": "Update 87: Gilden (Guild Conquest ab Update 89 am 06.03.2019)"
+  },
+  {
+   "date": "2019-05-24",
+   "event": "Version 1.0 'Bones & Bravery' – Vollrelease auf Steam und Release auf Xbox One"
+  },
+  {
+   "date": "2019-06-19",
+   "event": "1.2: Morellia die Lich-Königin"
+  },
+  {
+   "date": "2019-08-15",
+   "event": "1.4: Erweiterung 'Sand Wars' (Slither Lords)"
+  },
+  {
+   "date": "2019-12-05",
+   "event": "1.7: 'The Quest for Mountainshaper' – erstes Adventure (Roguelike-PvE)"
+  },
+  {
+   "date": "2020-03-05",
+   "event": "1.10: Adventure 'Saving Jadespark Jungle'"
+  },
+  {
+   "date": "2020-04",
+   "event": "1.12: Expeditions pausiert"
+  },
+  {
+   "date": "2020-09-24",
+   "event": "1.17: Neuer Meister Dawn Marshall Valorian"
+  },
+  {
+   "date": "2020-11-03",
+   "event": "Ankündigung Minion Masters 2.0 (neuer Client, Cross-Platform, Mobile) und 'Project Haven'"
+  },
+  {
+   "date": "2020-12-03",
+   "event": "1.19 'Uprising': Ökonomie-Umbau (Free Spin weg, weniger Rubine), Puff wird Kartentyp, Zen-Chi-Erweiterung"
+  },
+  {
+   "date": "2021-03-04",
+   "event": "Erweiterung 'Outlandish Operations' mit Meisterin Settsu"
+  },
+  {
+   "date": "2021-09-20",
+   "event": "1.28 'Malediction' mit Mordar's Malediction DLC"
+  },
+  {
+   "date": "2022-01-06",
+   "event": "Erweiterung 'Invasion'"
+  },
+  {
+   "date": "2022-04-07",
+   "event": "1.34 'Frost Dragon's Lair'"
+  },
+  {
+   "date": "2022-10-13",
+   "event": "1.40 'Torment'"
+  },
+  {
+   "date": "2023-12-12",
+   "event": "2.0 Prologue 'Mountain Song': neuer Client/UI, neuer Meister Tronveir, Ökonomie-Umbau (weniger Rubine, günstigere Preise), Practice-Modus, Conquest und House Event entfernt, Deck-Reset"
+  },
+  {
+   "date": "2024-04-16",
+   "event": "Android-Release mit Cross-Play aller Plattformen und Cross-Save PC ↔ Mobile"
+  },
+  {
+   "date": "2024-07-25",
+   "event": "2.6 'Power UP': alternative Meister-Perks"
+  },
+  {
+   "date": "2024-09-24",
+   "event": "2.8 'Bearzerk!': Puffs frei platzierbar"
+  },
+  {
+   "date": "2024-10-29",
+   "event": "2.9 'Moonstruck': neue Karte The Revenant"
+  },
+  {
+   "date": "2025-01-30",
+   "event": "BetaDwarf enthüllt neues Spiel 'Vaultbreakers'"
+  },
+  {
+   "date": "2025–2026",
+   "event": "Monatliche Patches 2.12–2.34 mit Balance-Änderungen, 2v2-Qualitätsmaßnahmen (Dez. 2025/Feb. 2026)"
+  },
+  {
+   "date": "2026-07-27",
+   "event": "2.31: Deck-Codes zum Teilen von Decks (Steam)"
+  },
+  {
+   "date": "2026-10-19",
+   "event": "2.34: aktueller Balance-Patch (u. a. 1-Kopie-Limit für Ghast, Rendrath, Spiderlings, Undying Skeleton)"
+  }
+ ],
+ "links": [
+  {
+   "name": "Steam-Seite",
+   "url": "https://store.steampowered.com/app/489520/Minion_Masters/"
+  },
+  {
+   "name": "Offizielle Website",
+   "url": "https://minionmastersthegame.com/"
+  },
+  {
+   "name": "BetaDwarf (Entwickler)",
+   "url": "https://www.betadwarf.com"
+  },
+  {
+   "name": "BetaDwarf Blog (Patchnotes)",
+   "url": "https://blog.betadwarf.com/"
+  },
+  {
+   "name": "Steam News / Patchnotes",
+   "url": "https://steamcommunity.com/app/489520/allnews/"
+  },
+  {
+   "name": "Minion Masters Wiki (Fandom)",
+   "url": "https://minionmasters.fandom.com/wiki/Minion_Masters_Wiki"
+  },
+  {
+   "name": "Offizieller Discord (~88k Mitglieder)",
+   "url": "https://discord.gg/minionmasters"
+  },
+  {
+   "name": "Subreddit r/MinionMasters",
+   "url": "https://www.reddit.com/r/MinionMasters/"
+  },
+  {
+   "name": "Steam-Community-Guides",
+   "url": "https://steamcommunity.com/app/489520/guides/"
+  },
+  {
+   "name": "Google Play (Android)",
+   "url": "https://play.google.com/store/apps/details?id=com.betadwarf.minionmasters.googleplay"
+  },
+  {
+   "name": "Microsoft Store / Xbox",
+   "url": "https://www.microsoft.com/store/apps/9NRPPQHL2MZM"
+  },
+  {
+   "name": "BetaDwarf auf YouTube",
+   "url": "https://youtube.com/betadwarf"
+  },
+  {
+   "name": "BetaDwarf auf X/Twitter",
+   "url": "https://twitter.com/betadwarf"
+  },
+  {
+   "name": "BadAsAFish80 – Twitch (Minion Masters Partner, Top-Spieler)",
+   "url": "https://www.twitch.tv/badasafish80"
+  },
+  {
+   "name": "BadAsAFish80 – YouTube",
+   "url": "https://www.youtube.com/c/badasafish80"
+  },
+  {
+   "name": "BadAsAFish80 – Steam-Guide",
+   "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2972227469"
+  },
+  {
+   "name": "Elo-Tracker (Community)",
+   "url": "https://minionmastersmanager.web.app"
+  },
+  {
+   "name": "Hinweis",
+   "url": "minionmasters.com ist eine geparkte Domain (zum Verkauf) – NICHT verlinken. Weitere Creator aus einem BetaDwarf-Blogpost 2018 (Edelweiss, Zgriptor, Dorwulf, SwongoTV) – Aktivität heute unsicher."
+  }
+ ],
+ "images": {
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489520/header.jpg",
+  "hero": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489520/library_hero.jpg",
+  "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489520/page_bg_raw.jpg",
+  "screenshots": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489520/ss_ff25c94b1cc1a3731c0f51a2a31d9516d725048a.1920x1080.jpg?t=1776070207",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489520/ss_e4ae57dca3a26ce13a01d4ac2871f711679e0934.1920x1080.jpg?t=1776070207",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489520/ss_346d2d960336e8093e2a6cf3a2648ddbce10e4b2.1920x1080.jpg?t=1776070207",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489520/ss_d1dd61e5ce82e21e2b1637e8e0dceabb037bf58c.1920x1080.jpg?t=1776070207",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489520/ss_111e635c7f33fc47366f2c43139e333799fbaf04.1920x1080.jpg?t=1776070207",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489520/ss_06fa2fc78e91876b638fba5262a892d04fb06032.1920x1080.jpg?t=1776070207",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489520/ss_759e6021df563722cc938823e74624253b8cf2bc.1920x1080.jpg?t=1776070207",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489520/ss_1101dea05326bfc5ed7fec4bb87c2c1f7d50ad34.1920x1080.jpg?t=1776070207"
+  ],
+  "other": [
+   {
+    "desc": "Steam-Logo (transparentes PNG)",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489520/logo.png"
+   },
+   {
+    "desc": "Steam Library-Cover 600x900",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489520/library_600x900_2x.jpg"
+   },
+   {
+    "desc": "Steam Capsule 616x353",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489520/capsule_616x353.jpg"
+   },
+   {
+    "desc": "Steam Header (alter CDN-Pfad, funktioniert ebenfalls)",
+    "url": "https://cdn.akamai.steamstatic.com/steam/apps/489520/header.jpg"
+   },
+   {
+    "desc": "Steam Store-Hintergrund (verarbeitet)",
+    "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/489520"
+   },
+   {
+    "desc": "Offizielles Logo Gold (minionmastersthegame.com)",
+    "url": "https://minionmastersthegame.com/img/MinionMasters_Logo_Gold_Eighthsize.png"
+   },
+   {
+    "desc": "Offizieller Screenshot Kampfszene",
+    "url": "https://minionmastersthegame.com/img/screens/Angled_combatScene.jpg"
+   },
+   {
+    "desc": "Offizieller Screenshot 2v2 Garden World",
+    "url": "https://minionmastersthegame.com/img/screens/GardenWorld_2v2.jpg"
+   },
+   {
+    "desc": "Offizieller Screenshot Demon vs Undead",
+    "url": "https://minionmastersthegame.com/img/screens/DemonvsUndead.jpg"
+   },
+   {
+    "desc": "Wiki-Logo (Hotlink-geschützt: liefert 403 ohne Referer minionmasters.fandom.com – lokal herunterladen statt hotlinken)",
+    "url": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/dc/MinionMasters_Logo.png/revision/latest?cb=20161129223010"
+   },
+   {
+    "desc": "Liga-Icon Grandmaster (Wiki, Hotlink-geschützt)",
+    "url": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/1/11/Icon_Ranking_GrandMaster_GUI_Sprite.png/revision/latest?cb=20190905174735"
+   },
+   {
+    "desc": "Liga-Icon Contender (Wiki, Hotlink-geschützt)",
+    "url": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/b/bf/Contender_League_Icon.png/revision/latest?cb=20190904162235"
+   },
+   {
+    "desc": "Liga-Icon Master (Wiki, Hotlink-geschützt)",
+    "url": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/f5/Icon_Ranking_Master_GUI_Sprite.png/revision/latest?cb=20190905174700"
+   },
+   {
+    "desc": "Liga-Icon Diamond (Wiki, Hotlink-geschützt)",
+    "url": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/6f/Icon_Ranking_Diamond_GUI_Sprite.png/revision/latest?cb=20190905174540"
+   },
+   {
+    "desc": "HINWEIS Fraktions-Icons: Alle static.wikia.nocookie.net-URLs (auch factions[].icon) antworten mit 403, außer mit Referer https://minionmasters.fandom.com/ (dann 200). Für die Seite lokal speichern (z. B. curl -e https://minionmasters.fandom.com/ URL -o datei.png). Alle Steam- und minionmastersthegame.com-URLs wurden am 2026-10-24 mit HTTP 200 verifiziert; library_hero_2x.jpg existiert nicht (404).",
+    "url": ""
+   }
+  ]
+ }
+}

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Minion Masters Codex</title>
+<meta name="description" content="Persönlicher Guide zu Minion Masters: Meta-Decks, Master-Builds, Karten, Tierlist, Kombos und Tipps.">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=22">
+</head>
+<body>
+<header class="topbar" id="topbar">
+  <a class="brand" href="#home" data-route="home">
+    <span class="brand-mark">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 28 9v14l-12 7L4 23V9z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 8l6 3.5v7L16 22l-6-3.5v-7z" fill="currentColor" opacity=".85"/></svg>
+    </span>
+    <span class="brand-text">Minion Masters <em>Codex</em></span>
+  </a>
+  <nav class="nav" id="nav">
+    <a href="#home" data-route="home">Start</a>
+    <a href="#meta" data-route="meta">Meta &amp; Decks</a>
+    <a href="#masters" data-route="masters">Master</a>
+    <a href="#cards" data-route="cards">Karten</a>
+    <a href="#tiers" data-route="tiers">Tierlist</a>
+    <a href="#combos" data-route="combos">Kombos &amp; Counter</a>
+    <a href="#builder" data-route="builder">Deckbuilder</a>
+    <a href="#basics" data-route="basics">Grundlagen</a>
+    <a href="#tips" data-route="tips">Modi &amp; Tipps</a>
+    <a href="#lore" data-route="lore">Lore &amp; Links</a>
+  </nav>
+  <button class="search-btn" id="searchBtn" aria-label="Suche öffnen">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    <span>Suche</span><kbd>/</kbd>
+  </button>
+  <button class="menu-btn" id="menuBtn" aria-label="Menü">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main id="app" tabindex="-1"></main>
+
+<footer class="footer">
+  <p>Persönlicher Fan-Guide, kein offizielles Produkt von BetaDwarf. Kartenbilder und Daten stammen aus dem <a href="https://minionmasters.fandom.com" target="_blank" rel="noopener">Minion Masters Wiki</a>, Patch Notes und Community-Quellen. <span id="footStand"></span></p>
+</footer>
+
+<!-- Globale Suche -->
+<div class="overlay" id="searchOverlay" hidden>
+  <div class="search-panel" role="dialog" aria-label="Suche">
+    <input id="globalSearch" type="search" placeholder="Karten, Master, Decks, Kombos …" autocomplete="off">
+    <div class="search-results" id="searchResults"></div>
+    <p class="search-hint">↑ ↓ zum Wählen · Enter öffnet · Esc schließt</p>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="overlay" id="modal" hidden>
+  <div class="modal" role="dialog" aria-modal="true">
+    <button class="modal-close" id="modalClose" aria-label="Schließen">×</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast" hidden></div>
+
+<script src="js/data.js?v=22"></script>
+<script src="js/content.js?v=22"></script>
+<script src="js/app.js?v=22"></script>
+</body>
+</html>

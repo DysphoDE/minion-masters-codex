@@ -1,0 +1,644 @@
+{
+  "system_explanation": "Masters sind die spielbaren Helden. Sie stehen auf dem eigenen Turm, greifen automatisch mit ihrem Basisangriff an, und ihre Lebenspunkte sind die Siegbedingung: Wer den gegnerischen Master auf 0 bringt, gewinnt. Jeder Master hat einen festen Basisangriff und drei Perk-Stufen, die man im Match über Master-XP freischaltet. Das ist nicht das Account- bzw. Profil-XP, das man nach jedem Match bekommt. Master-XP im Match: passiv 1 XP alle 4 Sekunden pro Master (im 2v2 also 2 XP alle 4 s, geteilt im Team). Dazu kommt +1 XP alle 4 s pro gehaltener Brücke; gelbe/neutrale Brücken zählen für niemanden. Extra-XP geben z. B. Bridge Shrine (+1 XP, wenn die Brücke auf seiner Seite XP erzeugt), Bounty Sniper (+2 XP pro Kill bzw. Treffer auf den Turm) und Dionas Fetch! (gelber Preis). Schwellen: 20 XP = Perk 1, 60 XP = Perk 2, 120 XP = Perk 3, 200 XP = 'Mana Frenzy'. Mana Frenzy gibt es für alle Master gleich: XP wird ab dann in Mana umgewandelt, wer die Brücken hält, bekommt also stark beschleunigte Mana-Regeneration. Brückenkontrolle ist darum der zentrale Tempo- und Skalierungsfaktor. Perk-Wahl: Seit Patch 2.6 'Power UP!' (25.07.2024) gibt es 'Alternative Master Perks'. Jeder Master hat pro Stufe einen Standard-Perk. Für 1–2 seiner drei Stufen gibt es zusätzlich eine Alternative; dort wählt man 1 aus 2. Die Auswahl wird beim Deckbau pro Deck gespeichert und lässt sich im Match noch ändern, bis der jeweilige Perk tatsächlich freigeschaltet wird. Manche Perks hängen voneinander ab, z. B. Mordars Perk 3: Sepulchre bzw. Sepulchre of the Deathless, je nach Wahl in Perk 1. Stand Oktober 2026 haben Apep, Valorian, Ravager und R3-KT je zwei Alternativen, alle anderen Master je eine. Viele Perks legen Einmal-Karten (0–2 Mana) mit Cooldown oben auf das Deck. Andere sind passive Auren (z. B. Haste, Marksmanship) oder beschwören Einheiten. Freischalten: Master kauft man mit Shards (500/1000/1500) oder Rubies (300/525/775). Jede Woche sind 2 Master gratis in der Rotation, an Turnier-Wochenenden 4. Laut Wiki (Edit 05/2024) ist Valorian heute der Starter-Master; früher war es Stormbringer. Außerhalb des Matches gibt es keine Master-Level, die Werte erhöhen (unsicher, aber nirgends gegenteilig dokumentiert). Roster: Stand 24.10.2026 gibt es 14 PvP-Master. Der neueste ist Tronveir (Patch 2.0, 12.12.2023); in den Patchnotes 2.24–2.34 (01–10/2026) wurde kein neuer Master angekündigt. Seit 2024 kommen statt neuer Master Alternativ-Perks und Balance-Patches etwa monatlich (aktuell: 2.34 'Karma', 19.10.2026). Im Adventure/Story-Modus gibt es zusätzliche spielbare 'Adventure'-Master wie Valorian(Adventure) oder Siege Imperator Ruby. Sie sind nicht im PvP verfügbar und hier nicht erfasst.",
+  "sources": [
+    {
+      "url": "https://minionmasters.fandom.com/wiki/Masters",
+      "date": "2024-05-25 (letzte Änderung)"
+    },
+    {
+      "url": "https://minionmasters.fandom.com/wiki/XP",
+      "date": "abgerufen 2026-10-24"
+    },
+    {
+      "url": "https://minionmasters.fandom.com/wiki/Valorian",
+      "date": "2026-10-19 (letzte Änderung, inkl. Patch 2.34)"
+    },
+    {
+      "url": "https://minionmasters.fandom.com/wiki/Apep",
+      "date": "abgerufen 2026-10-24"
+    },
+    {
+      "url": "https://minionmasters.fandom.com/wiki/Diona",
+      "date": "abgerufen 2026-10-24"
+    },
+    {
+      "url": "https://minionmasters.fandom.com/wiki/King_Puff",
+      "date": "abgerufen 2026-10-24"
+    },
+    {
+      "url": "https://minionmasters.fandom.com/wiki/Milloween",
+      "date": "abgerufen 2026-10-24"
+    },
+    {
+      "url": "https://minionmasters.fandom.com/wiki/Mordar",
+      "date": "abgerufen 2026-10-24"
+    },
+    {
+      "url": "https://minionmasters.fandom.com/wiki/Morellia",
+      "date": "abgerufen 2026-10-24"
+    },
+    {
+      "url": "https://minionmasters.fandom.com/wiki/R3-KT",
+      "date": "abgerufen 2026-10-24"
+    },
+    {
+      "url": "https://minionmasters.fandom.com/wiki/Ratbo",
+      "date": "abgerufen 2026-10-24"
+    },
+    {
+      "url": "https://minionmasters.fandom.com/wiki/Ravager",
+      "date": "abgerufen 2026-10-24"
+    },
+    {
+      "url": "https://minionmasters.fandom.com/wiki/Settsu",
+      "date": "abgerufen 2026-10-24"
+    },
+    {
+      "url": "https://minionmasters.fandom.com/wiki/Stormbringer",
+      "date": "2026-01-05 (letzte Änderung)"
+    },
+    {
+      "url": "https://minionmasters.fandom.com/wiki/Tronveir",
+      "date": "abgerufen 2026-10-24"
+    },
+    {
+      "url": "https://minionmasters.fandom.com/wiki/Volco",
+      "date": "abgerufen 2026-10-24"
+    },
+    {
+      "url": "https://blog.betadwarf.com/2024/07/minion-masters-patch-26.html",
+      "date": "2024-07-25 (Patch 2.6, Alternative Master Perks)"
+    },
+    {
+      "url": "https://blog.betadwarf.com/2023/12/20-prologue-mountain-song.html",
+      "date": "2023-12-12 (Patch 2.0, Tronveir)"
+    },
+    {
+      "url": "https://blog.betadwarf.com/2026/06/229-guard-and-glory.html",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://blog.betadwarf.com/2026/06/balance-changes-azog-voidfiend-of.html",
+      "date": "2026-06-29 (Patch 2.30)"
+    },
+    {
+      "url": "https://blog.betadwarf.com/2026/09/233-size-matters.html",
+      "date": "2026-09-21"
+    },
+    {
+      "url": "https://blog.betadwarf.com/2026/10/234-karma.html",
+      "date": "2026-10-19 (Patch 2.34, aktuellster Patch)"
+    },
+    {
+      "url": "https://minionmastersmanager.web.app/public-stats/masters",
+      "date": "Daten-Update 2026-10-17"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1FtctI6HWI6aKIBZQ-uCtWrQwKXEIfXNh55EAU4DWWGQ",
+      "date": "2026-10-17 (Masters/Perks/EOS-Tabs)"
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2113242071",
+      "date": "2024-01-03 (JP-Guide: Master-Schwierigkeit/Archetypen)"
+    },
+    {
+      "url": "https://steamcommunity.com/app/489520/discussions/0/3828662662954565378",
+      "date": "2023-03-29 (Community-Meinung Morellia)"
+    },
+    {
+      "url": "https://wikiwiki.jp/minionmaster/%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC",
+      "date": "2021-05-11 (Preise 500–1500 Shards / 300–775 Rubies, Mana Frenzy)"
+    }
+  ],
+  "masters": [
+    {
+      "name": "Apep",
+      "title": "the Serpent God (der Schlangengott)",
+      "faction": "Keine offizielle Master-Fraktion; Alt-Perk 'Slave Driver' wirkt mit Slither-Karten (thematisch Slither, unsicher)",
+      "unlock": "500 Shards oder 300 Rubies",
+      "role": "Wertgenerator und Kontrolle: Apep bekommt regelmäßig Gratis-Einheiten (Gift) und schützt sich mit dem Shield Totem. Alternativ stiehlt er per Papyrus Karten aus dem gegnerischen Deck. Stark in langen Brückenkontroll-Spielen.",
+      "attack": "Spuckt Säure auf bis zu 2 Gegner: 25 Schaden alle 2,5 s (seit 2.8 von 30 Schaden/2,4 s generft).",
+      "perks": [
+        {
+          "tier": "1 (20 XP)",
+          "name": "Gift of the Serpent God",
+          "effect": "Alle 35 s: eine zufällige 2-Mana-Minion- oder -Gebäudekarte (Einmalkarte) oben aufs Deck, Kosten −2 (also gratis)."
+        },
+        {
+          "tier": "1 alt",
+          "name": "Slave Driver",
+          "effect": "Alle 18 s 'Slitherbind': Eine zufällige Slither-Karte auf der Hand erhält den Slitherbound-Buff. Beim Ausspielen werden alle Slitherbound darauf mitbeschworen."
+        },
+        {
+          "tier": "2 (60 XP)",
+          "name": "Shield Totem",
+          "effect": "0-Mana-Einmalkarte Shield Totem (350 HP, 15 s). Solange es lebt, geht jeder Schaden an Apep (außer True Damage) aufs Totem. Neues Totem 30 s nach Zerstörung."
+        },
+        {
+          "tier": "2 alt",
+          "name": "Papyrus of the Black Obelisk",
+          "effect": "Alle 32 s eine Buch-Einmalkarte: ersetzt die Hand durch 4 zufällige Minions aus dem Deck des Gegners mit Boni bzw. Nachteilen (z. B. −1/−2/−3 Mana, Spirit/Rage, Taunt+Marked, Slow+Poison)."
+        },
+        {
+          "tier": "3 (120 XP)",
+          "name": "Greater Gift of the Serpent God",
+          "effect": "Zusätzlich alle 35 s eine zufällige 4-Mana-Minion- oder -Gebäudekarte, Kosten −2."
+        }
+      ],
+      "build": "Perk 1: fast alle spielen Gift (88 % Pickrate). Slave Driver nur in reinen Slither-Decks; seine Winrate liegt mit 49,0 % etwas unter Gift (49,9 %). Perk 2: Papyrus ist statistisch klar besser (52,5 % WR bei 44 % Pickrate) als Shield Totem (47,7 %). Papyrus nehmen, außer man braucht gegen Rush/Burst den Schutz des Totems. Perk 3 ist fest (Greater Gift). Deckbau: günstige, flexible Karten und Brückenhalter, um die Gratiskarten ins Brückenhalten und Mana-Frenzy-Tempo umzusetzen. Lange Spiele bevorzugen. Laut einem JP-Guide (01/2024) ein defensiver Master: Brücken halten und als Erster in die Mana Frenzy kommen. Statistik = Minion Masters Public Stats (Google Sheet, verlinkt von minionmastersmanager.web.app), Datensatz 'EOS' Stand 17.10.2026 (vor Patch 2.34). Perk-Winrates: nur innerhalb einer Stufe vergleichbar; spätere Stufen sind wegen Überlebens-Bias generell höher.",
+      "example_decks": [],
+      "tier": "B in 1v1 / C in 2v2. EOS-Stats (17.10.2026): 1v1 51.4% WR (7324 Matches), 2v2 Solo 47.9% (17905), 2v2 Premade 46.8% (502), gesamt 48.9% (25731). Viel gespielt (Platz 3 nach Matches). Letzte Änderung: 2.25 (02.02.2026), Papyrus-Cooldown 30→32 s (Nerf).",
+      "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/90/Apep2.png/revision/latest",
+      "image_icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/f9/Apep_Icon.png/revision/latest",
+      "example_decks_note": "Keine verlässliche, aktuelle (2025/2026) 10-Karten-Liste für diesen Master gefunden; Community-Decks auf minionmastersmanager.web.app sind nutzergeneriert und meist älter."
+    },
+    {
+      "name": "Diona",
+      "title": "the Witch Hunter (die Hexenjägerin), mit Hund Ruffles",
+      "faction": "Keine offizielle Master-Fraktion (unsicher)",
+      "unlock": "1500 Shards oder 775 Rubies (ursprünglich mit dem Battle Pass 'Rise of the Howling Moon', 01/2019)",
+      "role": "Defensive Fallen-Spezialistin: Bear Traps, Gratis-Fallenkarten, und Ruffles holt Mana, XP oder Heilung von toten Gegnern. Sehr starke Brückenverteidigung; im 2v2 Premade aktuell der stärkste Master.",
+      "attack": "Doppel-Armbrust: 20 Schaden pro 1 s, Reichweite 10. Legt alle 20 s eine Bear Trap (abwechselnd auf beide Bridges): Root 4 s, 50 Schaden, hält 15 s.",
+      "perks": [
+        {
+          "tier": "1 (20 XP)",
+          "name": "Art of the Hunt",
+          "effect": "Alle 25 s eine Einmal-Fallenkarte, abwechselnd: Crossbow Trap (1 Mana, Stealth, 40 DPS, 85 HP, 17 s, halber Schaden an Mastern) bzw. Decoy Trap (1 Mana, verspottet Gegner, 375 HP, 13 s). Überall platzierbar."
+        },
+        {
+          "tier": "2 (60 XP)",
+          "name": "Fetch!",
+          "effect": "Alle 10 s holt Ruffles von einem in deiner Arena/auf Brücken getöteten Gegner einen Preis, im Zyklus: 2 Mana → 4 XP → 250 Master-HP. Wird Ruffles getroffen, kehrt er um."
+        },
+        {
+          "tier": "2 alt",
+          "name": "The Black Potion",
+          "effect": "Alle 25 s gräbt Ruffles einen Trank aus. Sammelt er ihn ein, verwandelt er sich in einen Werewolf (Cooldown startet nach dessen Tod)."
+        },
+        {
+          "tier": "3 (120 XP)",
+          "name": "Thrill of the Hunt",
+          "effect": "Eine zweite Fallenkarte alle 25 s."
+        }
+      ],
+      "build": "Standard: Art of the Hunt, Fetch!, Thrill of the Hunt. Fetch! wird zu 94 % gewählt (52,8 % WR); The Black Potion ist selten und schwächer (47,4 % WR). Deck: defensiv und reaktiv. Mit günstigen Brückenhaltern und Fernkämpfern Kills auf der eigenen Seite erzwingen, dann für Fetch-Mana/XP kontern. Die 1-Mana-Fallen ersetzen billige Konterkarten. Laut JP-Guide passt sie zu jeder Minion-Art, defensive Einheiten sind aber besser. Statistik = Minion Masters Public Stats (Google Sheet, verlinkt von minionmastersmanager.web.app), Datensatz 'EOS' Stand 17.10.2026 (vor Patch 2.34). Perk-Winrates: nur innerhalb einer Stufe vergleichbar; spätere Stufen sind wegen Überlebens-Bias generell höher.",
+      "example_decks": [],
+      "tier": "S im 2v2 Premade, B in 1v1/2v2 Solo. EOS-Stats (17.10.2026): 1v1 49.6% WR (2961 Matches), 2v2 Solo 49.1% (6719), 2v2 Premade 66.3% (1080), gesamt 51.0% (10760). Generft in 2.16 (05/2025) und 2.30 (29.06.2026: kürzere Fallendauer).",
+      "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/08/Diona2.png/revision/latest",
+      "image_icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/e/ee/Avatar_Diona.jpg/revision/latest",
+      "example_decks_note": "Keine verlässliche, aktuelle (2025/2026) 10-Karten-Liste für diesen Master gefunden; Community-Decks auf minionmastersmanager.web.app sind nutzergeneriert und meist älter."
+    },
+    {
+      "name": "King Puff",
+      "title": "King Puff (König der Puffs)",
+      "faction": "Keine offizielle Master-Fraktion (Puff-Thema)",
+      "unlock": "1500 Shards oder 775 Rubies",
+      "role": "Trickster und Brückenkontrolle: Trick Swap vertauscht alle Einheiten auf den Brücken und stunt Gegner. Dazu kommen zufällige Royal Gifts als Buffs und Knight Puffs als Verstärkung. Eher für Fortgeschrittene.",
+      "attack": "Langsamer, harter Einzelschuss: 60 Schaden alle 2,5 s, Reichweite 10 (24 DPS).",
+      "perks": [
+        {
+          "tier": "1 (20 XP)",
+          "name": "Trick Swap",
+          "effect": "Alle 30 s eine Einmalkarte Trick Swap (max. 1 auf der Hand): tauscht die Positionen ALLER Minions auf beiden Brücken und stunt Gegner 3 s."
+        },
+        {
+          "tier": "2 (60 XP)",
+          "name": "Royal Gifts",
+          "effect": "Alle 20 s ein zufälliges Geschenk, das eigene Minions aufsammeln: Rage (bis 5 Minions), Shield (bis 5 Boden-Minions), Spirit (1 Minion), 2 Knight Puffs oder eine zufällige 2-Mana-Spell für 0 Mana. Zyklus aller 5 in Zufallsreihenfolge. Jede gespielte 4–7-Mana-Karte senkt den Cooldown um ihre halben Kosten."
+        },
+        {
+          "tier": "2 alt",
+          "name": "Mimic Magic",
+          "effect": "Wenn ein unbuffter eigener Minion einen gebufften Gegner trifft, kopiert er einen von dessen Buffs (0,5 s CD). Seit 2.30 nicht mehr bei Schaden an eigenen Zielen."
+        },
+        {
+          "tier": "3 (120 XP)",
+          "name": "Send Forth The Horde!",
+          "effect": "Trick Swap beschwört zusätzlich je einen Knight Puff pro betroffenem eigenen Minion (max. 4). Knight Puff: 2 HP, Shield, 40 Schaden, Reichweite 8."
+        }
+      ],
+      "build": "Royal Gifts (63 % Pick, 52,2 % WR) und Mimic Magic (37 %, 53,2 % WR) liegen nah beieinander. Mimic Magic lohnt gegen buff-lastige Gegner (Rage, Shield, Spirit), Royal Gifts in Decks mit vielen 4–7-Mana-Karten (verkürzen den Cooldown). Deck: Einheiten, die auf den Brücken kämpfen, damit Trick Swap viele eigene Minions trifft. Bei Perk 3 spawnen dann bis zu 4 Knight Puffs. Laut JP-Guide (01/2024) ein Master für Fortgeschrittene. Statistik = Minion Masters Public Stats (Google Sheet, verlinkt von minionmastersmanager.web.app), Datensatz 'EOS' Stand 17.10.2026 (vor Patch 2.34). Perk-Winrates: nur innerhalb einer Stufe vergleichbar; spätere Stufen sind wegen Überlebens-Bias generell höher.",
+      "example_decks": [],
+      "tier": "A- im 2v2 Premade (57 %), sonst B. EOS-Stats (17.10.2026): 1v1 50.5% WR (1288 Matches), 2v2 Solo 50.5% (6944), 2v2 Premade 57.3% (232), gesamt 50.7% (8464). Wenig gespielt. Letzte Änderungen: 2.19 (Stun 4→3 s), 2.30 (Mimic-Fix).",
+      "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/0d/King_puff.png/revision/latest",
+      "image_icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/7/77/Puff_Icon.png/revision/latest",
+      "example_decks_note": "Keine verlässliche, aktuelle (2025/2026) 10-Karten-Liste für diesen Master gefunden; Community-Decks auf minionmastersmanager.web.app sind nutzergeneriert und meist älter."
+    },
+    {
+      "name": "Milloween",
+      "title": "Milloween (Magierin, Schwester von Morellia)",
+      "faction": "Keine offizielle Master-Fraktion; Alt-Perk Xanian Spellbook ist eine Crystal-Elf-Karte (unsicher)",
+      "unlock": "1500 Shards oder 775 Rubies",
+      "role": "Spell-Master: Jeder gewirkte Zauber gibt ihr einen Arcane Spark, der Golem und Angriff verstärkt. Lebt von spell-lastigen Decks.",
+      "attack": "Feuert 3 Arcane Sparks auf Gegner in der Nähe, je 10 Schaden alle 2 s. Jeder Zauber von dir oder dem Teampartner gibt +1 Spark (max. 5).",
+      "perks": [
+        {
+          "tier": "1 (20 XP)",
+          "name": "Arcane Golem",
+          "effect": "Einmalkarte Arcane Golem (300 HP, 30 Schaden, Reichweite 4), neue Kopie 25 s nach dessen Tod. Verbraucht beim Spielen alle Sparks: +25 HP und +5 Schaden pro Spark."
+        },
+        {
+          "tier": "2 (60 XP)",
+          "name": "Arcane Missiles",
+          "effect": "Alle 20 s eine Einmalkarte: 5 zielsuchende Geschosse à 35 Schaden (an Master-Türmen nur 3 pro Geschoss)."
+        },
+        {
+          "tier": "2 alt",
+          "name": "Xanian Spellbook",
+          "effect": "Alle 25 s ein Zauberbuch mit 4 Zaubern aus 4 Listen (Buffs, Summons, Control, Nukes, z. B. Fireball, Black Hole, Chain Lightning). Einen wirkt man um 2 Mana billiger."
+        },
+        {
+          "tier": "3 (120 XP)",
+          "name": "Xanian Construct",
+          "effect": "Cooldown von Golem und Missiles −5 s. Golem erhält doppelten Bonus pro Spark (+50 HP / +10 Schaden)."
+        }
+      ],
+      "build": "Perk 2: Arcane Missiles (67 %, 50,5 % WR) und Xanian Spellbook (33 %, 50,3 % WR) sind praktisch gleich stark. Missiles für verlässliches Swarm-Clearing, Spellbook für Flexibilität und günstige große Zauber. Deck: deutlich mehr Spells als üblich (ein deutscher Steam-Guide von 02/2025 nennt '4 statt 2–3 Spells mit Milloween'). Vor dem Golem Sparks aufladen. Community-Tipp aus der Steam-Diskussion: Milloween ohne Zauber im Deck ist ein typischer Anfängerfehler. Statistik = Minion Masters Public Stats (Google Sheet, verlinkt von minionmastersmanager.web.app), Datensatz 'EOS' Stand 17.10.2026 (vor Patch 2.34). Perk-Winrates: nur innerhalb einer Stufe vergleichbar; spätere Stufen sind wegen Überlebens-Bias generell höher.",
+      "example_decks": [],
+      "tier": "B (1v1/2v2 Solo), schwach im Premade (38,8 %). EOS-Stats (17.10.2026): 1v1 49.7% WR (4260 Matches), 2v2 Solo 50.4% (16340), 2v2 Premade 38.8% (495), gesamt 50.0% (21095). Letzte Änderung: 2.24 (05.01.2026), Golem-HP pro Spark 30→25 (Nerf).",
+      "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/e/e4/Milloween2.png/revision/latest",
+      "image_icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/a/a6/Milloween_Icon.png/revision/latest",
+      "example_decks_note": "Keine verlässliche, aktuelle (2025/2026) 10-Karten-Liste für diesen Master gefunden; Community-Decks auf minionmastersmanager.web.app sind nutzergeneriert und meist älter."
+    },
+    {
+      "name": "Mordar",
+      "title": "Mordar (uralter, wahnsinniger Lich)",
+      "faction": "Keine offizielle Master-Fraktion; Tomb of the Deathless ist eine Accursed-Gebäudekarte (thematisch Accursed)",
+      "unlock": "1500 Shards oder 775 Rubies",
+      "role": "Nekromant: Tombstones beleben gefallene eigene Minions wieder, verstärkt mit Haste und Spirit. Alternativ übernimmt er gefallene Gegner. Je teurer die wiederbelebten Minions, desto stärker. Sehr gut im 2v2, schwach im 1v1.",
+      "attack": "10 Schaden an ALLEN Gegnern auf seiner Arenaseite; wird mit Dauerfeuer schneller (alle 4 s bis alle 1 s, jede 3. Attacke −1 s).",
+      "perks": [
+        {
+          "tier": "1 (20 XP)",
+          "name": "Tombstone",
+          "effect": "Alle 35 s eine 0-Mana-Einmalkarte Tombstone (500 HP, 10 s Aktivierung, 50 s Dauer). Stirbt ein eigener Minion, wird er wiederbelebt; der Stein verliert dabei die halbe Max-HP des Minions. Neuer Stein 35 s nach Zerstörung."
+        },
+        {
+          "tier": "1 alt",
+          "name": "Tomb of the Deathless",
+          "effect": "Alle 34 s: Gebäude (400 HP, 35 s). Stirbt ein GEGNERISCHER Minion, steht er nach 5 s am Grab für dich auf, mit 50 % HP/Schaden und Cursed (−3 % Max-HP/s). Kostet das Grab 20 % der Max-HP des Minions."
+        },
+        {
+          "tier": "2 (60 XP)",
+          "name": "Vengeful Dead",
+          "effect": "Vom Tombstone wiederbelebte Minions erhalten Haste (+33 % Bewegungs- und Angriffstempo) und Spirit (+40 % Max-HP, mind. +100, max. +350)."
+        },
+        {
+          "tier": "3 (120 XP)",
+          "name": "Sepulchre / Sepulchre of the Deathless",
+          "effect": "Tombstone-HP 500→1500 bzw. (bei Alt-Perk 1) Tomb-of-the-Deathless-HP 400→1000."
+        }
+      ],
+      "build": "Tombstone (74 %, 52,3 % WR) ist statistisch besser als Tomb of the Deathless (49,1 %). Standard: Tombstone, Vengeful Dead, Sepulchre. Deck: hochwertige, teure Minions, die von Wiederbelebung plus Haste/Spirit profitieren (laut JP-Guide entscheidet, wie teure Minions man aus dem Grab holt). Den Tombstone vor dem Push oder hinter die eigene Front legen. Laut JP-Guide (01/2024) der schwierigste Master (aggressiv, braucht Erfahrung). Statistik = Minion Masters Public Stats (Google Sheet, verlinkt von minionmastersmanager.web.app), Datensatz 'EOS' Stand 17.10.2026 (vor Patch 2.34). Perk-Winrates: nur innerhalb einer Stufe vergleichbar; spätere Stufen sind wegen Überlebens-Bias generell höher.",
+      "example_decks": [],
+      "tier": "B im 2v2 (Solo 50,7 %), D im 1v1 (40,0 %, schlechtester Wert aller Master). EOS-Stats (17.10.2026): 1v1 40.0% WR (2243 Matches), 2v2 Solo 50.7% (21498), 2v2 Premade 49.0% (1893), gesamt 49.7% (25634). Im 2v2 Premade der meistgespielte Master. Letzte Änderung: 2.24 (01/2026), Tomb-of-the-Deathless-Cooldown 38→34 s (Buff).",
+      "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/0b/Mordar2.png/revision/latest",
+      "image_icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/c/c9/Mordar_Icon.png/revision/latest",
+      "example_decks_note": "Keine verlässliche, aktuelle (2025/2026) 10-Karten-Liste für diesen Master gefunden; Community-Decks auf minionmastersmanager.web.app sind nutzergeneriert und meist älter."
+    },
+    {
+      "name": "Morellia",
+      "title": "the Lich Queen (die Lichkönigin)",
+      "faction": "Keine offizielle Master-Fraktion; thematisch Accursed/Untote (unsicher)",
+      "unlock": "1500 Shards oder 775 Rubies (ursprünglich mit dem Battle Pass 'Bones and Bravery', 06/2019)",
+      "role": "Vielseitige Zauberin: Ihr Book of the Dead bietet situativ Skelette, Spirit, Lebensraub oder Zauber-Rabatte. Perk 3 ruft einmalig ihren Drachen. Meistgespielter Master und gilt als einsteigerfreundlich.",
+      "attack": "Necrotic Touch: Kanalisierter Strahl, 6 Schaden alle 0,3 s (~20 DPS), Reichweite 10.",
+      "perks": [
+        {
+          "tier": "1 (20 XP)",
+          "name": "Book of the Dead",
+          "effect": "Alle 27 s eine 0-Mana-Einmalkarte, die die Hand durch 4 Optionen ersetzt: Skeletons (3 Skelette), Spirit (1 zufälliger eigener Minion), Drain Life (100 HP vom nächsten Gegner zu Morellia), Forbidden Knowledge (ein eigener 4+-Mana-Zauber −1 Mana)."
+        },
+        {
+          "tier": "1 alt",
+          "name": "Rites of the Dead",
+          "effect": "Alle 13 s eine zufällige einzelne Seite aus dem Book of the Dead oben aufs Deck."
+        },
+        {
+          "tier": "2 (60 XP)",
+          "name": "Unholy Bargain",
+          "effect": "Verstärkt das Buch: 6 Skelette, Spirit auf 2 Minions, Drain Life an 2 Gegnern, Forbidden Knowledge auf 3 Zauber."
+        },
+        {
+          "tier": "3 (120 XP)",
+          "name": "Queen's Dragon",
+          "effect": "Einmalig spielbare Karte Queen's Dragon: beschwört Nyrvir the Fallen, die vor der Landung Spiritfire (Nyrvir's Breath) speit."
+        }
+      ],
+      "build": "Perk 1: Book of the Dead ist Standard (88 %), aber Rites of the Dead hat die klar höhere Winrate (57,5 % vs. 51,3 %), ein Geheimtipp. Rites gibt alle 13 s eine Seite statt alle 27 s die Wahl aus 4 Optionen. Perk 2 und 3 sind fest. Deck: ausgewogen. Mit Forbidden Knowledge profitieren teurere Zauber (4+ Mana). Laut JP-Guide (01/2024) besonders für Anfänger empfohlen, ohne echte Schwäche, und häufig in der Leaderboard-Spitze. 2023 hielten Community-Stimmen Perk 3 (Drache) für besonders stark im Draft und 2v2. Statistik = Minion Masters Public Stats (Google Sheet, verlinkt von minionmastersmanager.web.app), Datensatz 'EOS' Stand 17.10.2026 (vor Patch 2.34). Perk-Winrates: nur innerhalb einer Stufe vergleichbar; spätere Stufen sind wegen Überlebens-Bias generell höher.",
+      "example_decks": [],
+      "tier": "A (solide in allen Modi, meistgespielt). EOS-Stats (17.10.2026): 1v1 50.3% WR (6960 Matches), 2v2 Solo 51.3% (29333), 2v2 Premade 48.4% (1434), gesamt 51.0% (37727). Keine Balance-Änderung seit 2.11 (12/2024).",
+      "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/88/Morellia2.png/revision/latest",
+      "image_icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/6/61/LichQueen_Portrait.jpg/revision/latest",
+      "example_decks_note": "Keine verlässliche, aktuelle (2025/2026) 10-Karten-Liste für diesen Master gefunden; Community-Decks auf minionmastersmanager.web.app sind nutzergeneriert und meist älter."
+    },
+    {
+      "name": "R3-KT",
+      "title": "R3-KT ('Rekt', Schatten-Roboter mit dualen Autoblastern)",
+      "faction": "Keine offizielle Master-Fraktion; Mass Illusion ist eine Outlander-Karte (unsicher)",
+      "unlock": "1500 Shards oder 775 Rubies (ursprünglich Battle Pass 'Outlandish Operations', 04/2021)",
+      "role": "Aggressiver Kampf-Master, der selbst aufs Feld springt (Mythic), mit Schattenklonen und Täuschung. Mechanisch anspruchsvoll: Timing und Platzierung entscheiden.",
+      "attack": "Schießt auf Ziele in Reichweite 8: 20 Schaden alle 0,9 s. Auf dem Feld seit 2.26 Ranged statt Special Damage.",
+      "perks": [
+        {
+          "tier": "1 (20 XP)",
+          "name": "Shadow Dance",
+          "effect": "Alle 20 s eine Karte: R3-KT (Mythic) betritt das Feld mit einem Shadow Clone. Ist er schon draußen, erscheint ein Clone an seiner vorigen Position. Clones haben wenig HP und reduzierten Schaden und explodieren beim Tod für 50 Flächenschaden."
+        },
+        {
+          "tier": "1 alt",
+          "name": "Gun-Kata",
+          "effect": "Alle 23 s eine Karte: R3-KT betritt das Feld mit Haste und 75-HP-Schild, das sich nach 2 s ohne Schaden mit 25/s regeneriert."
+        },
+        {
+          "tier": "2 (60 XP)",
+          "name": "Shadow Dance (Cooldown)",
+          "effect": "Cooldown von Perk 1 −5 s."
+        },
+        {
+          "tier": "3 (120 XP)",
+          "name": "One Punch Blast",
+          "effect": "Solange R3-KT auf dem Feld ist, eine Karte One Punch Blast: 250 Schaden an einem Ziel in Reichweite 10, überschüssiger Schaden fliegt weiter. Wird abgelegt, wenn R3-KT zurückkehrt."
+        },
+        {
+          "tier": "3 alt",
+          "name": "Mass Illusion",
+          "effect": "Alle 23 s eine Einmalkarte: Für jeden der 8 Boden-Minions in deiner Arena, die dem Turm am nächsten sind, entsteht eine Illusion auf der anderen Seite; dann werden die Positionen zufällig vertauscht."
+        }
+      ],
+      "build": "Statistisch: Gun-Kata (52,2 % WR) schlägt Shadow Dance (48,7 %), und Mass Illusion (53,8 %) schlägt One Punch Blast (50,2 %). Empfehlung nach Daten: Gun-Kata + Mass Illusion. Shadow Dance + One Punch Blast bleibt die klassische 'R3-KT kämpft selbst'-Variante. Laut JP-Guide (01/2024) ist R3-KTs Unterstützung von hinten der Schlüssel; Klon-Timing und -Platzierung erfordern präzise Steuerung. Deck: aggressiv, mit Begleitern für R3-KTs Vorstöße. Statistik = Minion Masters Public Stats (Google Sheet, verlinkt von minionmastersmanager.web.app), Datensatz 'EOS' Stand 17.10.2026 (vor Patch 2.34). Perk-Winrates: nur innerhalb einer Stufe vergleichbar; spätere Stufen sind wegen Überlebens-Bias generell höher.",
+      "example_decks": [],
+      "tier": "C. EOS-Stats (17.10.2026): 1v1 49.8% WR (2642 Matches), 2v2 Solo 47.5% (4666), 2v2 Premade 49.1% (110), gesamt 48.3% (7418). Seit 2025 mehrfach gebufft (2.20, 2.22, 2.26, 2.29), zuletzt Mass-Illusion-Cooldown 25→23 s (02.06.2026).",
+      "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/f2/Rekt.png/revision/latest",
+      "image_icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/05/R3-KT_icon.png/revision/latest",
+      "example_decks_note": "Keine verlässliche, aktuelle (2025/2026) 10-Karten-Liste für diesen Master gefunden; Community-Decks auf minionmastersmanager.web.app sind nutzergeneriert und meist älter."
+    },
+    {
+      "name": "Ratbo",
+      "title": "Ratbo (berühmter Scrat-Anführer mit Minigun)",
+      "faction": "Keine offizielle Master-Fraktion; Scrat-Thema (unsicher)",
+      "unlock": "500 Shards oder 300 Rubies",
+      "role": "Schwarm-Master: Jede gespielte Minion-Karte bringt Gratis-Scrats. More Dakka! skaliert mit der Zahl eigener Minions. Breite Boards und viele günstige Minions.",
+      "attack": "Minigun: 5 Schaden pro Schuss, braucht 3 s zum Hochdrehen, dann alle 0,2 s (Patch 2.27, 30.03.2026: max. Tempo 0,3→0,2 s, Anlaufzeit 2→3 s).",
+      "perks": [
+        {
+          "tier": "1 (20 XP)",
+          "name": "Scrats!",
+          "effect": "Jede gespielte eigene Minion-Karte beschwört einen Scrat (15 HP, 10 DPS). Bei 5+-Mana-Minions bekommt er ein Barrel Shield (60 HP, −2 Tempo). Seit 2.16 nicht mehr durch Minions des Teampartners."
+        },
+        {
+          "tier": "2 (60 XP)",
+          "name": "More Dakka!",
+          "effect": "0-Mana-Karte: Nach 1 s Aufladen 40 Schaden pro eigenem Minion auf dem Feld an den nächsten Gegner (an Türmen nur 15 pro Minion)."
+        },
+        {
+          "tier": "2 alt",
+          "name": "Squeak Attack",
+          "effect": "Alle 7 s spawnt ein durch Ratbos Minion-Karten beschworener Scrat Burrowed: untargetbar bis zum ersten Angriff, der +10 Schaden macht."
+        },
+        {
+          "tier": "3 (120 XP)",
+          "name": "Scrats! Scrats!",
+          "effect": "Ein weiterer Scrat pro gespielter Minion-Karte, bei 5+ Mana ein 'Armored' Scrat mit Barrel Shield."
+        }
+      ],
+      "build": "Perk 2: Squeak Attack hat deutlich höhere Winrate (56,8 % vs. 50,6 % für More Dakka!) bei 36 % Pickrate. Datenempfehlung: Squeak Attack, More Dakka! nur gegen große Einzelziele. Deck: möglichst viele (günstige) Minion-Karten, wenige Spells, denn jede Minion-Karte = Gratis-Scrat(s). Laut JP-Guide: mit Masse überwältigen. Mit More Dakka! direkt nach einer großen Schwarmkarte gibt es enorme Burst-Werte. Statistik = Minion Masters Public Stats (Google Sheet, verlinkt von minionmastersmanager.web.app), Datensatz 'EOS' Stand 17.10.2026 (vor Patch 2.34). Perk-Winrates: nur innerhalb einer Stufe vergleichbar; spätere Stufen sind wegen Überlebens-Bias generell höher.",
+      "example_decks": [],
+      "tier": "A im 1v1 (56,2 %, beste 1v1-Winrate), C im 2v2. EOS-Stats (17.10.2026): 1v1 56.2% WR (4907 Matches), 2v2 Solo 48.1% (3915), 2v2 Premade 43.6% (204), gesamt 52.4% (9026). Letzte Änderung: 2.27 (30.03.2026), Angriffstempo-Umbau.",
+      "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/d/d2/Ratbo.png/revision/latest",
+      "image_icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/8d/Ratbo_Icon.png/revision/latest",
+      "example_decks_note": "Keine verlässliche, aktuelle (2025/2026) 10-Karten-Liste für diesen Master gefunden; Community-Decks auf minionmastersmanager.web.app sind nutzergeneriert und meist älter."
+    },
+    {
+      "name": "Ravager",
+      "title": "Ravager (Spitzenprädator, mit Kumpel Brutus)",
+      "faction": "Keine offizielle Master-Fraktion (unsicher)",
+      "unlock": "1000 Shards oder 525 Rubies",
+      "role": "Aggro/Beatdown: Ravager räumt Nahkämpfer am Turm selbst ab und beschwört mit Brutus bzw. TERROR BRUTUS kostenlose Mythic-Tanks. Verwundete Minions werden schneller. Gegen Fernkämpfer und Flieger braucht er Unterstützung.",
+      "attack": "Extrem schnelle Klauen: 10 Schaden alle 0,2 s (50 DPS), aber nur Reichweite 4,5.",
+      "perks": [
+        {
+          "tier": "1 (20 XP)",
+          "name": "Best Buds",
+          "effect": "Beschwört sofort Brutus (Mythic, 900 HP, 20 DPS). Sein erster Angriff auf jeden Minion verursacht Fear (4 s fliehen)."
+        },
+        {
+          "tier": "1 alt",
+          "name": "Overpower",
+          "effect": "Wenn du einen Minion mit 4+ Mana beschwörst, erhält einer davon Overpowering Attack: erster Angriff gegen einen Minion +80 Schaden."
+        },
+        {
+          "tier": "2 (60 XP)",
+          "name": "Feeding Frenzy",
+          "effect": "Eigene Minions unter 50 % HP erhalten Haste (+33 % Bewegungs- und Angriffstempo)."
+        },
+        {
+          "tier": "3 (120 XP)",
+          "name": "TERROR BRUTUS",
+          "effect": "Beschwört TERROR BRUTUS (Mythic, 2350 HP seit 2.34, 20 DPS, Fear beim ersten Treffer). Alle Gegner in Ravagers Arena erhalten Fear."
+        },
+        {
+          "tier": "3 alt",
+          "name": "Onslaught Codex",
+          "effect": "Alle 34 s (seit 2.34) ein Codex: ersetzt die Hand durch 4 zufällige 5+-Mana-Nahkampf-Minions (nicht Mythic), je −2 Mana und mit Rage."
+        }
+      ],
+      "build": "Perk 1: Best Buds ist Standard (87 %); Overpower hat höhere Winrate (57,5 % vs. 52,8 %), lohnt aber nur mit vielen 4+-Mana-Minions. Perk 3: TERROR BRUTUS (52,3 %) und Onslaught Codex (51,8 %) sind etwa gleich stark; der Codex wurde in 2.34 generft. Deck: mittlere und große Minions (Feeding Frenzy) plus Fernkämpfer hinter Brutus. Laut JP-Guide ist das Ziel, das Spiel möglichst schon mit Perk 1 (Brutus-Push) zu entscheiden. Die Wiki-Deckseite (alt) nennt Ravager als besten Master für Rampage-Decks (Rampage, Cleaver, Rammer, Dragon Whelp, Black Hole, Healing Fireball). Statistik = Minion Masters Public Stats (Google Sheet, verlinkt von minionmastersmanager.web.app), Datensatz 'EOS' Stand 17.10.2026 (vor Patch 2.34). Perk-Winrates: nur innerhalb einer Stufe vergleichbar; spätere Stufen sind wegen Überlebens-Bias generell höher.",
+      "example_decks": [],
+      "tier": "B+ (überall ~50 %, im 1v1 der meistgespielte Master). EOS-Stats (17.10.2026): 1v1 50.8% WR (7550 Matches), 2v2 Solo 49.8% (13968), 2v2 Premade 49.3% (1265), gesamt 50.1% (22783). Gebufft in 2.27 (30.03.2026: Fear-Mechanik, Angriff 8→10), generft in 2.34 (19.10.2026: Terror Brutus 2500→2350 HP, Codex-Cooldown 30→34 s). Die Stats sind von vor dem Nerf.",
+      "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/c/ca/Ravager.png/revision/latest",
+      "image_icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/f/f0/Ravager_Icon.png/revision/latest",
+      "example_decks_note": "Keine verlässliche, aktuelle (2025/2026) 10-Karten-Liste für diesen Master gefunden; Community-Decks auf minionmastersmanager.web.app sind nutzergeneriert und meist älter."
+    },
+    {
+      "name": "Settsu",
+      "title": "Settsu (Ex-Soldatin im Mech-Anzug)",
+      "faction": "Keine offizielle Master-Fraktion; Air Support ist eine Outlander-Karte (unsicher)",
+      "unlock": "1000 Shards oder 525 Rubies",
+      "role": "Aggressive Kämpferin, die selbst aufs Feld springt (Blast Entry) und mit Zaubern ihr Gewehr nachlädt. Viel Mikromanagement (Munition und Spell-Timing). Im Team stark, im 1v1 schwach.",
+      "attack": "Pulse Rifle, Reichweite 10: 40 Schaden alle 0,9 s; nach 5 Schüssen 5 s Nachladen (~21 DPS inkl. Reload).",
+      "perks": [
+        {
+          "tier": "1 (20 XP)",
+          "name": "Blast Entry",
+          "effect": "Karte: Settsu landet auf dem Schlachtfeld (seit 2.33 nach 2,5 statt 3,5 s), macht 50 Aufprallschaden und erhält 300 HP Schild."
+        },
+        {
+          "tier": "2 (60 XP)",
+          "name": "Combat Reload",
+          "effect": "Wenn Settsu einen Zauber wirkt, lädt sie sofort nach, und ihr nächster Schuss macht +60 Schaden."
+        },
+        {
+          "tier": "3 (120 XP)",
+          "name": "High Powered Laser",
+          "effect": "Jeder 5. Schuss durchbohrt Gegner und stunt sie 3 s. Auch der erste Schuss nach Perk-Erhalt, nach der Rückkehr zum Turm oder nach Blast Entry."
+        },
+        {
+          "tier": "3 alt",
+          "name": "Air Support",
+          "effect": "Betritt Settsu das Feld, kommt eine 1-Mana-Einmalkarte H3LL-F1R3 (doppelte Breite) auf die Hand: heilt Settsu um 180 und beschwört einen Gn4t zu ihrem Schutz."
+        }
+      ],
+      "build": "Perk 1 und 2 sind fest. Perk 3: Air Support hat die höhere Winrate (56,9 % vs. 52,1 % für High Powered Laser) bei nur 13 % Pickrate. Deck: einige günstige Zauber für Combat Reload; Settsus Feldeinsätze mit Tanks absichern. Laut JP-Guide (01/2024): Nach Perk 3 per direktem Turmangriff früh entscheiden. Der alte Wiki-Basic-Deck-Text empfiehlt Cleaver plus Settsu als Push. Statistik = Minion Masters Public Stats (Google Sheet, verlinkt von minionmastersmanager.web.app), Datensatz 'EOS' Stand 17.10.2026 (vor Patch 2.34). Perk-Winrates: nur innerhalb einer Stufe vergleichbar; spätere Stufen sind wegen Überlebens-Bias generell höher.",
+      "example_decks": [],
+      "tier": "A- im 2v2 Premade (55 %), B im 2v2 Solo, C im 1v1 (46,2 %). EOS-Stats (17.10.2026): 1v1 46.2% WR (3469 Matches), 2v2 Solo 50.7% (11964), 2v2 Premade 55.0% (1066), gesamt 50.1% (16499). Gebufft in 2.27 (Air Support heilt) und 2.33 (21.09.2026, schnellerer Eintritt).",
+      "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/9f/Settsu2.png/revision/latest",
+      "image_icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/82/Settsu_Icon.png/revision/latest",
+      "example_decks_note": "Keine verlässliche, aktuelle (2025/2026) 10-Karten-Liste für diesen Master gefunden; Community-Decks auf minionmastersmanager.web.app sind nutzergeneriert und meist älter."
+    },
+    {
+      "name": "Stormbringer",
+      "title": "Stormbringer (Bogenschütze mit dem Stormbow, eitler Selfie-Held)",
+      "faction": "Keine offizielle Master-Fraktion; Cloud Cover ist eine Zen-Chi-Karte (unsicher)",
+      "unlock": "Ehemaliger Starter-Master (früher gratis). Ob er noch gratis ist, ist unklar (unsicher): Das Wiki nennt seit 05/2024 Valorian als Starter.",
+      "role": "Fernkampf-Master ohne nötige Bedienung: globale Reichweite ab Perk 1 und +2 Reichweite für eigene Fernkämpfer und Gebäude. Gut für Einsteiger, man kann sich ganz aufs Ausspielen konzentrieren.",
+      "attack": "Blitzbolzen alle 4 s, 35 Schaden, Reichweite 20 (ab Perk 1 global, ab Perk 3 doppelt so schnell).",
+      "perks": [
+        {
+          "tier": "1 (20 XP)",
+          "name": "Long Shot",
+          "effect": "Stormbringer erhält globale Angriffsreichweite."
+        },
+        {
+          "tier": "2 (60 XP)",
+          "name": "Aerodynamics",
+          "effect": "Eigene Fernkampf-Minions und (seit 2.24) Gebäude erhalten Marksmanship (+2 Reichweite)."
+        },
+        {
+          "tier": "2 alt",
+          "name": "Cloud Cover",
+          "effect": "Alle 10 s eine 0-Mana-Einmalkarte: hebt einen eigenen Minion 5 s auf eine Wolke (Flying, Shield, kann sich nicht bewegen). Sein nächster Angriff macht +50 Schaden."
+        },
+        {
+          "tier": "3 (120 XP)",
+          "name": "Lightning Reflexes",
+          "effect": "Doppeltes Angriffstempo für Stormbringer."
+        }
+      ],
+      "build": "Standard: Long Shot, Aerodynamics (94 %), Lightning Reflexes. Cloud Cover ist gleichauf (52,7 % WR), aber selten. Deck: um Fernkämpfer gebaut, mit 1–2 Tanks davor (Steam-Community: 'Stormbringer will Ranged-Minions'). Der JP-Guide nennt als Beispiele Crossbow-Guild- und Crystal-Elf-Decks. Schwäche: geringer DPS, wenn Gegner am Turm kleben. Statistik = Minion Masters Public Stats (Google Sheet, verlinkt von minionmastersmanager.web.app), Datensatz 'EOS' Stand 17.10.2026 (vor Patch 2.34). Perk-Winrates: nur innerhalb einer Stufe vergleichbar; spätere Stufen sind wegen Überlebens-Bias generell höher.",
+      "example_decks": [],
+      "tier": "B im 2v2 (51 %), C im 1v1 (47,6 %). EOS-Stats (17.10.2026): 1v1 47.6% WR (6485 Matches), 2v2 Solo 51.0% (21726), 2v2 Premade 47.1% (1220), gesamt 50.1% (29431). Zweitmeistgespielter Master. Letzte Änderung: 2.24 (05.01.2026), Aerodynamics gilt auch für Gebäude.",
+      "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/c/c3/Stormbringer.png/revision/latest",
+      "image_icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/0/03/Storm_Icon.png/revision/latest",
+      "example_decks_note": "Keine verlässliche, aktuelle (2025/2026) 10-Karten-Liste für diesen Master gefunden; Community-Decks auf minionmastersmanager.web.app sind nutzergeneriert und meist älter."
+    },
+    {
+      "name": "Tronveir",
+      "title": "the Runeshaper (der Runenformer)",
+      "faction": "Stoutheart (laut Wiki ein Runeshaper des Stoutheart-Volks)",
+      "unlock": "Unbekannt (unsicher): Release mit Patch 2.0 'Mountain Song' (12.12.2023); Preis nicht dokumentiert.",
+      "role": "Komplexer Experten-Master (laut BetaDwarf 'one of our most complex designs'): Runensteine mit wechselnden Runen (Wind, Frost, Ahnen) geben Knockback, Taunt-Schilde mit Frozen und Ancestor-Beschwörungen und buffen den nächsten Boden-Minion.",
+      "attack": "Wirft einen Stein: 100 Schaden alle 4 s (25 DPS), stößt Gegner zurück.",
+      "perks": [
+        {
+          "tier": "1 (20 XP)",
+          "name": "Runecarving",
+          "effect": "Alle 30 s eine 2-Mana-Einmalkarte Runestone (Gebäude, 150 HP, 15 s, Reichweite bis 36, leicht in die gegnerische Arena). Knockback nach kurzer Verzögerung. Erhält reihum eine Rune: Wind (+6 Reichweite, 150 Flächenschaden), Frost (Taunt + 200-HP-Barriere, bei Bruch Frozen in Reichweite 8) oder Ancestry (2 Ancestor-Fernkämpfer: 100 HP, 45 Schaden/2 s)."
+        },
+        {
+          "tier": "1 alt",
+          "name": "Runic Attunement",
+          "effect": "Je 16 Mana für Minion-Karten → Rune of Wind; je 16 Mana für Spell- oder (seit 2.29) Ability-Karten → Rune of Ancestry; je 14 Mana für Gebäude → Rune of Frost."
+        },
+        {
+          "tier": "2 (60 XP)",
+          "name": "Runic Empowerment",
+          "effect": "Nach einem Runestone erhält der nächste gespielte Boden-Minion den passenden Buff: Wind (erster Angriff +50 Flächenschaden), Frost (Taunt + Barriere = Max-HP bis 200, bei Bruch Frozen) oder Ancestry (+2 Ancestors)."
+        },
+        {
+          "tier": "3 (120 XP)",
+          "name": "Runic Mastery",
+          "effect": "Runecarving-Cooldown −5 s. Der nächste Runestone trägt alle drei Runen."
+        }
+      ],
+      "build": "Runecarving (87 %, 52,6 % WR) ist besser als Runic Attunement (48,8 %). Standard: Runecarving, Runic Empowerment, Runic Mastery. Deck: genug Boden-Minions, damit Runic Empowerment immer ein Ziel hat (der Bugfix in 2.30 betraf genau den Fall 'keine Boden-Minions auf der Hand'). Runestones offensiv in Brückennähe setzen. Laut JP-Guide (01/2024) ein Master für Mittelklasse-Spieler. Statistik = Minion Masters Public Stats (Google Sheet, verlinkt von minionmastersmanager.web.app), Datensatz 'EOS' Stand 17.10.2026 (vor Patch 2.34). Perk-Winrates: nur innerhalb einer Stufe vergleichbar; spätere Stufen sind wegen Überlebens-Bias generell höher.",
+      "example_decks": [],
+      "tier": "A im 1v1 (56,1 %, kleine Stichprobe), B im 2v2 Solo, A- im Premade (53 %). EOS-Stats (17.10.2026): 1v1 56.1% WR (1232 Matches), 2v2 Solo 49.8% (11102), 2v2 Premade 53.0% (806), gesamt 50.6% (13140). Letzte Änderungen: 2.29 (02.06.2026, Attunement zählt Abilities), 2.30 (Bugfix).",
+      "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/1/18/Tronveir.png/revision/latest",
+      "image_icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/4/4b/Tronveir_icon.png/revision/latest",
+      "example_decks_note": "Keine verlässliche, aktuelle (2025/2026) 10-Karten-Liste für diesen Master gefunden; Community-Decks auf minionmastersmanager.web.app sind nutzergeneriert und meist älter."
+    },
+    {
+      "name": "Valorian",
+      "title": "Dawn Marshall Valorian",
+      "faction": "Keine offizielle Master-Fraktion; thematisch Empyrean (Fervent Warrior ist eine Empyrean-Karte)",
+      "unlock": "Laut Wiki-Masters-Seite (Edit 05/2024) der Starter-Master, den alle besitzen. Die Valorian-Wiki-Seite nennt noch 500 Shards / 300 Rubies (vermutlich veraltet, unsicher). Ursprünglich mit Season Pass 'Nightmares' (09/2020).",
+      "role": "Paladin des Lichts: heilt eigene Minions, macht Flächen- bzw. Zufallsschaden (Searing Light, Holy Fire) oder bringt einen gratis gepanzerten Krieger (Fervor). Unterstützender Midrange-Master.",
+      "attack": "Erbstück-Klinge: langsam, aber kräftig. 45 Schaden alle 2 s (seit 2.34 vom 19.10.2026, vorher 40).",
+      "perks": [
+        {
+          "tier": "1 (20 XP)",
+          "name": "Searing Light",
+          "effect": "Alle 30 s eine Einmalkarte: Valorian führt 4 Flächenangriffe aus, jeweils auf einen zufälligen gegnerischen Minion."
+        },
+        {
+          "tier": "1 alt",
+          "name": "Holy Fire",
+          "effect": "Alle 28 s eine Einmalkarte: heiliges Feuer am Boden, 75 Schaden an Gegnern und 75 Heilung für eigene Minions über 3 s."
+        },
+        {
+          "tier": "2 (60 XP)",
+          "name": "Holy Light",
+          "effect": "Heilt alle 6 s bis zu 5 verletzte eigene Minions um 20 HP (nicht die des Teampartners)."
+        },
+        {
+          "tier": "2 alt",
+          "name": "Fervor",
+          "effect": "2-Mana-Einmalkarte Fervent Warrior (Warrior mit Shield und Armor of Holy Fire, Rüstung startet im Cooldown); neue Kopie 28 s nach dessen Tod."
+        },
+        {
+          "tier": "3 (120 XP)",
+          "name": "Divine Light",
+          "effect": "Verdoppelt Valorians Schaden und die Heilung von Holy Light."
+        }
+      ],
+      "build": "Datenlage eindeutig: Holy Fire (52,2 % WR) schlägt Searing Light (45,6 %), Fervor (52,2 %) schlägt Holy Light (46,8 %). Empfehlung: Holy Fire + Fervor + Divine Light. Achtung: Divine Light verdoppelt nur die Holy-Light-Heilung (plus Valorians Schaden); mit Fervor bleibt davon nur der Schadensbonus. Deck: Midrange mit robusten Boden-Minions, die von Heilung profitieren; Empyrean-Karten passen thematisch. Statistik = Minion Masters Public Stats (Google Sheet, verlinkt von minionmastersmanager.web.app), Datensatz 'EOS' Stand 17.10.2026 (vor Patch 2.34). Perk-Winrates: nur innerhalb einer Stufe vergleichbar; spätere Stufen sind wegen Überlebens-Bias generell höher.",
+      "example_decks": [],
+      "tier": "C/D (niedrigste Gesamt-Winrate, schwach im 2v2). EOS-Stats (17.10.2026): 1v1 50.2% WR (3057 Matches), 2v2 Solo 46.4% (5283), 2v2 Premade 34.8% (302), gesamt 47.4% (8642). Patch 2.34 (19.10.2026) bufft seinen Angriff 40→45, nach dem Stand der Stats.",
+      "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/9d/Valorian2.png/revision/latest",
+      "image_icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/e/ed/Valorian.png/revision/latest",
+      "example_decks_note": "Keine verlässliche, aktuelle (2025/2026) 10-Karten-Liste für diesen Master gefunden; Community-Decks auf minionmastersmanager.web.app sind nutzergeneriert und meist älter."
+    },
+    {
+      "name": "Volco",
+      "title": "Volco (befreiter Sklave mit dem Volcanic Hammer)",
+      "faction": "Keine offizielle Master-Fraktion; Endless Rage ist eine Voidborne-Karte (unsicher)",
+      "unlock": "1000 Shards oder 525 Rubies",
+      "role": "Anti-Schwarm und Rage-Buffer: Volcos Hammer macht Flächenschaden am Boden, Burn the Bridge brennt Brücken frei, Embers geben Rage bzw. Berserker's Rage. Keine Luftabwehr am Master.",
+      "attack": "Hammer: 50 Flächenschaden nur gegen BODEN-Ziele alle 2,5 s, Reichweite 10 (20 DPS). Kann Flieger nicht treffen.",
+      "perks": [
+        {
+          "tier": "1 (20 XP)",
+          "name": "Tempers Flaring",
+          "effect": "Alle 30 s ein Ember of Flame auf einer zufälligen Brücke. Hebt ihn ein eigener Nah- oder Fernkampf-Minion auf, erhalten alle eigenen Minions in der Nähe Rage (+50 % Schaden)."
+        },
+        {
+          "tier": "2 (60 XP)",
+          "name": "Burn The Bridge",
+          "effect": "1-Mana-Karte: Die nächste Brücke brennt 5 s (40 DPS = 200 Schaden an allen Boden-Minions), doppelter Schaden, wenn nur eine Einheit betroffen ist."
+        },
+        {
+          "tier": "3 (120 XP)",
+          "name": "Tempers Burning",
+          "effect": "Nahkampf-Minions erhalten durch Embers Berserker's Rage (+100 % Schaden)."
+        },
+        {
+          "tier": "3 alt",
+          "name": "Endless Rage",
+          "effect": "Alle 30 s eine Einmalkarte: +2 Mana über 5 s, Embers auf beiden Brücken aktiv, die während Endless Rage nicht verbraucht werden."
+        }
+      ],
+      "build": "Perk 3: Endless Rage hat die klar höhere Winrate (58,6 % vs. 48,0 % für Tempers Burning) bei 26 % Pickrate. Datenempfehlung: Endless Rage. Deck: günstig (laut JP-Guide Durchschnitt ~3 Mana), Nahkämpfer für die Ember-Buffs plus eigene Luftabwehr, weil Volco keine Flieger trifft. Statistik = Minion Masters Public Stats (Google Sheet, verlinkt von minionmastersmanager.web.app), Datensatz 'EOS' Stand 17.10.2026 (vor Patch 2.34). Perk-Winrates: nur innerhalb einer Stufe vergleichbar; spätere Stufen sind wegen Überlebens-Bias generell höher.",
+      "example_decks": [],
+      "tier": "C. EOS-Stats (17.10.2026): 1v1 47.9% WR (1504 Matches), 2v2 Solo 48.8% (7765), 2v2 Premade 40.6% (567), gesamt 48.2% (9836). Letzte Änderung: 2.19 (18.08.2025), Rework von Endless Rage zu einer wiederkehrenden Karte.",
+      "image": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/8/8b/Volco.png/revision/latest",
+      "image_icon": "https://static.wikia.nocookie.net/minionmasters_gamepedia_en/images/9/9e/Volco_Icon.png/revision/latest",
+      "example_decks_note": "Keine verlässliche, aktuelle (2025/2026) 10-Karten-Liste für diesen Master gefunden; Community-Decks auf minionmastersmanager.web.app sind nutzergeneriert und meist älter."
+    }
+  ],
+  "notes": {
+    "roster": "14 PvP-Master (Stand 24.10.2026). Die erwarteten '30+' existieren nicht; zusätzliche spielbare Figuren gibt es nur im Adventure/Story-Modus.",
+    "stats_method": "Statistik = Minion Masters Public Stats (Google Sheet, verlinkt von minionmastersmanager.web.app), Datensatz 'EOS' Stand 17.10.2026 (vor Patch 2.34). Perk-Winrates: nur innerhalb einer Stufe vergleichbar; spätere Stufen sind wegen Überlebens-Bias generell höher. Zuordnung von HeroId/Perk-IDs zu Namen aus Perk-Struktur und Matchzahlen abgeleitet (hohe Konfidenz).",
+    "image_hotlinking": "static.wikia.nocookie.net liefert die Bilder (200, image/webp) mit Referer https://minionmasters.fandom.com/. Ohne bzw. mit fremdem Referer kam per curl eine Cloudflare-Challenge (403). Für eine eigene Seite die Bilder ggf. lokal spiegeln oder vorher im Browser testen."
+  }
+}

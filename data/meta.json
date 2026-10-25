@@ -1,0 +1,741 @@
+{
+  "sources": [
+    {
+      "url": "https://store.steampowered.com/news/app/489520 (via Steam-News-API ISteamNews/GetNewsForApp, alle Patchnotes 2.9–2.34)",
+      "date": "2024-10-29 bis 2026-10-19"
+    },
+    {
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706688803",
+      "date": "2026-10-19 (Patch 2.34)"
+    },
+    {
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844115010500382",
+      "date": "2026-09-21 (Patch 2.33)"
+    },
+    {
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839041357034849",
+      "date": "2026-07-27 (Patch 2.31, Deck-Codes)"
+    },
+    {
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067934285",
+      "date": "2026-10-09 (Vaultbreakers-Demo / Square Enix)"
+    },
+    {
+      "url": "https://badasafish80.com/minion-masters-meta-2-33/",
+      "date": "2026-10-22"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/19Tg_uGwDMPbQ1p1C-jj8oj7cm-ZFTlGaYkzN8lwawQI (Meta-Daten 2.33: Top-Decks 1v1/Randoms/Premades, Master-/Kartenstatistik, Draft-Import 21.09.2026)",
+      "date": "2026-10-22"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=N2ooMIIiXiI (BadAsAFish80: Meta Review 2.33)",
+      "date": "2026-10-24"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qU7KciQ9yg4 (BadAsAFish80: Meta Review 2.32)",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=eapqaX8KfUk (BadAsAFish80: #1 Randoms Deck Milloween)",
+      "date": "2026-10-17"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=dyQtDk9_QtI (BadAsAFish80: Prime Sergeant Raddick + Frostfang Familiar, 2v2 Randoms)",
+      "date": "2026-03-11"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Q3aKSP0cjZ8 (Matthew Hawker: Settsu Voidborne Deck Tech, Liste von SERENE #6 Duo)",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=lEDDtBzym4I (Matthew Hawker: Stormbringer Budget-Deck, Deck-Code in Kommentaren)",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://minionmasters.fandom.com/wiki/Mayhem",
+      "date": "abgerufen 2026-10-24 (Seitenstand unbekannt)"
+    },
+    {
+      "url": "https://minionmasters.fandom.com/wiki/Draft",
+      "date": "abgerufen 2026-10-24 (Belohnungstabelle vor 2.0)"
+    },
+    {
+      "url": "https://minionmasters.fandom.com/wiki/League",
+      "date": "abgerufen 2026-10-24 (Belohnungen nach 2.0)"
+    },
+    {
+      "url": "https://minionmasters.fandom.com/wiki/Adventures",
+      "date": "abgerufen 2026-10-24"
+    },
+    {
+      "url": "https://blog.betadwarf.com/2024/09/minion-masters-patch-28.html (Ankündigung Ende neuer Inhalte)",
+      "date": "2024-09-24"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1vdw7vM5_0CBxUO5RWc0trIedW7lzjmPj2gRumVGcShE (Kartendaten-Sheet, zur Prüfung der Kartennamen/Kosten, Stand ca. 2.28)",
+      "date": "2026 (ca. Patch 2.28)"
+    }
+  ],
+  "current_patch": "2.34 (Balance-Patch vom 19.10.2026). Meta-Daten der Decks stammen aus Patch 2.33 (Auswertung vom 22.10.2026). Seit Patch 2.9 (Okt. 2024) gibt es keine neuen Karten/Master mehr, nur noch monatliche Community-gestützte Balance-Patches; keine benannten Content-Seasons mehr – die Ranked-Saison wird laut Wiki mit jedem Update zurückgesetzt.",
+  "meta_summary": "Stand Patch 2.33/2.34 (Oktober 2026): Minion Masters bekommt seit Ende 2024 keine neuen Inhalte mehr, aber zuverlässig monatliche Balance-Patches (2.10 bis 2.34), die zunehmend auf Kopien-Limits ('auf 1 Kopie limitiert' für Wildcards) und Feintuning setzen. Die Meta unterscheidet sich stark je Modus. 1v1: günstige Tempo-/Midrange-Decks (Ø ca. 3,7 Mana) dominieren; fast jedes Top-Deck spielt Heal Puff, dazu sehr oft Morgrul the Swarmer King, Karmic, Screaming Scrat, Scrat Horde, Assassin, Swarmers und Grenadier. Beliebteste Master sind Apep, Ratbo und Ravager; die besten Listen kommen von Apep und Stormbringer. 2v2 Randoms: Accursed ist die stärkste Fraktion (Skelette, Unholy Ground, Harmful Souls, Toll of the Dead, Nyrvir) und Morellia mit ~24 % der klar beliebteste Master; daneben Kontrolle mit The Veilstalker/Null Matrix/Beam of DOOM! (Diona) und Zauber-Tempo (Milloween, Settsu). Cursebearer und Blastmancer sind Pflichtkonter. 2v2 Premades: höchste Deckkosten (Ø ca. 4,2) – Big-Minion-Ramp (Mordar mit Ritual of Servitude, nur 7–10-Mana-Karten) ergänzt sich mit Control-Partnern (Apep/Diona/Tronveir). Draft: Tronveir ist der meistgedraftete Master; A.I.M. Bot, Propeller Scrats, Shielded Crossbow Dudes, Skeleton Horde und Scrat Horde die häufigsten Picks, Scrat die stärkste Draft-Fraktion. Patch 2.34 (19.10.2026) hat direkt nach der Datenerhebung mehrere 1v1-Stützen abgeschwächt (Karmic, A'Zog, Screaming Scrat, Feng teurer, Korrrgoth-Reichweite, Zap Shrine-Reichweite) und u.a. Brothers of Light, Chief Ice Breaker Bolf, Stormtamer, Valorian, Rimargaal und AtG Drone x8 gestärkt – die 1v1-Meta dürfte sich also leicht verschieben.",
+  "archetypes": [
+    {
+      "name": "Low-Curve Tempo / Morgrul-Karmic-Midrange",
+      "description": "1v1-Standard: viele 1–3-Mana-Karten, Heal Puff für Master-Heilung, Morgrul the Swarmer King + Karmic als robuste Mitte, ein paar 4–7-Mana-Finisher (Kamikazeppelin, Zealots, A.I.M. Bot). Master: Apep, Stormbringer, King Puff, Tronveir.",
+      "strong_against": "Langsame Big-Minion-Decks (werden vor dem Late Game überrannt), Decks ohne Flächenschaden.",
+      "weak_against": "Flächen-Zauber (Daggerfall, Magma Storm), Buff-Entferner (Null Matrix gegen Karmic) – Einschätzung. Durch 2.34-Nerfs an Karmic/A'Zog/Screaming Scrat etwas geschwächt."
+    },
+    {
+      "name": "Accursed-Skelette / Ascension",
+      "description": "2v2-Randoms-Top-Archetyp: Skeleton Crew, Unholy Ground, Skeleton Horde, Spiritmancer, Toll of the Dead, Harmful Souls, Nyrvir's Breath, Nyrvir the Fallen (gratis während Accursed Ascension). Master: Morellia, Settsu, Mordar.",
+      "strong_against": "Flieger (Unholy Ground holt sie auf den Boden), Einzelziel-Decks, große Tanks (Cursebearer).",
+      "weak_against": "Starker Flächenschaden (Blastmancer, Grenadier, Magma Storm) und frühe Pushes, bevor die Ascension steht."
+    },
+    {
+      "name": "Big-Minion-Ramp",
+      "description": "Premade-Spezialität: nur 6+-Mana-Karten, Ritual of Servitude als billigste Karte (beschwört dann ein zufälliges 8-Mana-Minion), Taunt-Tanks (Urclaw, Caeleth), Bahra, Bearzerker, Rockin' Roller; Mordars Tombstone belebt sie wieder. Partner übernimmt die frühe Verteidigung.",
+      "strong_against": "Swarm- und Cycle-Decks im späten Spiel, Kontroll-Decks ohne genug harte Konter.",
+      "weak_against": "Sehr frühe Aggression, Cursebearer, Beam of DOOM!, Hypnotize/Ghost-Effekte; ohne festen Partner kaum spielbar."
+    },
+    {
+      "name": "Control (Veilstalker / Null Matrix / Beam of DOOM!)",
+      "description": "Reaktive Decks mit billigen Verteidigern (Swarmers, Slitherbound, Sewer Scrat, Screaming Scrat), Stealth (The Veilstalker, Mana Chaser), Cursebearer und harten Kontern (Null Matrix, Beam of DOOM!), danach Gegenpush mit A.I.M. Bot / Brother of the Burning Fist. Master: Diona, Apep.",
+      "strong_against": "Big-Minion- und Buff-Decks (Null Matrix entfernt Buffs, Beam of DOOM! tötet Großeinheiten).",
+      "weak_against": "Breite Swarm-Fluten über beide Brücken und Stun-Ketten."
+    },
+    {
+      "name": "Zauber-Tempo",
+      "description": "Viele billige Zauber (Shock Rock, Bridge Buddies, Pincer of Dread, Daggerfall, Hypnotize) mit Mastern, die von Zaubern profitieren: Milloween (Arcane Sparks, auch durch Partner-Zauber) und Settsu (Combat Reload). Ergänzt um Blastmancer/Cursebearer/Wreckinator.",
+      "strong_against": "Swarm und kleine Einheiten, Decks mit wichtigen Einzel-Minions (Pincer/Hypnotize).",
+      "weak_against": "Große, robuste Einzeleinheiten, wenn die Konter verbraucht sind; Mana-Engpässe gegen Ramp."
+    },
+    {
+      "name": "Scrat-Swarm",
+      "description": "Ratbo + viele billige Minion-Karten (Propeller Scrats, Nether Bats, Sewer Scrat, Screaming Scrat, Magnetic Bombs) – jede Minion-Karte bringt zusätzliche Scrats, More Dakka! skaliert mit der Minion-Zahl. Auch im Draft ist Scrat die stärkste Fraktion.",
+      "strong_against": "Langsame Decks und Einzelziel-Konter.",
+      "weak_against": "Flächenschaden (Grenadier, Annihilator, Bladestar, Magma Storm) und Stuns."
+    },
+    {
+      "name": "Piloted-Mechs",
+      "description": "King Puff (oder Morellia) mit Piloted-Karten: Kamikazeppelin, Zipp's Zappinator, Vuk's Clutchcooker (feuert Raketen, wenn genug Piloted-Karten im Startdeck), Boom Buggy, Wreckinator 9000.",
+      "strong_against": "Midrange-Decks ohne harte Einzelziel-Entfernung; Stun-Kontrolle mit Trick Swap/Zipp's.",
+      "weak_against": "Arcane Bolt, Beam of DOOM!, Cursebearer."
+    },
+    {
+      "name": "Ranged (Stormbringer)",
+      "description": "Fernkämpfer (Bounty Sniper, Annihilator, Bounce Berry Flingers, A.I.M. Bot) hinter Tanks; Stormbringers Aerodynamics gibt +2 Reichweite, Lightning Reflexes verdoppelt seine Angriffsgeschwindigkeit.",
+      "strong_against": "Langsame Bodentruppen und Schwärme (Annihilator-Flächenschaden mit Extra-Reichweite).",
+      "weak_against": "Stealth-/Sprung-Einheiten (Assassin, Prowler, A'Zog) und Flieger-Druck."
+    }
+  ],
+  "patch_history": [
+    {
+      "date": "2023-12-12",
+      "title": "Minion Masters 2.0 Prologue",
+      "summary": "Technischer Neustart: neue Engine/Architektur, Decks zurückgesetzt, Conquest und House Event entfernt, Practice ersetzt Challenges, Draft mit Leaderboard, konsolidierte Ranked-Belohnungen, neuer Master Tronveir the Runeshaper."
+    },
+    {
+      "date": "2024-04-16",
+      "title": "Android-Release (+ 2.3 Frostbite)",
+      "summary": "Minion Masters erscheint auf Android mit Crossplay und Cross-Save (PC↔Mobile). Season Frostbite: Nezara the Cold Countess, Frostfang Familiar."
+    },
+    {
+      "date": "2024-07-25",
+      "title": "2.6 Power UP!",
+      "summary": "Größte Gameplay-Änderung: alternative Master-Perks (Alt-Perks) für die Master."
+    },
+    {
+      "date": "2024-09-24",
+      "title": "2.8 Bearzerk! + Zukunftsankündigung",
+      "summary": "Neue Karte Bearzerker, Perks Papyrus of the Black Obelisk (Apep) und Gun-Kata (R3-KT). BetaDwarf kündigt an: 2.9 wird der letzte Content-Patch, danach monatliche, von Spielern mitbestimmte Balance-Updates; das Spiel bleibt online."
+    },
+    {
+      "date": "2024-10-29",
+      "title": "2.9 Moonstruck (letzter Content-Patch)",
+      "summary": "Neue Karte The Revenant, Perks Onslaught Codex (Ravager) und Holy Fire (Valorian) plus großer Balance-Pass."
+    },
+    {
+      "date": "2024-11-30 – 2025-05-24",
+      "title": "2.10–2.16 (benannte Balance-Patches)",
+      "summary": "Hammer of the Dawn, Scratpocalypse, STR1K3 F0RC3, 2.13, Shackles of the Serpent, Court of the Swarmer King, Mountainshaper Awakens: monatliche Buffs/Nerfs, erste 'Wildcards reduziert auf 1'-Limits, Red-Golem-Rework, neue Karten im Zufallspool (2.16)."
+    },
+    {
+      "date": "2025-01-30",
+      "title": "Vaultbreakers angekündigt",
+      "summary": "BetaDwarfs neues Spiel (ehem. Project F4E, Extraction-ARPG im MM-Universum). Minion Masters bekommt keine neuen Inhalte, aber Balance-Updates mit Community-Mitgliedern und Unterstützung für Community-Turniere."
+    },
+    {
+      "date": "2025-06-23 – 2025-10-12",
+      "title": "2.17–2.21",
+      "summary": "Weitere Kopien-Limits (Bladestar, Blind Date, Warrior, Arcane Ring, Feng, Simulacrum …), Protocol-/Raddick-Anpassungen, Sniper-Buffs (130 Schaden), Nyrvir Slumbers erhält Accursed-Ascension-Rabatt, Revelry-Rework (Haste)."
+    },
+    {
+      "date": "2025-12-08",
+      "title": "2.23 – 2v2-Matchqualität",
+      "summary": "Start von Maßnahmen gegen absichtliches Sabotieren in 2v2; Fixes u.a. für Mayhem-Kamera. Balance: Rocket Scrat, Scrat Horde, Morgrul's Ragers."
+    },
+    {
+      "date": "2026-01-05",
+      "title": "2.24 – Premade-Lobby",
+      "summary": "Premade-Lobby zeigt doppelte Master/Karten an, die das Anstellen verhindern; bessere Chat-Moderation; Screaming Scrat-Rework (1 Mana), Rabid Prowler-Rework, Jez'Ra-Nerf."
+    },
+    {
+      "date": "2026-02-02",
+      "title": "2.25 – 2v2-Sperren",
+      "summary": "Tägliche Verwarnungen/temporäre 2v2-Sperren gegen Griefing. Buffs u.a. Vuk's Clutchcooker, Prime Sergeant Raddick (Reichweite 6), Rabid Prowler (4 Mana); Heal Puff heilt 50 alle 4 s."
+    },
+    {
+      "date": "2026-03-02 – 2026-06-01",
+      "title": "2.26–2.29",
+      "summary": "Thelec-, Wardancers-, Bladestar-Änderungen; Brutus/Terror Brutus verursachen Fear; Caber Tosser 6 Mana; Rendrath-Wiederbelebte schwächer; Magnetic Bombs 6 statt 4 Bomben; Fireball/Dragon Ball +20 Schaden; Scrat Launcher 4 Mana."
+    },
+    {
+      "date": "2026-06-29",
+      "title": "2.30",
+      "summary": "Großer Fix-/Balance-Patch: A'Zog-Rework (langsamer, mehr Schaden), Karmic startet mit Schild, Lone Scout-Rework, Spelldancer/Wardancers-Buffs, Swarmer Totem-Buff."
+    },
+    {
+      "date": "2026-07-27",
+      "title": "2.31 – Deck-Codes",
+      "summary": "Neues Feature: Decks per Deck-Code exportieren/importieren (vorerst nur Steam); Mute-Verwaltung, Pings/Emotes stummschaltbar. Magnetic Bombs zählen als Minion; Raddick-Nerf; mehrere Karten (u.a. Raddick, Vuk's, A'Zog, Karmic, Shen) auf 1 Kopie limitiert."
+    },
+    {
+      "date": "2026-08-24",
+      "title": "2.32",
+      "summary": "An'Kahesh beschwört weniger Spiderlings, Ghast-Rework (130 Schaden, langsamer), Sniper Scrat erhält Sneaky; 1-Kopie-Limit für Bahra, Bounty Sniper, Harbinger, Magma Storm, Magnetic Bombs, Sniper Scrat."
+    },
+    {
+      "date": "2026-09-21",
+      "title": "2.33",
+      "summary": "A'Zogs Shadow Dash 100→80 Schaden, Priestess-Rework (nur Bodenziele), Nyrvir Slumbers während Accursed Ascension gratis, Karmic-Schild erst nach 3 s, Brothers of Light/Caber Tosser/Ion Grenade-Buffs; Spelldancer und Wardancers auf 1 Kopie."
+    },
+    {
+      "date": "2026-10-09",
+      "title": "Vaultbreakers-Demo / Square Enix",
+      "summary": "BetaDwarf meldet: Vaultbreakers wird von Square Enix gepublisht, Demo auf Steam, Alpha-PvPvE-Test ab 15.10.2026."
+    },
+    {
+      "date": "2026-10-19",
+      "title": "2.34 (aktuell)",
+      "summary": "Nerfs: A'Zog (25x2), Karmic (8x3), Korrrgoth-Reichweite 6, Screaming Scrat ohne Rush, Shadow Dash 75, Terror Brutus 2350 HP, Zap Shrine-Reichweite 16, Feng 6 Mana (dafür 400 HP), Onslaught Codex 34 s. Buffs: AtG Drone x8, Brothers of Light, Chief Ice Breaker Bolf, Jez'Ra, Rimargaal, Stormtamer, Valorian, Re-Boomer, The Revenant; Magma Cannon erhält Icebreaker. Ghast, Rendrath the Deathless, Spiderlings, Undying Skeleton auf 1 Kopie limitiert."
+    }
+  ],
+  "modes": [
+    {
+      "name": "Ranked 1v1 (Solo)",
+      "rules": "Klassisches 1-gegen-1 auf der Brückenkarte: Jeder Spieler hat einen Master auf seinem Turm und ein Deck aus 10 Karten (keine Doppelten). Mana lädt kontinuierlich, nach einiger Zeit beginnt 'Mana Frenzy' (doppelte Mana-Rate). Minions erobern die zwei Brücken; gehaltene Brücken schießen auf den gegnerischen Master und geben XP für die Master-Perks (Stufe 1/2/3 bei 20/60/120 XP). Gewonnen hat, wer den gegnerischen Turm zerstört. Rangliste mit Ligen Wood → Stone → Bronze → Silver → Gold → Platinum → Diamond → Master → Grandmaster → Contender; Ranked-Saison wird mit jedem Update zurückgesetzt (laut Wiki), d.h. faktisch monatlich mit den Balance-Patches.",
+      "rewards": "Gemeinsamer saisonaler Ranked-Belohnungspfad für alle Ranked-Modi (jede Liga-Belohnung einmal pro Saison, egal in welchem Modus erreicht): Stone 15 Common-Kopien, Bronze 3000 Gold, Silver 15 Rare-Kopien, Gold 5 Power Tokens, Platinum 10 Supreme-Kopien, Diamond 500 Shards, Master 10 Power Tokens, Grandmaster 1 Legendary, Contender 300 Rubine + Chatfarbe/Icon; 2x Contender (in zwei Modi) 2 Legendaries, 3x Contender (in allen drei Ranked-Modi) 3 Legendaries. Contender = 2000 Punkte innerhalb Grandmaster. Dazu Season-Pass-XP/Glory über Siege. (Quelle: Fandom-Wiki 'League', Stand nach 2.0 – Werte können leicht abweichen.)",
+      "tips": [
+        "Meta 2.33: 1v1 wird von günstigen Tempo-Decks dominiert (Ø-Deckkosten im 1v1 ca. 3,7 Mana). Fast jedes Top-Deck spielt Heal Puff, viele zusätzlich Morgrul the Swarmer King und Karmic.",
+        "Heal Puff (1 Mana) heilt deinen Master alle 4 s um 50, solange er auf einer Brücke steht – früh hinter eine eigene Einheit auf die Brücke legen, nicht ungeschützt.",
+        "Brückenkontrolle ist alles: gehaltene Brücken bringen Turmschaden UND XP für deine Perks. Lieber eine Brücke sicher halten als beide halbherzig.",
+        "Nicht als Erstes die teuerste Karte legen – auf die gegnerische Antwort reagieren (Gegenspiel in deiner eigenen Arena ist fast immer manaeffizienter).",
+        "Mana Frenzy (spätes Spiel) im Kopf behalten: Decks mit starken 5–7-Mana-Karten (Zealots, A.I.M. Bot, Vuk's Clutchcooker) werden dort stärker.",
+        "Beliebteste 1v1-Master (2.33): Apep (~18,5 %), Ratbo (~14 %), Ravager (~13 %), Morellia (~11 %), Diona (~8,5 %).",
+        "Patch 2.34 beachten: Karmic, A'Zog und Screaming Scrat wurden abgeschwächt – Listen mit diesen Karten könnten leicht an Stärke verlieren."
+      ],
+      "decks": [
+        {
+          "name": "Apep Morgrul-Karmic-Tempo",
+          "master": "Apep",
+          "cards": [
+            "Heal Puff",
+            "Grenadier",
+            "Slitherbound",
+            "Bounce Berry Flingers",
+            "Snake Druid",
+            "Frostfeathers",
+            "Kamikazeppelin",
+            "Karmic",
+            "Morgrul the Swarmer King",
+            "Incubus"
+          ],
+          "avg_mana": 3.1,
+          "playstyle": "Günstiges Midrange-/Tempo-Deck; Platz 1 der 1v1-Top-Decks in der 2.33-Auswertung.",
+          "gameplan": "Früh: Heal Puff hinter Slitherbound/Grenadier/Bounce Berry Flingers auf die Brücke, Apeps Perk 'Gift of the Serpent God' liefert alle 35 s eine Gratis-2-Mana-Karte (Mana-Vorteil). Mitte: Karmic als Frontlinie (Karma-Schild reflektiert Schaden), Snake Druid hält Gegner fest, Morgrul ruft beim Ausspielen und beim Tod Swarmers und stößt Gegner zurück. Spät: Incubus (Bulwark, springt zu Fernkämpfern) und Kamikazeppelin als Push/Finisher.",
+          "combos": [
+            "Snake Druid (Festhalten) + Grenadier/Bounce Berry Flingers (Flächenschaden auf festgehaltene Gruppen)",
+            "Karmic vorne + Morgrul dahinter: Gegner schlagen in den Karma-Schild, Morgrul-Knockback schützt",
+            "Frostfeathers (Anti-Frenzy, verlangsamt Angriffe) gegen schnelle Angreifer/Frenzy-Einheiten",
+            "Kamikazeppelin über einen gewonnenen Brückenkampf in den Turm"
+          ],
+          "tips": "Starthand: eine 2-Mana-Einheit + Heal Puff sind ideal; Morgrul und Incubus nicht blind eröffnen. Mulligan/Starthand-Tausch (sofern verfügbar) auf billige Karten.",
+          "weak_against": "Einschätzung: Flächen-Zauber gegen die vielen kleinen Einheiten (Daggerfall, Magma Storm, Annihilator) und Buff-Entferner wie Null Matrix (nimmt Karmic-Schild). Wenig harte Anti-Tank-Antwort. Hinweis: Daten stammen aus Patch 2.33 – Patch 2.34 (19.10.2026) hat danach u.a. Karmic (Schaden 9x3→8x3), A'Zog (30x2→25x2), Screaming Scrat (kein Rush mehr, Explosion nach 4 statt 3 s) und Feng (Kosten 5→6) abgeschwächt.",
+          "source": "BadAsAFish80 – Minion Masters Meta 2.33 (Leaderboard-Auswertung, veröffentlicht 22.10.2026; Video 24.10.2026): https://badasafish80.com/minion-masters-meta-2-33/ bzw. Daten-Sheet https://docs.google.com/spreadsheets/d/19Tg_uGwDMPbQ1p1C-jj8oj7cm-ZFTlGaYkzN8lwawQI"
+        },
+        {
+          "name": "Stormbringer Ranged (Annihilator/A.I.M. Bot)",
+          "master": "Stormbringer",
+          "cards": [
+            "Blood Imps",
+            "Heal Puff",
+            "Screaming Scrat",
+            "Bounce Berry Flingers",
+            "Bounty Sniper",
+            "Karmic",
+            "Annihilator",
+            "Morgrul the Swarmer King",
+            "A.I.M. Bot",
+            "Zealots of the Burning Fist"
+          ],
+          "avg_mana": 3.6,
+          "playstyle": "Fernkampf-Midrange; bester Stormbringer-Build und Platz 2 der Master-Topdecks im 1v1 (2.33).",
+          "gameplan": "Früh: Blood Imps/Screaming Scrat (1 Mana, Taunt + Fass-Schild, lenkt ab) und Heal Puff für billigen Brückendruck. Mitte: Bounty Sniper (gibt XP pro Kill/Master-Treffer → schnellere Perks), Bounce Berry Flingers und Annihilator profitieren von Stormbringers 'Aerodynamics' (+2 Reichweite für Fernkampf-Minions/Gebäude). Karmic/Morgrul halten die Front. Spät: A.I.M. Bot (Schild + Drohnen, markiert Ziele) und Zealots of the Burning Fist (7 Mana) als schwerer Push in Mana Frenzy.",
+          "combos": [
+            "Karmic/Morgrul als Tank + Annihilator/Bounce Berry Flingers dahinter (Flächenschaden mit Extra-Reichweite)",
+            "Bounty Sniper früh legen → XP-Vorsprung → Perk 'Lightning Reflexes' (doppelte Angriffsgeschwindigkeit) eher",
+            "Screaming Scrat als billiger Köder vor Zealots/A.I.M. Bot"
+          ],
+          "tips": "Fernkämpfer nie ungeschützt vorne spielen; immer erst einen Tank/Köder. Zealots erst mit Mana-Vorsprung oder in Mana Frenzy.",
+          "weak_against": "Einschätzung: Stealth-/Sprung-Einheiten, die in die Fernkämpfer kommen (Assassin, Prowler, A'Zog), sowie schneller Flieger-Druck. Hinweis: Daten stammen aus Patch 2.33 – Patch 2.34 (19.10.2026) hat danach u.a. Karmic (Schaden 9x3→8x3), A'Zog (30x2→25x2), Screaming Scrat (kein Rush mehr, Explosion nach 4 statt 3 s) und Feng (Kosten 5→6) abgeschwächt.",
+          "source": "BadAsAFish80 – Minion Masters Meta 2.33 (Leaderboard-Auswertung, veröffentlicht 22.10.2026; Video 24.10.2026): https://badasafish80.com/minion-masters-meta-2-33/ bzw. Daten-Sheet https://docs.google.com/spreadsheets/d/19Tg_uGwDMPbQ1p1C-jj8oj7cm-ZFTlGaYkzN8lwawQI"
+        },
+        {
+          "name": "King Puff Piloted-Mechs",
+          "master": "King Puff",
+          "cards": [
+            "Blood Imps",
+            "Heal Puff",
+            "Bounce Berry Flingers",
+            "Scrat Horde",
+            "Stun Lancers",
+            "Kamikazeppelin",
+            "Karmic",
+            "Morgrul the Swarmer King",
+            "Zipp's Zappinator",
+            "Vuk's Clutchcooker"
+          ],
+          "avg_mana": 3.5,
+          "playstyle": "Midrange mit 'Piloted'-Synergie (Kamikazeppelin, Zipp's Zappinator, Vuk's Clutchcooker); bester King-Puff-Build im 1v1 (2.33).",
+          "gameplan": "Früh: billige Einheiten + Heal Puff, Scrat Horde gegen Einzelziele. Mitte: Stun Lancers/Zipp's Zappinator betäuben; King Puffs 'Trick Swap' (alle Minions auf den Brücken tauschen Platz, Gegner 3 s betäubt) dreht Brückenkämpfe. Royal Gifts laden schneller, wenn man 4–7-Mana-Karten spielt. Spät: Vuk's Clutchcooker (Flammenwerfer + Greifklaue; feuert beim Ausspielen Raketen, wenn genug Piloted-Karten im Startdeck sind) und Kamikazeppelin.",
+          "combos": [
+            "Trick Swap + Stun Lancers/Zipp's: Doppel-Stun auf der Brücke",
+            "Vuk's Clutchcooker profitiert von den anderen Piloted-Karten im Deck (Kamikazeppelin, Zipp's Zappinator)",
+            "Karmic als Tank für Zipp's/Vuk's"
+          ],
+          "tips": "Trick Swap aufheben, bis viele gegnerische Minions auf einer Brücke stehen. Vuk's nicht ohne Schutz gegen Konter-Stuns legen.",
+          "weak_against": "Einschätzung: harte Einzelziel-Entferner (Arcane Bolt, Beam of DOOM!) auf die Mechs und Cursebearer gegen große Einheiten. Vuk's Clutchcooker ist seit 2.31 auf 1 Kopie limitiert (für Team-Wildcards relevant). Hinweis: Daten stammen aus Patch 2.33 – Patch 2.34 (19.10.2026) hat danach u.a. Karmic (Schaden 9x3→8x3), A'Zog (30x2→25x2), Screaming Scrat (kein Rush mehr, Explosion nach 4 statt 3 s) und Feng (Kosten 5→6) abgeschwächt.",
+          "source": "BadAsAFish80 – Minion Masters Meta 2.33 (Leaderboard-Auswertung, veröffentlicht 22.10.2026; Video 24.10.2026): https://badasafish80.com/minion-masters-meta-2-33/ bzw. Daten-Sheet https://docs.google.com/spreadsheets/d/19Tg_uGwDMPbQ1p1C-jj8oj7cm-ZFTlGaYkzN8lwawQI"
+        },
+        {
+          "name": "Ratbo Scrat-Swarm",
+          "master": "Ratbo",
+          "cards": [
+            "Blood Imps",
+            "Heal Puff",
+            "Screaming Scrat",
+            "Propeller Scrats",
+            "Nether Bats",
+            "Sewer Scrat",
+            "Magnetic Bombs",
+            "Crystal Construct",
+            "Ting, Teng & Tung",
+            "Future Present"
+          ],
+          "avg_mana": 3.0,
+          "playstyle": "Swarm/Cycle; Ratbo ist im 1v1 der zweitbeliebteste Master (2.33), dies ist sein bester Build.",
+          "gameplan": "Ratbo ruft bei jeder gespielten Minion-Karte einen Scrat (ab Perk 3 zwei; bei 5+-Mana-Karten gepanzert). Darum viele billige Minion-Karten (Blood Imps, Screaming Scrat, Propeller Scrats, Nether Bats, Sewer Scrat) → ständiger Brückendruck. 'More Dakka!' skaliert mit der Zahl eigener Minions. Crystal Construct gibt beim Tod 2 Mana zurück. Ting, Teng & Tung als Fernkampf-Kern; Future Present generiert späte Großkarten (8+-Mana-Karte vergünstigt; Details unsicher).",
+          "combos": [
+            "Magnetic Bombs zählen seit 2.31 als Minion und lösen damit Ratbos Scrat-Perks aus",
+            "Viele Minions auf dem Feld → More Dakka! für hohen Burst",
+            "Crystal Construct sterben lassen → 2 Mana zurück für die nächste Welle"
+          ],
+          "tips": "Mit 1–2-Mana-Karten eröffnen, möglichst beide Brücken mit kleinen Wellen testen. Future Present erst bei Mana-Überschuss.",
+          "weak_against": "Einschätzung: Flächenschaden (Grenadier, Annihilator, Daggerfall, Magma Storm, Bladestar) und Stuns (Shock Rock, Zap Shrine). Hinweis: Ratbos Scrats entstehen seit 2.16 nicht mehr aus den Minions des Teamkollegen (nur im 2v2 relevant). Hinweis: Daten stammen aus Patch 2.33 – Patch 2.34 (19.10.2026) hat danach u.a. Karmic (Schaden 9x3→8x3), A'Zog (30x2→25x2), Screaming Scrat (kein Rush mehr, Explosion nach 4 statt 3 s) und Feng (Kosten 5→6) abgeschwächt.",
+          "source": "BadAsAFish80 – Minion Masters Meta 2.33 (Leaderboard-Auswertung, veröffentlicht 22.10.2026; Video 24.10.2026): https://badasafish80.com/minion-masters-meta-2-33/ bzw. Daten-Sheet https://docs.google.com/spreadsheets/d/19Tg_uGwDMPbQ1p1C-jj8oj7cm-ZFTlGaYkzN8lwawQI"
+        }
+      ]
+    },
+    {
+      "name": "Ranked 2v2 Randoms (Team, zufälliger Partner)",
+      "rules": "2 gegen 2 mit zufällig zugelostem Teamkollegen; beide Master teilen sich eine Seite und die Brücken. Jeder spielt sein eigenes 10-Karten-Deck. Besonderheit: In diesem Modus können 'Wildcards' genutzt werden – bis zu zwei zusätzliche Kopien von Karten im Deck (laut Leaderboard-Daten ~26 % der Top-Decks nutzen 1–2 Wildcards); viele Karten sind per Patch auf 1 Kopie limitiert (z.B. 2.34: Ghast, Rendrath the Deathless, Spiderlings, Undying Skeleton). Seit Ende 2025 gibt es ein eigenes Verwarn-/Sperrsystem gegen Griefing in 2v2 (Patches 2.23/2.25). In Wood League bekommt man ggf. Bots als Partner.",
+      "rewards": "Derselbe saisonale Ranked-Belohnungspfad wie 1v1 (Liga-Belohnungen einmal pro Saison; Contender-Bonus zählt pro Modus für 2x/3x Contender). Eigene 2v2-Randoms-Rangliste.",
+      "tips": [
+        "Meta 2.33: Accursed ist die stärkste Fraktion in Randoms (Skeleton Crew, Unholy Ground, Harmful Souls, Toll of the Dead, Nyrvir); Morellia ist mit ~24 % mit Abstand der beliebteste Master, danach Milloween, Mordar, Stormbringer, Settsu.",
+        "Meistgespielte Karten in Randoms: Heal Puff, Slitherbound, Blastmancer, Screaming Scrat, Cursebearer, Swarmers, Sewer Scrat, The Veilstalker.",
+        "Baue ein eigenständig funktionierendes Deck: Du weißt nicht, was der Partner spielt. Mindestens 2 Antworten gegen Flieger, 1–2 Flächenschaden-Karten, 1 Anti-Tank (z.B. Cursebearer).",
+        "Lanes absprechen per Ping: Wer verteidigt welche Brücke? Nicht beide gleichzeitig teure Karten auf dieselbe Brücke werfen.",
+        "Synergien mit dem Partner nutzen: Milloween bekommt Arcane Sparks auch, wenn der Teamkollege Zauber wirkt; Buff-Karten wirken auch auf Partner-Minions.",
+        "Achtung: Ratbos 'Scrats!'-Perks werden seit 2.16 nicht mehr durch Minions des Partners ausgelöst.",
+        "Wildcards: Am häufigsten doppelt gespielt werden Chain Gang, Rendrath the Deathless (seit 2.34 nur noch 1 Kopie erlaubt), Brother of the Burning Fist, Last Stand, Heal Puff.",
+        "Fair bleiben: Absichtliches Sabotieren/Trollen wird seit 2025/26 täglich mit 2v2-Sperren geahndet – und Reports funktionieren."
+      ],
+      "decks": [
+        {
+          "name": "Diona Veilstalker-Control",
+          "master": "Diona",
+          "cards": [
+            "Screaming Scrat",
+            "Swarmers",
+            "Slitherbound",
+            "Sewer Scrat",
+            "The Veilstalker",
+            "Cursebearer",
+            "Crystal Sentry",
+            "Null Matrix",
+            "Beam of DOOM!",
+            "Brother of the Burning Fist"
+          ],
+          "avg_mana": 3.6,
+          "playstyle": "Reaktives Control-Deck; Platz 1 der 2v2-Randoms-Topdecks (2.33), ohne Wildcards.",
+          "gameplan": "Früh: billige Einheiten (Screaming Scrat, Swarmers, Slitherbound, Sewer Scrat mit Gift + Fass-Schild) verteidigen; Dionas Fallen-Karten (Crossbow Trap / Decoy Trap alle 25 s) halten Gegner in der eigenen Arena auf, Ruffles holt bei Kills 2 Mana / XP / 250 Master-Heilung. Mitte: The Veilstalker (Stealth-Attentäter), Crystal Sentry (Fernkampf), Cursebearer gegen große Einheiten. Spät: Null Matrix (entfernt Buffs + Schaden) und Beam of DOOM! (7 Mana, massiver Schaden auf kleiner Fläche) gegen die gegnerischen Großeinheiten, dann Brother of the Burning Fist als Gegenpush.",
+          "combos": [
+            "Decoy Trap (Taunt) + Beam of DOOM!: Gegner sammeln sich an der Falle",
+            "Cursebearer + Null Matrix gegen gebuffte Tanks",
+            "Dionas Fetch!: Kills in eigener Arena → Mana für Beam of DOOM!"
+          ],
+          "tips": "Defensiv spielen und in der eigenen Arena verteidigen (dort lohnt Fetch!). Beam of DOOM! nie auf kleine Einheiten verschwenden.",
+          "weak_against": "Einschätzung: sehr schnelle Swarm-/Scrat-Fluten über beide Brücken und Stuns, bevor die Kontrolle greift; schwächer, wenn der Partner ebenfalls nur reaktiv spielt.",
+          "source": "BadAsAFish80 – Minion Masters Meta 2.33 (Leaderboard-Auswertung, veröffentlicht 22.10.2026; Video 24.10.2026): https://badasafish80.com/minion-masters-meta-2-33/ bzw. Daten-Sheet https://docs.google.com/spreadsheets/d/19Tg_uGwDMPbQ1p1C-jj8oj7cm-ZFTlGaYkzN8lwawQI"
+        },
+        {
+          "name": "Milloween Spell-Tempo (Blastmancer/Wreckinator)",
+          "master": "Milloween",
+          "cards": [
+            "Heal Puff",
+            "Shock Rock",
+            "Bridge Buddies",
+            "Warrior",
+            "Scrat Horde",
+            "Hypnotize",
+            "Pincer of Dread",
+            "Blastmancer",
+            "Cursebearer",
+            "Wreckinator 9000"
+          ],
+          "avg_mana": 3.2,
+          "playstyle": "Zauber-lastiges Tempo-Deck; bester Milloween-Build in Randoms (2.33). BadAsAFish80 war am 17.10.2026 mit einem Milloween-Deck #1 der Randoms-Weltrangliste (ob exakt diese Liste, ist unsicher).",
+          "gameplan": "Früh: Shock Rock/Bridge Buddies/Pincer of Dread sind billige Zauber – jeder Zauber (auch die des Partners) gibt Milloween Arcane Sparks. Mitte: Arcane Golem (Perk) verbraucht die Sparks für Bonus-Leben/-Schaden; Blastmancer räumt kleine Einheiten mit Soul Detonate ab, Cursebearer gegen Tanks, Hypnotize lässt Gegner sich gegenseitig angreifen. Spät: Wreckinator 9000 (7 Mana) als Tank/Finisher, Arcane Missiles (Perk 2) als Gratis-Zauber.",
+          "combos": [
+            "Viele billige Zauber → Arcane Golem mit vielen Sparks",
+            "Hypnotize auf eine große gegnerische Gruppe + Blastmancer-Kettenreaktionen",
+            "Pincer of Dread (True Damage + Fear) um einen gegnerischen Tank zu 'parken', während Wreckinator pusht"
+          ],
+          "tips": "Zauber nicht nur für Sparks verschwenden – lieber auf Wert spielen. Arcane Golem erst bei 5+ Sparks legen.",
+          "weak_against": "Einschätzung: große, schwer zu tötende Einzelziele, wenn Cursebearer weg ist; Burst gegen Wreckinator (Beam of DOOM!, Arcane Bolt).",
+          "source": "BadAsAFish80 – Minion Masters Meta 2.33 (Leaderboard-Auswertung, veröffentlicht 22.10.2026; Video 24.10.2026): https://badasafish80.com/minion-masters-meta-2-33/ bzw. Daten-Sheet https://docs.google.com/spreadsheets/d/19Tg_uGwDMPbQ1p1C-jj8oj7cm-ZFTlGaYkzN8lwawQI"
+        },
+        {
+          "name": "Morellia Accursed-Skelette / Nyrvir",
+          "master": "Morellia",
+          "cards": [
+            "Heal Puff",
+            "Skeleton Crew",
+            "Unholy Ground",
+            "Spiritmancer",
+            "Cursebearer",
+            "Skeleton Horde",
+            "Toll of the Dead",
+            "Harmful Souls",
+            "Nyrvir's Breath",
+            "Nyrvir the Fallen"
+          ],
+          "avg_mana": 4.4,
+          "playstyle": "Accursed-Synergie (Ascension); Morellia ist der beliebteste Randoms-Master, dies ihr Top-Build (2.33).",
+          "gameplan": "Früh: Skeleton Crew/Unholy Ground (holt Flieger auf den Boden und beschwört Skelette) bauen 'Accursed Ascension' auf; Morellias Book of the Dead liefert Skelette, Spirit, Drain Life oder macht 4+-Mana-Zauber billiger. Mitte: Spiritmancer, Skeleton Horde, Cursebearer; Harmful Souls als Flächenzauber. Spät: Toll of the Dead (Undying Skeleton), Nyrvir's Breath (großer Flächenbrand) und Nyrvir the Fallen – startet als 'Nyrvir Slumbers' und ist seit 2.33 während Accursed Ascension kostenlos.",
+          "combos": [
+            "Accursed Ascension erreichen → Nyrvir gratis + Accursed-Affinity-Boni (mehr Skelette/Seelen)",
+            "Forbidden Knowledge (Book of the Dead) verbilligt Harmful Souls / Nyrvir's Breath / Toll of the Dead",
+            "Unholy Ground gegen gegnerische Flieger + Harmful Souls darauf"
+          ],
+          "tips": "Accursed-Karten früh und häufig spielen, um die Ascension zu füllen; Nyrvir erst nach Ascension. (Ø-Mana 4,4 rechnet Nyrvir mit 9 – im Deck liegt er als Nyrvir Slumbers für 4 bzw. während Ascension gratis.)",
+          "weak_against": "Einschätzung: Flächenschaden gegen Skelette (Grenadier, Blastmancer, Magma Storm) und schnelle Pushes bevor Ascension steht. Seit 2.34 sind Undying Skeleton, Rendrath und Ghast auf 1 Kopie limitiert (betrifft Wildcard-Varianten).",
+          "source": "BadAsAFish80 – Minion Masters Meta 2.33 (Leaderboard-Auswertung, veröffentlicht 22.10.2026; Video 24.10.2026): https://badasafish80.com/minion-masters-meta-2-33/ bzw. Daten-Sheet https://docs.google.com/spreadsheets/d/19Tg_uGwDMPbQ1p1C-jj8oj7cm-ZFTlGaYkzN8lwawQI"
+        },
+        {
+          "name": "Settsu Scrat-Spell-Aggro",
+          "master": "Settsu",
+          "cards": [
+            "Heal Puff",
+            "Screaming Scrat",
+            "Shock Rock",
+            "Bridge Buddies",
+            "Scrat Horde",
+            "Daggerfall",
+            "Pincer of Dread",
+            "Wild Stonebjorn",
+            "Whirly Scrat",
+            "Cursebearer"
+          ],
+          "avg_mana": 2.6,
+          "playstyle": "Aggressives Low-Cost-Deck mit vielen günstigen Zaubern; taucht sowohl in Randoms als auch Premades in den Top-Listen auf (2.33).",
+          "gameplan": "Settsus 'Combat Reload': Nach jedem Zauber ist ihr nächster Schuss +60 Schaden – darum viele billige Zauber (Shock Rock, Bridge Buddies, Daggerfall, Pincer of Dread). 'Blast Entry' bringt Settsu selbst als Kämpferin aufs Feld. Früh/Mitte: Brücken mit Scrat Horde, Bridge Buddies und Wild Stonebjorn (Thick Hide) nehmen, Whirly Scrat gegen Schwärme. Cursebearer als Anti-Tank.",
+          "combos": [
+            "Zauber → Combat Reload → verstärkter Settsu-Schuss",
+            "Shock Rock (Stun) + Settsus High Powered Laser (jeder 5. Schuss betäubt und durchdringt)",
+            "Screaming Scrat als Köder vor Scrat Horde"
+          ],
+          "tips": "Druck aufbauen, solange der Gegner wenig Mana hat; Settsu per Blast Entry nur einsetzen, wenn sie überleben kann.",
+          "weak_against": "Einschätzung: Flächenschaden und Tanks mit viel Leben, wenn Cursebearer nicht verfügbar ist; schwächer im späten Spiel gegen Big-Minion-Decks. Hinweis: Daten stammen aus Patch 2.33 – Patch 2.34 (19.10.2026) hat danach u.a. Karmic (Schaden 9x3→8x3), A'Zog (30x2→25x2), Screaming Scrat (kein Rush mehr, Explosion nach 4 statt 3 s) und Feng (Kosten 5→6) abgeschwächt.",
+          "source": "BadAsAFish80 – Minion Masters Meta 2.33 (Leaderboard-Auswertung, veröffentlicht 22.10.2026; Video 24.10.2026): https://badasafish80.com/minion-masters-meta-2-33/ bzw. Daten-Sheet https://docs.google.com/spreadsheets/d/19Tg_uGwDMPbQ1p1C-jj8oj7cm-ZFTlGaYkzN8lwawQI"
+        }
+      ]
+    },
+    {
+      "name": "Ranked 2v2 Premade (Team mit festem Partner)",
+      "rules": "2 gegen 2 mit einem Freund aus der Premade-Lobby. Die beiden Teamdecks dürfen keine identischen Master und keine identischen Karten enthalten – seit 2.24 zeigt die Lobby genau an, welche Duplikate das Anstellen verhindern. Wildcards werden in den Premade-Top-Decks laut Daten nicht genutzt. Eigene Rangliste; zählt zum gemeinsamen Ranked-Belohnungspfad.",
+      "rewards": "Gemeinsamer saisonaler Ranked-Belohnungspfad (siehe 1v1); Contender in Premade zählt für 2x/3x Contender.",
+      "tips": [
+        "Meta 2.33: Premades haben die höchsten Deckkosten (Ø ca. 4,2 Mana) – ein Partner spielt oft günstig/kontrollierend, der andere 'Big Minions'. Beliebteste Master: Morellia, Mordar, Ravager, Diona.",
+        "Meistgespielte Karten: Heal Puff, Swarmers, Slitherbound, Blastmancer, The Veilstalker, Beam of DOOM!, Bearzerker, Bahra the Witchwolf, Ritual of Servitude, Wreckinator 9000.",
+        "Decks gemeinsam planen: keine doppelten Karten erlaubt – verteilt die Kern-Konter (Beam of DOOM!, Cursebearer, Null Matrix) bewusst auf einen der beiden.",
+        "Rollen verteilen: 'Cycle/Defense'-Spieler hält die Brücken und schützt, der 'Big'-Spieler baut Mana für große Einheiten (Beispiel: Mordar-Ritual-Deck).",
+        "Absprechen per Voice/Ping, welche Brücke gepusht wird – zwei koordinierte Großeinheiten auf einer Lane brechen fast jede Verteidigung.",
+        "Beispiel-Paarung ohne Karten-Überschneidung (eigene Kombination aus den Top-Listen, nicht aus der Quelle): Mordar-Ritual-Deck + Tronveir-Control-Deck."
+      ],
+      "decks": [
+        {
+          "name": "Mordar Ritual of Servitude (Big-Ramp)",
+          "master": "Mordar",
+          "cards": [
+            "Ritual of Servitude",
+            "Bahra the Witchwolf",
+            "Shieldguard Of Light",
+            "Wreckinator 9000",
+            "Fergus Flagon Fighter",
+            "Brother of the Burning Fist",
+            "Urclaw, Protector of the Peaks",
+            "Bearzerker",
+            "Caeleth Dawnhammer",
+            "Rockin' Roller"
+          ],
+          "avg_mana": 7.3,
+          "playstyle": "Extremes Big-Minion-Deck (nur 6+-Mana-Karten); Platz 1 der Premade-Topdecks (2.33).",
+          "gameplan": "Ritual of Servitude (6 Mana) ist die billigste Karte im Startdeck → beschwört statt eines 6- ein zufälliges 8-Mana-Minion. Der Partner verteidigt früh, während Mordar Mana sammelt. Mordars Tombstone belebt sterbende Minions wieder (mit Haste + Spirit ab Perk 2) – bei 7–8-Mana-Einheiten enormer Wert. Spät: Taunt-Tanks (Urclaw, Caeleth) vorne, Bahra (immobilisiert beim Ausspielen alle gegnerischen Bodeneinheiten), Bearzerker/Fergus als Schaden, Rockin' Roller (10 Mana) als Lane-Räumer.",
+          "combos": [
+            "Ritual of Servitude als billigste Karte → zufälliges 8-Mana-Minion für 6",
+            "Tombstone hinter Urclaw/Caeleth: Wiederbelebung großer Tanks",
+            "Bahra-Root + Rockin' Roller / Fergus-Spin auf festgehaltene Gruppen"
+          ],
+          "tips": "Keine billige Karte ins Deck nehmen (sonst funktioniert Ritual nicht). Erste Minuten: nichts überstürzen, Partner verteidigt; erst mit 7+ Mana spielen.",
+          "weak_against": "Einschätzung: sehr schnelle Pushes in den ersten 60 s (nur mit gutem Partner spielbar), Cursebearer, Beam of DOOM!, Ghost/Hypnotize-Effekte gegen große Einheiten. In 1v1 oder mit zufälligem Partner kaum spielbar.",
+          "source": "BadAsAFish80 – Minion Masters Meta 2.33 (Leaderboard-Auswertung, veröffentlicht 22.10.2026; Video 24.10.2026): https://badasafish80.com/minion-masters-meta-2-33/ bzw. Daten-Sheet https://docs.google.com/spreadsheets/d/19Tg_uGwDMPbQ1p1C-jj8oj7cm-ZFTlGaYkzN8lwawQI"
+        },
+        {
+          "name": "Apep Veilstalker/Beam-Control",
+          "master": "Apep",
+          "cards": [
+            "Screaming Scrat",
+            "Slitherbound",
+            "Sewer Scrat",
+            "Mana Chaser",
+            "The Veilstalker",
+            "Cursebearer",
+            "Null Matrix",
+            "A.I.M. Bot",
+            "Beam of DOOM!",
+            "Brother of the Burning Fist"
+          ],
+          "avg_mana": 3.8,
+          "playstyle": "Control mit harten Kontern; Platz 2 der Premade-Topdecks und bester Apep-Build in Premades (2.33).",
+          "gameplan": "Früh: Screaming Scrat, Slitherbound, Sewer Scrat, Mana Chaser (Stealth; bei 6+ Mana drei Mana Chaser) + Apeps Gratis-2-Mana-Karten halten die Brücken. Mitte: The Veilstalker, Cursebearer; Null Matrix gegen Buffs. Spät: Beam of DOOM! auf die größte Bedrohung, A.I.M. Bot und Brother of the Burning Fist als Gegenpush.",
+          "combos": [
+            "Mana Chaser mit 6+ Mana ausspielen (3 Stück + Overload)",
+            "Cursebearer + Beam of DOOM! gegen Big-Minion-Gegner",
+            "Apeps Shield Totem leitet Schaden vom Master um, während man kontert"
+          ],
+          "tips": "Konter nicht zu früh verbrauchen; Beam of DOOM! für die echten Großeinheiten aufheben.",
+          "weak_against": "Einschätzung: breite Swarm-Fluten und Flieger-Druck; teilt viele Karten mit dem Diona-Deck (in Premade nicht zusammen spielbar).",
+          "source": "BadAsAFish80 – Minion Masters Meta 2.33 (Leaderboard-Auswertung, veröffentlicht 22.10.2026; Video 24.10.2026): https://badasafish80.com/minion-masters-meta-2-33/ bzw. Daten-Sheet https://docs.google.com/spreadsheets/d/19Tg_uGwDMPbQ1p1C-jj8oj7cm-ZFTlGaYkzN8lwawQI"
+        },
+        {
+          "name": "Diona Ghast/A.I.M.-Bot-Control",
+          "master": "Diona",
+          "cards": [
+            "Screaming Scrat",
+            "Swarmers",
+            "Slitherbound",
+            "Mana Chaser",
+            "The Veilstalker",
+            "Cursebearer",
+            "Null Matrix",
+            "Ghast",
+            "A.I.M. Bot",
+            "Brother of the Burning Fist"
+          ],
+          "avg_mana": 3.6,
+          "playstyle": "Defensives Control-Deck; Diona ist in Premades der viertbeliebteste Master, Platz 3 der Top-Decks (2.33).",
+          "gameplan": "Wie die Randoms-Variante: Fallen + Fetch! für Wert in der eigenen Arena. Ghast sammelt Essenz sterbender Gegner und erweckt Skelette (mit Rush + Curse). A.I.M. Bot und Brother of the Burning Fist tragen den Gegenpush.",
+          "combos": [
+            "Decoy Trap + Ghast: Gegner sterben gesammelt → viele Skelette",
+            "Cursebearer + Null Matrix gegen gebuffte Tanks"
+          ],
+          "tips": "Defensiv in der eigenen Arena kämpfen (Fetch!), dann mit A.I.M. Bot kontern.",
+          "weak_against": "Einschätzung: sehr schnelle Aggro-Decks und massiver Flächenschaden; Ghast ist seit 2.34 auf 1 Kopie limitiert (nur für Wildcards relevant).",
+          "source": "BadAsAFish80 – Minion Masters Meta 2.33 (Leaderboard-Auswertung, veröffentlicht 22.10.2026; Video 24.10.2026): https://badasafish80.com/minion-masters-meta-2-33/ bzw. Daten-Sheet https://docs.google.com/spreadsheets/d/19Tg_uGwDMPbQ1p1C-jj8oj7cm-ZFTlGaYkzN8lwawQI"
+        },
+        {
+          "name": "Tronveir Control (Feng/Cleaver/Beam)",
+          "master": "Tronveir",
+          "cards": [
+            "Disruptor Puff",
+            "Heal Puff",
+            "Slitherbound",
+            "Warrior",
+            "Blastmancer",
+            "Crystal Sentry",
+            "Bearvalanche",
+            "Feng the Wanderer",
+            "Cleaver",
+            "Beam of DOOM!"
+          ],
+          "avg_mana": 3.8,
+          "playstyle": "Midrange/Control; bester Tronveir-Build in Premades (2.33).",
+          "gameplan": "Tronveirs Runestones (alle 30 s, gebaut als Gebäude in Reichweite 36) stoßen Gegner zurück und rotieren zwischen Wind (150 Flächenschaden), Frost (Taunt + Barriere, friert ein) und Ancestry (2 Ahnen-Fernkämpfer). Früh: Disruptor Puff/Heal Puff auf den Brücken, Slitherbound/Warrior. Mitte: Blastmancer, Crystal Sentry, Bearvalanche (verlangsamt). Spät: Feng (Buffs für jede andere Fraktion in der Hand), Cleaver, Beam of DOOM!.",
+          "combos": [
+            "Rune of Frost (Taunt) + Bearvalanche/Beam of DOOM! auf die gesammelten Gegner",
+            "Feng mit gemischter Fraktions-Hand für maximale Buffs"
+          ],
+          "tips": "Feng kostet seit 2.34 6 statt 5 Mana – Mana-Kurve beachten (Ø jetzt ca. 3,8 statt 3,7).",
+          "weak_against": "Einschätzung: Flieger-Druck (wenig Anti-Air außer Crystal Sentry/Blastmancer) und Stealth-Einheiten. Hinweis: Daten stammen aus Patch 2.33 – Patch 2.34 (19.10.2026) hat danach u.a. Karmic (Schaden 9x3→8x3), A'Zog (30x2→25x2), Screaming Scrat (kein Rush mehr, Explosion nach 4 statt 3 s) und Feng (Kosten 5→6) abgeschwächt.",
+          "source": "BadAsAFish80 – Minion Masters Meta 2.33 (Leaderboard-Auswertung, veröffentlicht 22.10.2026; Video 24.10.2026): https://badasafish80.com/minion-masters-meta-2-33/ bzw. Daten-Sheet https://docs.google.com/spreadsheets/d/19Tg_uGwDMPbQ1p1C-jj8oj7cm-ZFTlGaYkzN8lwawQI"
+        }
+      ]
+    },
+    {
+      "name": "Draft (Ranked, 1v1)",
+      "rules": "Du wählst einen Master aus 3 zufälligen, dann zehnmal je 1 aus 3 zufälligen Karten (Duplikate möglich). Mit diesem Deck spielst du 1v1 gegen andere Draft-Decks, bis du 12 Siege oder 3 Niederlagen hast. Seit 2.0 gibt es eine Draft-Rangliste; die 2.0-'Faction Pools' (jeder Master nur 4 von 9 Fraktionen) wurden im Februar 2024 wieder entfernt – jeder Master hat Zugriff auf alle Fraktionen. Eintritt laut Wiki 750 Gold oder 55 Rubine (erster Draft gratis; Werte evtl. veraltet, unsicher).",
+      "rewards": "Gestaffelt nach Siegen (mehr Siege = bessere Truhen mit Gold, Karten, Power Tokens). Seit 2.0 gibt es ab 10+ Siegen die Chance auf Legendary-Karten; laut älterer Wiki-Tabelle: 12 Siege = Legendary-Truhe (3 Power Tokens, 1600–2000 Gold, 1 Legendary), 10–11 Siege = Supreme-Truhe (unsicher, Tabelle vor 2.0).",
+      "tips": [
+        "Master-Wahl (2.33-Draftdaten): Tronveir wird mit ~18 % am häufigsten gedraftet, danach Apep (~13 %), Morellia (~13 %), Diona (~11 %), Ravager (~10 %). Master mit eigenständigem Wert (Runestones, Gratis-Karten, Fallen) sind im Draft besonders stark, weil sie nicht von Kartensynergien abhängen.",
+        "Am häufigsten gepickte Karten: A.I.M. Bot, Propeller Scrats, Shielded Crossbow Dudes, Skeleton Horde, Scrat Horde, The Veilstalker, Priestess, Wild Stonebjorn, Boom Buggy, Wreckinator 9000, Net Blaster, Vulture Prime A83, Karmic.",
+        "Beste Draft-Zauber laut Pickrate: Scratillery, Blind Date, Bearvalanche, Kamikazeppelin, Dragon Ball, Infiltration, Slithering Summons, Stun Blast.",
+        "Pick-Reihenfolge (Faustregel): 1) starke Einzelkarten mit eigenem Wert (A.I.M. Bot, Wreckinator, Karmic), 2) Anti-Air-Abdeckung (mind. 2 Fernkämpfer/Flieger-Konter), 3) Flächenschaden gegen Schwärme, 4) 1–2 Tanks, 5) Mana-Kurve ausgleichen (Ø der Draft-Decks ca. 3,7 Mana).",
+        "Synergie-Karten nur nehmen, wenn die Basis schon da ist – im Draft ist Rohstärke wichtiger als Kombos. Scrat (stärkste Draft-Fraktion), Voidborne und Empyrean liefern die meisten soliden Picks.",
+        "Lieber eine solide 2- oder 3-Mana-Karte als eine dritte teure Karte – zu viele 6+-Karten verlieren gegen frühen Druck.",
+        "Duplikate sind erlaubt: zwei Kopien einer starken Karte (z.B. Crystal Sentry) sind meist besser als eine schwache Synergiekarte."
+      ],
+      "decks": [
+        {
+          "name": "Beispiel: Draft-Leaderboard #1 (Apep)",
+          "master": "Apep",
+          "cards": [
+            "Shock Rock",
+            "Crossbow Dudes",
+            "Once Bitten",
+            "Bounce Berry Flingers",
+            "The Veilstalker",
+            "Windwalker Shi-Hou",
+            "Defenso Chopper",
+            "Ting, Teng & Tung",
+            "Highland Huntress",
+            "Last Stand"
+          ],
+          "avg_mana": 3.7,
+          "playstyle": "Reales Draft-Deck von Platz 1 der Draft-Rangliste (Datenimport 21.09.2026, Patch 2.33). Nicht nachbaubar (zufällige Picks) – zeigt nur, wie ein erfolgreicher Draft aussieht.",
+          "gameplan": "Gute Kurve mit billigen Fernkämpfern (Crossbow Dudes, Bounce Berry Flingers), Stealth-Schaden (Veilstalker), Fliegern/Anti-Air (Defenso Chopper, Ting, Teng & Tung) und spätem Druck (Highland Huntress, Last Stand). Apeps Gratis-2-Mana-Karten füllen Lücken.",
+          "combos": [
+            "Shock Rock (Stun) + Highland Huntress (verstärkter Angriff)",
+            "Last Stand als später Massen-Push"
+          ],
+          "tips": "Draft-Lehre: ausgeglichene Kurve + Anti-Air + ein paar Finisher.",
+          "weak_against": "Einschätzung: wenig harter Flächenschaden gegen große Schwärme.",
+          "source": "BadAsAFish80 Meta-Sheet 2.33, Tab 'Draft Import FINAL' (Leaderboard-Import 21.09.2026): https://docs.google.com/spreadsheets/d/19Tg_uGwDMPbQ1p1C-jj8oj7cm-ZFTlGaYkzN8lwawQI"
+        },
+        {
+          "name": "Beispiel: Draft-Leaderboard #2 (King Puff)",
+          "master": "King Puff",
+          "cards": [
+            "Boomer",
+            "Blastmancer",
+            "Undying Skeleton",
+            "Wardancers",
+            "Living Statue",
+            "Soul Stealer",
+            "Scott the Sensitive Savage",
+            "Boom Buggy",
+            "Dragon Ball",
+            "Zealots of the Burning Fist"
+          ],
+          "avg_mana": 4.7,
+          "playstyle": "Reales Draft-Deck von Platz 2 der Draft-Rangliste (21.09.2026, Patch 2.33); nicht nachbaubar.",
+          "gameplan": "Midrange mit vielen robusten 4–7-Mana-Karten (passt zu King Puffs Royal Gifts, die durch 4–7-Mana-Karten schneller laden). Boom Buggy/Blastmancer für Flächenschaden, Dragon Ball und Zealots als Finisher.",
+          "combos": [
+            "4–7-Mana-Karten → schnellere Royal Gifts",
+            "Trick Swap + Zealots-Push"
+          ],
+          "tips": "Draft-Lehre: Master-Perk bei der Kartenwahl mitdenken.",
+          "weak_against": "Einschätzung: früher Druck, da wenige billige Karten.",
+          "source": "BadAsAFish80 Meta-Sheet 2.33, Tab 'Draft Import FINAL' (21.09.2026)"
+        },
+        {
+          "name": "Beispiel: Draft-Leaderboard #3 (Settsu)",
+          "master": "Settsu",
+          "cards": [
+            "Swarmers",
+            "S.T.INT",
+            "Cheese Date",
+            "High-Mage Leiliel",
+            "Ghost",
+            "Spear Throwers",
+            "Gor'Rakk Gate",
+            "Net Blaster",
+            "Dragon Ball",
+            "Zealots of the Burning Fist"
+          ],
+          "avg_mana": 3.9,
+          "playstyle": "Reales Draft-Deck von Platz 3 der Draft-Rangliste (21.09.2026, Patch 2.33); nicht nachbaubar.",
+          "gameplan": "Mix aus Tempo (Swarmers, S.T.INT nimmt Brücke), Kontrolle (Net Blaster, Ghost übernimmt Gegner) und Zaubern für Settsus Combat Reload (Cheese Date, Gor'Rakk Gate, Dragon Ball).",
+          "combos": [
+            "Zauber → Settsu Combat Reload",
+            "Ghost auf die beste gegnerische Einheit"
+          ],
+          "tips": "Draft-Lehre: Zauber-Picks für Settsu höher bewerten.",
+          "weak_against": "Einschätzung: große Tanks, wenn Ghost nicht im Spiel ist.",
+          "source": "BadAsAFish80 Meta-Sheet 2.33, Tab 'Draft Import FINAL' (21.09.2026)"
+        }
+      ]
+    },
+    {
+      "name": "Mayhem (wöchentlich rotierend, 2v2)",
+      "rules": "Zeitlich begrenzter 2v2-Modus mit zufälligem Teamkollegen, nur Donnerstag bis Sonntag (12:00 UTC) jeder Woche. Jede Woche gilt eine andere Sonderregel (Modifier). Mayhem existiert auch nach 2.0 noch (Fix in Patch 2.23, Dez. 2025). Bekannte Modifier aus dem Pool (Wiki): Summonings (jeder Zauber beschwört ein zufälliges Minion gleicher Kosten), Defense of the Masters (alle 30 s Empyrean-Welle je Lane), Defense Surge (alle 30 s Crystal-Welle), Two for Free (die zwei billigsten Karten kosten 0 Mana), Haste Minions (alle Minions mit Haste), Masters of Misadventure (Draft aus 3 Adventure-Mastern), Relics of Old (zweimal 1 aus 3 Adventure-Relikten wählen), Faction Wars (+20 % Mana bei reinem Ein-Fraktionen-Deck), JINXED (alle 5 s zufälliger Jinx auf Minions), Holograms (jedes Minion erzeugt eine Illusion auf der Gegenseite), Boss Battle! (Draft aus 3 Adventure-Bossen). Welcher Modifier gerade (KW 43/2026) aktiv ist, ließ sich nicht online verifizieren (unsicher).",
+      "rewards": "Start eines Runs 750 Gold, der erste Run pro Woche ist gratis. Belohnungen nach Siegen (Wiki): 2 Siege 25 Season-Pass-XP, 4 Siege 3 Power Tokens, 6 Siege 5 Rare-Kopien, 8 Siege 2000 Gold, 10 Siege 3 Supreme-Kopien, 12 Siege 1 Legendary-Kopie. Run endet vermutlich wie Draft nach 3 Niederlagen (unsicher).",
+      "tips": [
+        "Den Gratis-Run jede Woche mitnehmen – selbst 4 Siege bringen Power Tokens.",
+        "Two for Free: Baue das Deck so, dass deine zwei billigsten Karten trotzdem stark sind (z.B. zwei gute 3-Mana-Karten statt 1-Mana-Füllern) – sie sind dann dauerhaft gratis.",
+        "Summonings: zauberlastige Decks mit teuren Zaubern (Beam of DOOM!, Rockin' Roller, Magma Storm) beschwören große Zufalls-Minions.",
+        "Haste Minions: aggressive, billige Decks und Swarm sind besonders stark; Gebäude/Verteidiger mit hoher Lebenspunktzahl bremsen.",
+        "Defense of the Masters / Defense Surge: Flächenschaden (Annihilator, Grenadier, Blastmancer, Magma Storm) wird viel wertvoller, weil ständig Wellen kommen.",
+        "Faction Wars: Mono-Fraktion für +20 % Mana – Scrat, Voidborne und Accursed haben die tiefsten Kartenpools.",
+        "Holograms: billige Minions doppeln ihren Wert; teure Einzeleinheiten weniger.",
+        "Masters of Misadventure / Relics of Old / Boss Battle!: Relikte und Master mit sofortiger Wirkung (Mana, Stats, Gratis-Karten) sind meist besser als situative.",
+        "Absprache mit dem Zufallspartner per Ping ist hier noch wichtiger, weil die Sonderregeln das normale Timing verschieben."
+      ],
+      "decks": []
+    },
+    {
+      "name": "Adventures (PvE, Roguelike, solo oder Koop)",
+      "rules": "Roguelike-Deckbau gegen KI-Gegner in einer Serie von Begegnungen, solo oder mit Teampartner. Man wählt einen Adventure-Master und dessen Affinity-Karte; nach jeder Begegnung +1000 Leben und Wahl aus 3 Kartenpaaren, abwechselnd Relikt oder Lagerfeuer (Karte verbilligen, Zufallsrelikt gegen schnellere Gegner-Mana, Schatz, zwei Karten entfernen, Karte duplizieren). Verfügbare Adventures: Charging into Darkness (gratis), Frost Dragon's Lair, KaBOOM Kingdom, The Showdown, Crystal Consortium (je 600 Rubine). Alte Adventures (Quest for Mountainshaper, Saving Jadespark Jungle, Nightmares, Uprising) wurden mit 2.0 eingestellt.",
+      "rewards": "Einmalige Belohnungen pro Adventure (Karten/Kosmetik); Adventures geben keine Profil-XP, keine Season-Pass-XP und zählen nicht für Quests.",
+      "tips": [
+        "Deck schlank halten: 'Cull the Ranks' (zwei Karten entfernen) erhöht die Chance, deine besten Karten zu ziehen.",
+        "'Double Up' auf deine stärkste Karte (Duplikat, 1 Mana billiger) ist fast immer gut.",
+        "'Risk/Reward' nur nehmen, wenn das Deck bereits stark ist – Gegner bekommen dauerhaft 5 % schnellere Mana.",
+        "Im Koop Rollen aufteilen (einer Schaden, einer Verteidigung/Heilung).",
+        "Fortschritt wird nur durch Niederlage oder Aufgeben zurückgesetzt (seit 2.x)."
+      ],
+      "decks": []
+    },
+    {
+      "name": "Practice (Übung gegen Bots) & Freundschaftsspiele",
+      "rules": "Practice ersetzt seit 2.0 die alten 'Challenges': Solo oder im Team gegen einen Bot mit frei wählbarer Schwierigkeit – ideal zum Testen neuer Decks. Über Lobbys kann man auch gegen Freunde spielen (Custom/Friendly, u.a. für Community-Turniere, die BetaDwarf laut Ankündigung vom Jan. 2025 weiterhin unterstützt; Details unsicher).",
+      "rewards": "Keine bzw. kaum Belohnungen (unsicher) – reiner Testmodus.",
+      "tips": [
+        "Neue Decks zuerst gegen schwere Bots testen, um Timing und Mana-Kurve zu lernen.",
+        "Seit 2.31 (Juli 2026) gibt es Deck-Codes (nur Steam): Decks im Deck-Collection-Menü exportieren/importieren – perfekt, um Meta-Listen schnell zu übernehmen.",
+        "Community-Turniere und Absprachen laufen hauptsächlich über den offiziellen Minion-Masters-Discord (discord.gg/minionmasters)."
+      ],
+      "decks": []
+    },
+    {
+      "name": "Entfernte Modi (Hinweis)",
+      "rules": "Mit Minion Masters 2.0 (Dez. 2023) entfernt: Conquest (Gilden-Modus), House Event, Challenges (ersetzt durch Practice). 'Expeditions' gibt es aktuell nicht als eigenen Modus (keine Erwähnung in Patchnotes 2024–2026; unsicher).",
+      "rewards": "-",
+      "tips": [
+        "Ältere Guides, die Conquest oder House Event erwähnen, sind veraltet."
+      ],
+      "decks": []
+    }
+  ]
+}
