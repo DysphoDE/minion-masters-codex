@@ -229,7 +229,7 @@
   }
 
   const pageHero = (eyebrow, title, lead, img) => `
-    <section class="page-hero" ${img ? `style="--hero-img:url(${img})"` : ''}><div class="wrap">
+    <section class="page-hero" ${img ? `style="--hero-img:url('${new URL(img, location.href).href}')"` : ''}><div class="wrap">
       <span class="eyebrow">${eyebrow}</span><h1>${title}</h1>${lead ? `<p class="lead">${lead}</p>` : ''}
     </div></section>`;
 
@@ -273,7 +273,7 @@
     const best2 = Object.entries(ms).filter(([, s]) => s.n2v2 > 1000).sort((a, b) => b[1].wr2v2 - a[1].wr2v2).slice(0, 5);
     const sTier = D.cards.filter(c => c.tier === 'S');
     const shots = ['ss1', 'ss2', 'ss3', 'ss4', 'ss5', 'ss6', 'ss7', 'ss8'];
-    const feat = (route, title, text, img) => `<a class="panel hover feature" href="#${route}" style="--fimg:url(img/site/${img}.jpg)"><h3>${title}</h3><p>${text}</p></a>`;
+    const feat = (route, title, text, img) => `<a class="panel hover feature" href="#${route}" style="--fimg:url('${new URL(`img/site/${img}.jpg`, location.href).href}')"><h3>${title}</h3><p>${text}</p></a>`;
     return `
     <section class="hero"><div class="hero-bg"></div><div class="wrap"><div class="hero-content">
       <img class="hero-logo" src="img/site/logo.png" alt="Minion Masters">
